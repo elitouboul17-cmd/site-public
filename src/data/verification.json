@@ -1827,6 +1827,508 @@
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America:_Brave_New_World"
+    },
+    "daredevil-born-again": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2025-03-04",
+          "reference": "2025-03-04",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "The Newton Brothers",
+          "reference": "The Newton Brothers",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Daredevil: Born Again",
+          "reference": "Daredevil: Born Again",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Daredevil:_Born_Again"
+    },
+    "thunderbolts": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2025-05-02",
+          "reference": "2025-04-22, 2025-05-02",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Jake Schreier",
+          "reference": "Jake Schreier",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Son Lux",
+          "reference": "Son Lux",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "127",
+          "reference": "127",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Thunderbolts*",
+          "reference": "Thunderbolts*",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Thunderbolts*"
+    },
+    "ironheart": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2025-06-24",
+          "reference": "2025-06-24",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "6",
+          "reference": "6",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Ironheart (série télévisée)",
+          "reference": "Ironheart (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ironheart_(miniseries)"
+    },
+    "eyes-of-wakanda": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "reference": "2025-08-01",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Eyes of Wakanda",
+          "reference": "Eyes of Wakanda",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Eyes_of_Wakanda"
+    },
+    "marvel-zombies": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "reference": "2025-09-24",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel Zombies (série télévisée)",
+          "reference": "Marvel Zombies (série télévisée d'animation)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Zombies_(TV_series)"
+    },
+    "fantastic-four-first-steps": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2025-07-25",
+          "reference": "2025-07-21, 2025-07-25",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Matt Shakman",
+          "reference": "Matt Shakman",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les 4 Fantastiques : Premiers Pas",
+          "reference": "Les Quatre Fantastiques : Premiers pas",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Fantastic_Four:_First_Steps"
+    },
+    "wonder-man": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "reference": "2026-01-27",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Wonder Man (série télévisée)",
+          "reference": "Wonder Man (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Wonder_Man_(TV_series)"
+    },
+    "spider-man-brand-new-day": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2026-07-31",
+          "reference": "2026-07-27, 2026-07-31",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Destin Daniel Cretton",
+          "reference": "Destin Daniel Cretton",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man: Brand New Day",
+          "reference": "Spider-Man: Brand New Day",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day"
+    },
+    "avengers-doomsday": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2026-12-18",
+          "reference": "2026-12-18",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Anthony Russo, Joe Russo",
+          "reference": "Anthony Russo, Joe Russo",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers: Doomsday",
+          "reference": "Avengers: Doomsday",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Avengers:_Doomsday"
+    },
+    "avengers-secret-wars": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2027-12-17",
+          "reference": "2025–2027",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers: Secret Wars",
+          "reference": "Phase 6 de l'univers cinématographique Marvel",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe:_Phase_Six"
+    },
+    "visionquest": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "reference": "2026-10-13",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "VisionQuest",
+          "reference": "VisionQuest",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/VisionQuest"
+    },
+    "agents-of-shield": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2013-09-24",
+          "reference": "2013-09-24",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "7",
+          "reference": "7",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel : Les Agents du S.H.I.E.L.D.",
+          "reference": "Marvel : Les Agents du SHIELD",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Agents_of_S.H.I.E.L.D."
+    },
+    "agent-carter": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2015-01-06",
+          "reference": "2015-01-06",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Agent Carter (série télévisée)",
+          "reference": "Agent Carter",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Agent_Carter_(TV_series)"
+    },
+    "daredevil-netflix": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2015-04-10",
+          "reference": "2015-04-10",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "3",
+          "reference": "3",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Daredevil (série télévisée)",
+          "reference": "Daredevil (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)"
+    },
+    "jessica-jones": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2015-11-20",
+          "reference": "2015-11-20",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "3",
+          "reference": "3",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Jessica Jones (série télévisée)",
+          "reference": "Jessica Jones (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Jessica_Jones_(TV_series)"
+    },
+    "luke-cage": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2016-09-30",
+          "reference": "2016-09-30",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Luke Cage (série télévisée)",
+          "reference": "Luke Cage (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Luke_Cage_(TV_series)"
+    },
+    "iron-fist": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-03-17",
+          "reference": "2017-03-17",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Iron Fist (série télévisée)",
+          "reference": "Iron Fist (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)"
+    },
+    "the-defenders": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-08-18",
+          "reference": "2017-08-18",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "8",
+          "reference": "8",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "The Defenders (série télévisée)",
+          "reference": "The Defenders (mini-série, 2017)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Defenders_(miniseries)"
+    },
+    "the-punisher-netflix": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-11-17",
+          "reference": "2017-11-17",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "The Punisher (série télévisée)",
+          "reference": "The Punisher (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Punisher_(TV_series)"
+    },
+    "inhumans": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-09-29",
+          "reference": "2017-09-29",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "8",
+          "reference": "8",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Inhumans (série télévisée)",
+          "reference": "Inhumans (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Inhumans_(TV_series)"
     }
   }
 }

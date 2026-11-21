@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel><title>Média test</title>
+<item>
+  <title>&#8216;Avengers: Doomsday&#8217; Adds Two Stars To Cast</title>
+  <link>https://media.example/avengers-doomsday-cast/?utm_source=rss</link>
+  <guid>https://media.example/?p=1</guid>
+  <pubDate>Fri, 20 Nov 2026 10:00:00 +0000</pubDate>
+  <description><![CDATA[<p>Marvel Studios has added two actors to the cast of the film, sources tell us. Production is under way.</p>]]></description>
+  <media:thumbnail url="https://media.example/img/doom.jpg" />
+</item>
+<item>
+  <title>Rumor: Insider Says Wolverine Will Appear In Secret Wars</title>
+  <link>https://media.example/rumor-wolverine</link>
+  <pubDate>Thu, 19 Nov 2026 10:00:00 +0000</pubDate>
+  <description>An unconfirmed report claims Hugh Jackman will return.</description>
+</item>
+<item>
+  <title>Fan Theory: Why Loki Is The Key To Everything</title>
+  <link>https://media.example/theory-loki</link>
+  <pubDate>Wed, 18 Nov 2026 10:00:00 +0000</pubDate>
+  <description>A popular theory about the TVA.</description>
+</item>
+<item>
+  <title>Best Cooking Shows Of The Year</title>
+  <link>https://media.example/cooking</link>
+  <pubDate>Wed, 18 Nov 2026 09:00:00 +0000</pubDate>
+  <description>Nothing to see here.</description>
+</item>
+</channel></rss>

@@ -10,7 +10,8 @@ export const maxDuration = 60;
  * Protégé par `Authorization: Bearer $CRON_SECRET`. Vercel Cron envoie ce jeton automatiquement.
  */
 async function handle(req: Request) {
-  if (!checkBearer(req.headers.get("authorization"), process.env.CRON_SECRET)) {
+  const auth = req.headers.get("authorization");
+  if (!checkBearer(auth, process.env.CRON_SECRET) && !checkBearer(auth, process.env.ADMIN_TOKEN)) {
     return NextResponse.json({ error: "Non autorisé" }, { status: 401 });
   }
   const url = new URL(req.url);

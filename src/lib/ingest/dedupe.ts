@@ -13,9 +13,8 @@ export function canonicalUrl(u: string): string {
     for (const k of [...url.searchParams.keys()]) if (TRACKING.test(k)) url.searchParams.delete(k);
     // YouTube : on ne garde que l'identifiant de vidéo
     if (/youtube\.com$/.test(url.hostname) && url.pathname.startsWith("/shorts/")) return `https://youtube.com/watch?v=${url.pathname.split("/")[2]}`;
-    let s = url.toString();
-    if (s.endsWith("/") && url.pathname !== "/") s = s.slice(0, -1);
-    return s;
+    if (url.pathname.length > 1 && url.pathname.endsWith("/")) url.pathname = url.pathname.replace(/\/+$/, "");
+    return url.toString();
   } catch {
     return u.trim();
   }
