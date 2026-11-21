@@ -741,6 +741,1092 @@
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp"
+    },
+    "captain-marvel": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2019-03-08",
+          "reference": "2019-02-27, 2019-03-08",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Anna Boden, Ryan Fleck",
+          "reference": "Anna Boden<br />Ryan Fleck",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Pinar Toprak",
+          "reference": "Pinar Toprak",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "124",
+          "reference": "124",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Captain Marvel (film)",
+          "reference": "Captain Marvel (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Captain_Marvel_(film)"
+    },
+    "avengers-endgame": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2019-04-26",
+          "reference": "2019-04-22, 2019-04-26",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Anthony Russo, Joe Russo",
+          "reference": "{{unbulleted list|Anthony Russo|Joe Russo}}",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Alan Silvestri",
+          "reference": "Alan Silvestri",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "181",
+          "reference": "181",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers: Endgame",
+          "reference": "Avengers: Endgame",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Avengers:_Endgame"
+    },
+    "spider-man-far-from-home": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2019-07-02",
+          "reference": "2019-06-26, 2019-07-02",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Jon Watts",
+          "reference": "Jon Watts",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "129",
+          "reference": "129",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man: Far From Home",
+          "reference": "Spider-Man: Far From Home",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Far_From_Home"
+    },
+    "wandavision": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-01-15",
+          "reference": "2021-01-15",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christophe Beck, Kristen Anderson-Lopez, Robert Lopez",
+          "reference": "Christophe Beck",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "9",
+          "reference": "9",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "WandaVision",
+          "reference": "WandaVision",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/WandaVision"
+    },
+    "falcon-and-the-winter-soldier": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-03-19",
+          "reference": "2021-03-19",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Henry Jackman",
+          "reference": "Henry Jackman",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "6",
+          "reference": "6",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Falcon et le Soldat de l'hiver",
+          "reference": "Falcon et le Soldat de l'hiver",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Falcon_and_the_Winter_Soldier"
+    },
+    "loki": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-06-09",
+          "reference": "2021-06-09",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Natalie Holt",
+          "reference": "Natalie Holt",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "12",
+          "reference": "12",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Loki (série télévisée)",
+          "reference": "Loki (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Loki_(TV_series)"
+    },
+    "black-widow": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-07-09",
+          "reference": "2021-06-29, 2021-07-09",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Cate Shortland",
+          "reference": "Cate Shortland",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Lorne Balfe",
+          "reference": "Lorne Balfe",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "134",
+          "reference": "134",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Black Widow (film)",
+          "reference": "Black Widow (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Black_Widow_(2021_film)"
+    },
+    "what-if": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-08-11",
+          "reference": "2021-08-11",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Laura Karpman",
+          "reference": "Laura Karpman",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "3",
+          "reference": "3",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "What If...? (série télévisée)",
+          "reference": "What If...?",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/What_If...?_(TV_series)"
+    },
+    "shang-chi": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-09-03",
+          "reference": "2021-08-16, 2021-09-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Destin Daniel Cretton",
+          "reference": "Destin Daniel Cretton",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Joel P. West",
+          "reference": "Joel P. West",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "132",
+          "reference": "132",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Shang-Chi et la Légende des Dix Anneaux",
+          "reference": "Shang-Chi et la Légende des Dix Anneaux",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings"
+    },
+    "eternals": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-11-05",
+          "reference": "2021-10-18, 2021-11-05",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Chloé Zhao",
+          "reference": "Chloé Zhao",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Ramin Djawadi",
+          "reference": "Ramin Djawadi",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "156",
+          "reference": "156",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Éternels (film)",
+          "reference": "Les Éternels (film, 2021)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Eternals_(film)"
+    },
+    "hawkeye": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-11-24",
+          "reference": "2021-11-24",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christophe Beck",
+          "reference": "Christophe Beck",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "6",
+          "reference": "6",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Hawkeye (série télévisée)",
+          "reference": "Hawkeye (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Hawkeye_(miniseries)"
+    },
+    "spider-man-no-way-home": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-12-17",
+          "reference": "2021-12-13, 2021-12-17",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Jon Watts",
+          "reference": "Jon Watts",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "148",
+          "reference": "148",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man: No Way Home",
+          "reference": "Spider-Man: No Way Home",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_No_Way_Home"
+    },
+    "moon-knight": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-03-30",
+          "reference": "2022-03-30",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Hesham Nazih",
+          "reference": "Hesham Nazih",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "6",
+          "reference": "6",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Moon Knight (série télévisée)",
+          "reference": "Moon Knight (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Moon_Knight_(miniseries)"
+    },
+    "doctor-strange-multiverse-of-madness": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-05-06",
+          "reference": "2022-05-02, 2022-05-06",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Sam Raimi",
+          "reference": "Sam Raimi",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Danny Elfman",
+          "reference": "Danny Elfman",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "126",
+          "reference": "126",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Doctor Strange in the Multiverse of Madness",
+          "reference": "Doctor Strange in the Multiverse of Madness",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Doctor_Strange_in_the_Multiverse_of_Madness"
+    },
+    "ms-marvel": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-06-08",
+          "reference": "2022-06-08",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Laura Karpman",
+          "reference": "Laura Karpman",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "6",
+          "reference": "6",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Miss Marvel (série télévisée)",
+          "reference": "Miss Marvel (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ms._Marvel_(miniseries)"
+    },
+    "thor-love-and-thunder": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-07-08",
+          "reference": "2022-06-23, 2022-07-08",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Taika Waititi",
+          "reference": "Taika Waititi",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino, Nami Melumad",
+          "reference": "Michael Giacchino, Nami Melumad",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "119",
+          "reference": "119",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Thor: Love and Thunder",
+          "reference": "Thor: Love and Thunder",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Thor:_Love_and_Thunder"
+    },
+    "i-am-groot": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-08-10",
+          "reference": "2022-08-10",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Kirsten Lepore",
+          "reference": "Kirsten Lepore",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Je s'appelle Groot",
+          "reference": "Je s'appelle Groot",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/I_Am_Groot"
+    },
+    "she-hulk": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-08-18",
+          "reference": "2022-08-18",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Amie Doherty",
+          "reference": "Amie Doherty",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "9",
+          "reference": "9",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "She-Hulk : Avocate",
+          "reference": "She-Hulk : Avocate",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/She-Hulk:_Attorney_at_Law"
+    },
+    "werewolf-by-night": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-10-07",
+          "reference": "2022-10-07",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "53",
+          "reference": "53",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Werewolf by Night (téléfilm)",
+          "reference": "Werewolf by Night (téléfilm)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Werewolf_by_Night_(TV_special)"
+    },
+    "black-panther-wakanda-forever": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-11-11",
+          "reference": "2022-10-26, 2022-11-11",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Ryan Coogler",
+          "reference": "Ryan Coogler",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Ludwig Göransson",
+          "reference": "Ludwig Göransson",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "161",
+          "reference": "161",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Black Panther: Wakanda Forever",
+          "reference": "Black Panther: Wakanda Forever",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Black_Panther:_Wakanda_Forever"
+    },
+    "guardians-holiday-special": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-11-25",
+          "reference": "2022-11-25",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "James Gunn",
+          "reference": "James Gunn",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Murphy",
+          "reference": "John Murphy",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "44",
+          "reference": "42",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Gardiens de la Galaxie : Joyeuses Fêtes",
+          "reference": "Les Gardiens de la Galaxie : Joyeuses Fêtes",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Guardians_of_the_Galaxy_Holiday_Special"
+    },
+    "ant-man-quantumania": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2023-02-17",
+          "reference": "2023-02-06, 2023-02-17",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Peyton Reed",
+          "reference": "Peyton Reed",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christophe Beck",
+          "reference": "Christophe Beck",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "125",
+          "reference": "124",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Ant-Man et la Guêpe : Quantumania",
+          "reference": "Ant-Man et la Guêpe : Quantumania",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania"
+    },
+    "guardians-of-the-galaxy-vol-3": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2023-05-05",
+          "reference": "2023-04-22, 2023-05-05",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "James Gunn",
+          "reference": "James Gunn",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Murphy",
+          "reference": "John Murphy",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "150",
+          "reference": "150",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Gardiens de la Galaxie 3",
+          "reference": "Les Gardiens de la Galaxie Vol. 3",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._3"
+    },
+    "secret-invasion": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2023-06-21",
+          "reference": "2023-06-21",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Kris Bowers",
+          "reference": "Kris Bowers",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "6",
+          "reference": "6",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Secret Invasion (série télévisée)",
+          "reference": "Secret Invasion (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Secret_Invasion_(miniseries)"
+    },
+    "the-marvels": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2023-11-10",
+          "reference": "2023-11-07, 2023-11-10",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Nia DaCosta",
+          "reference": "Nia DaCosta",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Laura Karpman",
+          "reference": "Laura Karpman",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "105",
+          "reference": "105",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "The Marvels",
+          "reference": "The Marvels",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Marvels"
+    },
+    "echo": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-01-09",
+          "reference": "2024-01-09",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Dave Porter",
+          "reference": "Dave Porter",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "5",
+          "reference": "5",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Echo (série télévisée)",
+          "reference": "Echo (mini-série)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Echo_(miniseries)"
+    },
+    "deadpool-and-wolverine": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-07-26",
+          "reference": "2024-07-22, 2024-07-26",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Shawn Levy",
+          "reference": "Shawn Levy",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Rob Simonsen",
+          "reference": "Rob Simonsen",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "128",
+          "reference": "128",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Deadpool & Wolverine",
+          "reference": "Deadpool et Wolverine",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Deadpool_&_Wolverine"
+    },
+    "agatha-all-along": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-09-18",
+          "reference": "2024-09-18",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christophe Beck, Michael Paraskevas, Kristen Anderson-Lopez, Robert Lopez",
+          "reference": "Christophe Beck",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "9",
+          "reference": "9",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Agatha All Along",
+          "reference": "Agatha All Along",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Agatha_All_Along"
+    },
+    "your-friendly-neighborhood-spider-man": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2025-01-29",
+          "reference": "2025-01-29",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "1",
+          "ok": true
+        },
+        {
+          "field": "épisodes",
+          "ours": "10",
+          "reference": "10",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Your Friendly Neighborhood Spider-Man",
+          "reference": "Votre fidèle serviteur Spider-Man",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Your_Friendly_Neighborhood_Spider-Man"
+    },
+    "captain-america-brave-new-world": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2025-02-14",
+          "reference": "2025-02-11, 2025-02-14",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Julius Onah",
+          "reference": "Julius Onah",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Laura Karpman",
+          "reference": "Laura Karpman",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "118",
+          "reference": "118",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Captain America: Brave New World",
+          "reference": "Captain America: Brave New World",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America:_Brave_New_World"
     }
   }
 }

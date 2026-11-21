@@ -117,7 +117,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
             return (
               <Link key={n.href} href={n.href} className={`flex flex-col items-center gap-1 py-2.5 text-[10px] font-semibold ${active ? "text-white" : "text-steel-400"}`}>
                 <NavIcon name={n.icon} className={`h-5 w-5 ${active ? "text-hq-red" : ""}`} />
-                {n.label.replace("Univers ", "").replace("Ma ", "")}
+                {n.label.replace("Univers ", "").replace("Ma bibliothèque", "Biblio")}
               </Link>
             );
           })}
