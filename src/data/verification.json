@@ -1,0 +1,746 @@
+{
+  "generatedAt": "2026-11-21T21:58:58.870Z",
+  "method": "Infobox Wikipédia (EN) via l'API MediaWiki + liens interlangues FR",
+  "productions": {
+    "iron-man": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2008-05-02",
+          "reference": "2008-04-14, 2008-05-02",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Jon Favreau",
+          "reference": "Jon Favreau",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Ramin Djawadi",
+          "reference": "Ramin Djawadi",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "126",
+          "reference": "126",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Iron Man (film)",
+          "reference": "Iron Man (film, 2008)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Man_(2008_film)"
+    },
+    "incredible-hulk": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2008-06-13",
+          "reference": "2008-06-08, 2008-06-13",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Louis Leterrier",
+          "reference": "Louis Leterrier",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Craig Armstrong",
+          "reference": "Craig Armstrong",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "112",
+          "reference": "112",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "L'Incroyable Hulk (film)",
+          "reference": "L'Incroyable Hulk (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Incredible_Hulk_(film)"
+    },
+    "iron-man-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2010-05-07",
+          "reference": "2010-04-26, 2010-05-07",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Jon Favreau",
+          "reference": "Jon Favreau",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Debney",
+          "reference": "John Debney",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "124",
+          "reference": "125",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Iron Man 2",
+          "reference": "Iron Man 2",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Man_2"
+    },
+    "thor": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2011-05-06",
+          "reference": "2011-04-17, 2011-05-06",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Kenneth Branagh",
+          "reference": "Kenneth Branagh",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Patrick Doyle",
+          "reference": "Patrick Doyle",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "115",
+          "reference": "114",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Thor (film)",
+          "reference": "Thor (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Thor_(film)"
+    },
+    "captain-america-first-avenger": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2011-07-22",
+          "reference": "2011-07-19, 2011-07-22",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Joe Johnston",
+          "reference": "Joe Johnston",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Alan Silvestri",
+          "reference": "Alan Silvestri",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "124",
+          "reference": "124",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Captain America: First Avenger",
+          "reference": "Captain America: First Avenger",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America:_The_First_Avenger"
+    },
+    "avengers": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2012-05-04",
+          "reference": "2012-04-11, 2012-05-04",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Joss Whedon",
+          "reference": "Joss Whedon",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Alan Silvestri",
+          "reference": "Alan Silvestri",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "143",
+          "reference": "143",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers (film)",
+          "reference": "Avengers (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Avengers_(2012_film)"
+    },
+    "iron-man-3": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2013-05-03",
+          "reference": "2013-04-14, 2013-05-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Shane Black",
+          "reference": "Shane Black",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Brian Tyler",
+          "reference": "Brian Tyler",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "130",
+          "reference": "130",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Iron Man 3",
+          "reference": "Iron Man 3",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Man_3"
+    },
+    "thor-the-dark-world": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2013-11-08",
+          "reference": "2013-10-22, 2013-11-08",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Alan Taylor",
+          "reference": "Alan Taylor",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Brian Tyler",
+          "reference": "Brian Tyler",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "112",
+          "reference": "112",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Thor: Le Monde des ténèbres",
+          "reference": "Thor : Le Monde des ténèbres",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Thor:_The_Dark_World"
+    },
+    "captain-america-winter-soldier": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2014-04-04",
+          "reference": "2014-03-13, 2014-04-04",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Anthony Russo, Joe Russo",
+          "reference": "{{Unbulleted list|Anthony Russo|Joe Russo}}",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Henry Jackman",
+          "reference": "Henry Jackman",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "136",
+          "reference": "136",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Captain America: Le Soldat de l'hiver",
+          "reference": "Captain America : Le Soldat de l'hiver",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America:_The_Winter_Soldier"
+    },
+    "guardians-of-the-galaxy": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2014-08-01",
+          "reference": "2014-07-21, 2014-08-01",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "James Gunn",
+          "reference": "James Gunn",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Tyler Bates",
+          "reference": "Tyler Bates",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "121",
+          "reference": "122",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Gardiens de la Galaxie (film)",
+          "reference": "Les Gardiens de la Galaxie (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)"
+    },
+    "avengers-age-of-ultron": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2015-05-01",
+          "reference": "2015-04-13, 2015-05-01",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Joss Whedon",
+          "reference": "Joss Whedon",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Brian Tyler, Danny Elfman",
+          "reference": "Brian Tyler, Danny Elfman",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "141",
+          "reference": "141",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers: L'Ère d'Ultron",
+          "reference": "Avengers : L'Ère d'Ultron",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron"
+    },
+    "ant-man": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2015-07-17",
+          "reference": "2015-06-29, 2015-07-17",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Peyton Reed",
+          "reference": "Peyton Reed",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christophe Beck",
+          "reference": "Christophe Beck",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "117",
+          "reference": "117",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Ant-Man (film)",
+          "reference": "Ant-Man (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ant-Man_(film)"
+    },
+    "captain-america-civil-war": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2016-05-06",
+          "reference": "2016-04-12, 2016-05-06",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Anthony Russo, Joe Russo",
+          "reference": "{{unbulleted list|Anthony Russo|Joe Russo}}",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Henry Jackman",
+          "reference": "Henry Jackman",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "147",
+          "reference": "147",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Captain America: Civil War",
+          "reference": "Captain America: Civil War",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America:_Civil_War"
+    },
+    "doctor-strange": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2016-11-04",
+          "reference": "2016-10-13, 2016-11-04",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Scott Derrickson",
+          "reference": "Scott Derrickson",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "115",
+          "reference": "115",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Doctor Strange (film)",
+          "reference": "Doctor Strange (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Doctor_Strange_(2016_film)"
+    },
+    "guardians-of-the-galaxy-vol-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-05-05",
+          "reference": "2017-04-10, 2017-05-05",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "James Gunn",
+          "reference": "James Gunn",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Tyler Bates",
+          "reference": "Tyler Bates",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "136",
+          "reference": "136",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Gardiens de la Galaxie 2",
+          "reference": "Les Gardiens de la Galaxie Vol. 2",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2"
+    },
+    "spider-man-homecoming": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-07-07",
+          "reference": "2017-06-28, 2017-07-07",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Jon Watts",
+          "reference": "Jon Watts",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Giacchino",
+          "reference": "Michael Giacchino",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "133",
+          "reference": "133",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man: Homecoming",
+          "reference": "Spider-Man: Homecoming",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Homecoming"
+    },
+    "thor-ragnarok": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-11-03",
+          "reference": "2017-10-10, 2017-11-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Taika Waititi",
+          "reference": "Taika Waititi",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Mark Mothersbaugh",
+          "reference": "Mark Mothersbaugh",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "130",
+          "reference": "130",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Thor: Ragnarok",
+          "reference": "Thor: Ragnarok",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Thor:_Ragnarok"
+    },
+    "black-panther": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-02-16",
+          "reference": "2018-01-29, 2018-02-16",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Ryan Coogler",
+          "reference": "Ryan Coogler",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Ludwig Göransson",
+          "reference": "Ludwig Göransson",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "134",
+          "reference": "134",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Black Panther (film)",
+          "reference": "Black Panther (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Black_Panther_(film)"
+    },
+    "avengers-infinity-war": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-04-27",
+          "reference": "2018-04-23, 2018-04-27",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Anthony Russo, Joe Russo",
+          "reference": "{{unbulleted list|Anthony Russo|Joe Russo}}",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Alan Silvestri",
+          "reference": "Alan Silvestri",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "149",
+          "reference": "149",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers: Infinity War",
+          "reference": "Avengers: Infinity War",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War"
+    },
+    "ant-man-and-the-wasp": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-07-06",
+          "reference": "2018-06-25, 2018-07-06",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Peyton Reed",
+          "reference": "Peyton Reed",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christophe Beck",
+          "reference": "Christophe Beck",
+          "ok": true
+        },
+        {
+          "field": "durée (min)",
+          "ours": "118",
+          "reference": "118",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Ant-Man et la Guêpe",
+          "reference": "Ant-Man et la Guêpe",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp"
+    }
+  }
+}
