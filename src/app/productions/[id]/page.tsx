@@ -16,6 +16,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CertaintyBadge, SectionTitle, SourceList, VerificationBadge } from "@/components/ui";
 import { ProductionLibraryControls, SpoilerGuard, TrackView } from "@/components/LibraryControls";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
+import { themeFor, themeVars } from "@/lib/theme";
 
 type Params = Promise<{ id: string }>;
 
@@ -58,9 +59,13 @@ export default async function ProductionPage({ params }: { params: Params }) {
   const verification = verificationFor(p.id);
   const trailerIds = [p.trailerYoutubeId, ...news.items.filter((a) => a.isTrailer && a.youtubeId && a.sourceTier === "officielle").map((a) => a.youtubeId)].filter(Boolean) as string[];
   const isSeries = p.kind === "serie" || p.kind === "serie-animee";
+  const theme = themeFor(p);
 
   return (
-    <div className="mx-auto max-w-6xl">
+    <div className="themed relative isolate mx-auto max-w-6xl" style={themeVars(p)}>
+      {/* Halo aux couleurs de l'œuvre */}
+      <div aria-hidden className="pointer-events-none absolute -top-24 left-1/2 -z-10 h-[520px] w-[120%] -translate-x-1/2 opacity-70 blur-3xl"
+        style={{ background: `radial-gradient(40% 50% at 25% 40%, color-mix(in srgb, ${theme.colors[0]} 45%, transparent), transparent 70%), radial-gradient(35% 45% at 75% 30%, color-mix(in srgb, ${theme.colors[1]} 30%, transparent), transparent 70%)` }} />
       <TrackView kind="production" id={p.id} title={p.title} href={`/productions/${p.id}`} />
       <nav className="mb-4 text-xs text-steel-400" aria-label="Fil d'Ariane">
         <Link href={p.continuity === "mcu" ? "/mcu" : "/univers"} className="hover:text-white">{p.continuity === "mcu" ? "Univers MCU" : "Univers étendu"}</Link>
@@ -82,6 +87,7 @@ export default async function ProductionPage({ params }: { params: Params }) {
             {p.status !== "sorti" && <span className="chip border-hq-red/50 text-hq-red">{STATUS_LABELS[p.status]}</span>}
           </div>
           <h1 className="display text-3xl leading-none text-white md:text-5xl">{p.title}</h1>
+          <div className="mt-3 h-1 w-40 rounded-full" style={{ background: `linear-gradient(90deg, ${theme.colors.join(", ")})` }} aria-hidden />
           {p.originalTitle !== p.title && <p className="mt-2 text-sm text-steel-400">Titre original : <span className="text-steel-200">{p.originalTitle}</span></p>}
 
           <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -212,6 +218,11 @@ export default async function ProductionPage({ params }: { params: Params }) {
 
           <div className="panel space-y-3 p-4">
             <SourceList sources={p.sources} />
+            <div className="border-t border-white/5 pt-3">
+              <p className="eyebrow mb-1.5">Palette de la fiche</p>
+              <div className="flex gap-1.5" aria-hidden>{theme.colors.map((c) => <span key={c} className="h-6 w-6 rounded-md border border-white/15" style={{ background: c }} title={c} />)}</div>
+              <p className="mt-1.5 text-[11px] text-steel-400">{theme.mood}</p>
+            </div>
             {verification && (
               <div className="border-t border-white/5 pt-3">
                 <p className="eyebrow mb-1.5">Contrôle automatique</p>

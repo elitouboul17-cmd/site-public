@@ -136,6 +136,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .no-scrollbar::-webkit-scrollbar { display: none; }
 
 .prose-hq p { color: var(--color-steel-200); line-height: 1.7; }
+
 }
 
 @media (hover: none) {
@@ -145,3 +146,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
 }
+
+/* Identité colorée d'une production (variables posées par themeVars).
+   Hors @layer pour primer sur les utilitaires Tailwind à l'intérieur d'une fiche. */
+.themed-card:hover { border-color: color-mix(in srgb, var(--accent) 70%, transparent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 25%, transparent), 0 14px 40px -16px color-mix(in srgb, var(--accent) 55%, transparent); }
+.themed .chip-active { border-color: color-mix(in srgb, var(--accent) 80%, transparent); background: color-mix(in srgb, var(--accent) 18%, transparent); }
+.themed .panel-hover:hover { border-color: color-mix(in srgb, var(--accent) 50%, transparent); }
+.themed .text-hq-red { color: var(--accent-text); }
+.themed .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.themed :is(a, button, input, select, textarea):focus-visible { outline-color: var(--accent-text); }

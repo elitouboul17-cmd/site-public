@@ -85,7 +85,7 @@ export function ProductionLibraryControls({ id, episodes }: { id: string; episod
               const v = Number(e.target.value);
               update((s) => ({ ...s, progress: { ...s.progress, [id]: v }, watched: v === episodes ? { ...s.watched, [id]: s.watched[id] ?? new Date().toISOString() } : s.watched }));
             }}
-            className="w-full accent-[#e62429]"
+            className="w-full accent-[var(--accent,#e62429)]"
           />
         </div>
       ) : null}

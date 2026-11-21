@@ -4,10 +4,11 @@ import { KIND_LABELS, STATUS_LABELS } from "@/lib/labels";
 import { formatDate } from "@/lib/text";
 import { Poster } from "./Poster";
 import { WatchedDot } from "./LibraryControls";
+import { themeVars } from "@/lib/theme";
 
 export function ProductionCard({ p, posterUrl, showOrder }: { p: Production; posterUrl?: string; showOrder?: number }) {
   return (
-    <Link href={`/productions/${p.id}`} className="group panel panel-hover block overflow-hidden p-2">
+    <Link href={`/productions/${p.id}`} className="group panel panel-hover themed-card block overflow-hidden p-2" style={themeVars(p)}>
       <div className="relative">
         <Poster p={p} src={posterUrl} size="sm" className="transition duration-300 group-hover:brightness-110" />
         {showOrder != null && (

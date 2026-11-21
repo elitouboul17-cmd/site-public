@@ -1,7 +1,6 @@
 import type { Production } from "@/lib/types";
 import { CONTINUITY_LABELS, KIND_LABELS } from "@/lib/labels";
-
-const PHASE_HUES: Record<number, number> = { 1: 0, 2: 18, 3: 350, 4: 265, 5: 200, 6: 32 };
+import { themeFor } from "@/lib/theme";
 
 function hash(s: string) {
   let h = 0;
@@ -21,8 +20,8 @@ export function Poster({ p, src, className = "", size = "md" }: { p: Production;
     );
   }
   const h = hash(p.id);
-  const hue = p.phase ? PHASE_HUES[p.phase] : (h % 360);
-  const angle = 140 + (h % 80);
+  const [c1, c2, c3] = themeFor(p).colors;
+  const angle = 145 + (h % 50);
   const titleSize = size === "lg" ? "text-3xl" : size === "sm" ? "text-sm" : "text-lg";
   return (
     <div
@@ -30,12 +29,16 @@ export function Poster({ p, src, className = "", size = "md" }: { p: Production;
       aria-label={`Visuel généré pour ${p.title}`}
       className={`relative flex aspect-[2/3] w-full flex-col justify-between overflow-hidden rounded-lg border border-white/10 p-3 ${className}`}
       style={{
-        background: `linear-gradient(${angle}deg, hsl(${hue} 70% 18%) 0%, hsl(${hue} 60% 8%) 55%, #07080a 100%)`,
+        background: `linear-gradient(${angle}deg, ${c1} 0%, color-mix(in srgb, ${c1} 45%, #07080a) 48%, #07080a 100%)`,
       }}
     >
-      <div className="hud-grid pointer-events-none absolute inset-0 opacity-60" />
-      <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full opacity-40 blur-2xl" style={{ background: `hsl(${hue} 90% 50%)` }} />
-      <div className="relative flex items-center justify-between text-[9px] font-bold tracking-[0.2em] text-white/70 uppercase">
+      <div className="hud-grid pointer-events-none absolute inset-0 opacity-50" />
+      {/* Bande diagonale secondaire et filet d'accent : identité colorée de l'œuvre */}
+      <div className="pointer-events-none absolute -inset-x-10 top-[58%] h-[22%] -rotate-12 opacity-80" style={{ background: `linear-gradient(90deg, transparent, ${c2} 30%, ${c2} 70%, transparent)` }} />
+      <div className="pointer-events-none absolute -inset-x-10 top-[82%] h-[3%] -rotate-12" style={{ background: c3 }} />
+      <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full opacity-50 blur-2xl" style={{ background: c2 }} />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/85 to-transparent" />
+      <div className="relative flex items-center justify-between text-[9px] font-bold tracking-[0.2em] text-white/80 uppercase" style={{ textShadow: "0 1px 6px rgba(0,0,0,.85)" }}>
         <span>{p.phase ? `Phase ${p.phase}` : CONTINUITY_LABELS[p.continuity].short}</span>
         <span>{p.releaseDate?.slice(0, 4) ?? "TBA"}</span>
       </div>

@@ -20,7 +20,7 @@ export function SectionTitle({ title, href, linkLabel = "Tout voir", children }:
   return (
     <div className="mb-3 flex items-end justify-between gap-3">
       <h2 className="display flex items-center gap-2 text-lg text-white md:text-xl">
-        <span className="inline-block h-4 w-1 rounded-sm bg-hq-red" aria-hidden />
+        <span className="inline-block h-4 w-1 rounded-sm bg-[var(--accent,#e62429)]" aria-hidden />
         {title}
       </h2>
       <div className="flex items-center gap-2">
