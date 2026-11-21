@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-21T21:58:58.870Z",
+  "generatedAt": "2026-11-21T22:19:41.320Z",
   "method": "Infobox Wikipédia (EN) via l'API MediaWiki + liens interlangues FR",
   "productions": {
     "iron-man": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -32,9 +32,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Iron Man (film)",
+          "ours": "Iron Man (film, 2008)",
           "reference": "Iron Man (film, 2008)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Man_(2008_film)"
@@ -262,8 +262,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Man_3"
     },
     "thor-the-dark-world": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -291,16 +291,16 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Thor: Le Monde des ténèbres",
+          "ours": "Thor : Le Monde des ténèbres",
           "reference": "Thor : Le Monde des ténèbres",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Thor:_The_Dark_World"
     },
     "captain-america-winter-soldier": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -328,9 +328,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Captain America: Le Soldat de l'hiver",
+          "ours": "Captain America : Le Soldat de l'hiver",
           "reference": "Captain America : Le Soldat de l'hiver",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America:_The_Winter_Soldier"
@@ -373,8 +373,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)"
     },
     "avengers-age-of-ultron": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -402,9 +402,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Avengers: L'Ère d'Ultron",
+          "ours": "Avengers : L'Ère d'Ultron",
           "reference": "Avengers : L'Ère d'Ultron",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron"
@@ -521,8 +521,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Doctor_Strange_(2016_film)"
     },
     "guardians-of-the-galaxy-vol-2": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -550,9 +550,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Les Gardiens de la Galaxie 2",
+          "ours": "Les Gardiens de la Galaxie Vol. 2",
           "reference": "Les Gardiens de la Galaxie Vol. 2",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2"
@@ -1002,8 +1002,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Black_Widow_(2021_film)"
     },
     "what-if": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1025,9 +1025,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "What If...? (série télévisée)",
+          "ours": "What If...?",
           "reference": "What If...?",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/What_If...?_(TV_series)"
@@ -1070,8 +1070,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings"
     },
     "eternals": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1099,9 +1099,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Les Éternels (film)",
+          "ours": "Les Éternels (film, 2021)",
           "reference": "Les Éternels (film, 2021)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Eternals_(film)"
@@ -1539,8 +1539,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania"
     },
     "guardians-of-the-galaxy-vol-3": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1568,9 +1568,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Les Gardiens de la Galaxie 3",
+          "ours": "Les Gardiens de la Galaxie Vol. 3",
           "reference": "Les Gardiens de la Galaxie Vol. 3",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._3"
@@ -1650,8 +1650,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Marvels"
     },
     "echo": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1679,16 +1679,16 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Echo (série télévisée)",
+          "ours": "Echo (mini-série)",
           "reference": "Echo (mini-série)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Echo_(miniseries)"
     },
     "deadpool-and-wolverine": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1716,9 +1716,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Deadpool & Wolverine",
+          "ours": "Deadpool et Wolverine",
           "reference": "Deadpool et Wolverine",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Deadpool_&_Wolverine"
