@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T22:19:41.320Z",
+  "generatedAt": "2026-11-21T22:24:09.413Z",
   "method": "Infobox Wikipédia (EN) via l'API MediaWiki + liens interlangues FR",
   "productions": {
     "iron-man": {
@@ -3168,8 +3168,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Venom:_The_Last_Dance"
     },
     "kraven-the-hunter": {
-      "checkedAt": "2026-11-21T22:19:41.320Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:24:09.413Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3181,7 +3181,7 @@
           "field": "réalisation",
           "ours": "J. C. Chandor",
           "reference": "J.C. Chandor",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -3455,8 +3455,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_The_Animated_Series"
     },
     "spider-man-animated-1994": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3472,31 +3472,37 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Spider-Man, l'homme-araignée (série télévisée d'animation, 1994)",
+          "ours": "Spider-Man, l'homme-araignée",
           "reference": "Spider-Man, l'homme-araignée",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_The_Animated_Series"
     },
     "spectacular-spider-man": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:24:09.413Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
           "ours": "2008-03-08",
-          "reference": "{{collapsible list|'''magazine:'''<br> July 1968 – November 1968 <br>'''(vol. 1)",
-          "ok": false
+          "reference": "2008-03-08",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Spectacular Spider-Man",
-          "reference": "The Spectacular Spider-Man",
-          "ok": false
+          "ours": "Spectacular Spider-Man (série télévisée d'animation)",
+          "reference": "Spectacular Spider-Man (série télévisée d'animation)",
+          "ok": true
         }
       ],
-      "referenceUrl": "https://en.wikipedia.org/wiki/The_Spectacular_Spider-Man"
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Spectacular_Spider-Man_(TV_series)"
     },
     "avengers-emh": {
       "checkedAt": "2026-11-21T21:58:58.870Z",
@@ -3524,8 +3530,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Avengers:_Earth's_Mightiest_Heroes"
     },
     "x-men-97": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3541,15 +3547,15 @@
         },
         {
           "field": "saisons",
-          "ours": "1",
+          "ours": "2",
           "reference": "2",
-          "ok": false
+          "ok": true
         },
         {
           "field": "épisodes",
-          "ours": "10",
+          "ours": "19",
           "reference": "19",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -3618,27 +3624,27 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Spider-Man_2"
     },
     "marvels-avengers-game": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
           "ours": "2020-09-04",
-          "reference": "{{ubl|'''PS4''', '''Stadia''', '''Windows''', '''Xbox One'''|4 September 2020|''",
-          "ok": false
+          "reference": "2020-09-04, 2021-03-18",
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Marvel's Avengers",
+          "ours": "Marvel's Avengers (jeu vidéo)",
           "reference": "Marvel's Avengers (jeu vidéo)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Avengers_(video_game)"
     },
     "marvels-guardians-game": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3648,9 +3654,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Marvel's Guardians of the Galaxy",
+          "ours": "Les Gardiens de la Galaxie (jeu vidéo)",
           "reference": "Les Gardiens de la Galaxie (jeu vidéo)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Guardians_of_the_Galaxy"
@@ -3713,13 +3719,14 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Ultimate_Alliance_3:_The_Black_Order"
     },
     "marvels-wolverine": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
+          "ours": "2026-09-15",
           "reference": "2026-09-15",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -3731,51 +3738,21 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Wolverine"
     },
     "captain-america-comics-1": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
-      "checks": [
-        {
-          "field": "date de sortie",
-          "ours": "1941-03",
-          "reference": "[[List of Captain America titles|Full list]]",
-          "ok": false
-        },
-        {
-          "field": "article Wikipédia FR",
-          "ours": "Captain America Comics",
-          "ok": false
-        }
-      ],
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "partiel",
+      "checks": [],
       "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America_Comics"
     },
     "fantastic-four-1": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
-      "checks": [
-        {
-          "field": "date de sortie",
-          "ours": "1961-11",
-          "reference": "{{Collapsible list|'''(vol. 1)'''<br/>November 1961 – September 1996<br/>'''(vol",
-          "ok": false
-        },
-        {
-          "field": "article Wikipédia FR",
-          "ours": "Les Quatre Fantastiques",
-          "ok": false
-        }
-      ],
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "partiel",
+      "checks": [],
       "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four_(comic_book)"
     },
     "amazing-fantasy-15": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
-        {
-          "field": "date de sortie",
-          "ours": "1962-08",
-          "reference": "'''''[[Amazing Adventures]]''''' #1–6 (June 1961 – Nov. 1961)<BR>'''''Amazing Ad",
-          "ok": false
-        },
         {
           "field": "article Wikipédia FR",
           "ours": "Amazing Fantasy",
@@ -3786,68 +3763,34 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Amazing_Fantasy"
     },
     "avengers-1-1963": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
-      "checks": [
-        {
-          "field": "date de sortie",
-          "ours": "1963-09",
-          "reference": "'''(vol. 1)'''<br>September 1963 – September 1996<br>'''(vol. 2)'''<br>November ",
-          "ok": false
-        },
-        {
-          "field": "article Wikipédia FR",
-          "ours": "Avengers (comics)",
-          "ok": false
-        }
-      ],
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "partiel",
+      "checks": [],
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Avengers_(comic_book)"
     },
     "x-men-1-1963": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
-      "checks": [
-        {
-          "field": "date de sortie",
-          "ours": "1963-09",
-          "reference": "'''(vol. 3)'''<br/>September 2010 – February 2013<br/>'''(vol. 4)'''<br/>May 201",
-          "ok": false
-        },
-        {
-          "field": "article Wikipédia FR",
-          "ours": "X-Men",
-          "ok": false
-        }
-      ],
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "partiel",
+      "checks": [],
       "referenceUrl": "https://en.wikipedia.org/wiki/X-Men_(comic_book)"
     },
     "infinity-gauntlet": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
-          "field": "date de sortie",
-          "ours": "1991-07",
-          "ok": false
-        },
-        {
           "field": "article Wikipédia FR",
-          "ours": "The Infinity Gauntlet",
+          "ours": "Le Gant de l'Infini",
           "reference": "Le Gant de l'Infini",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Infinity_Gauntlet"
     },
     "civil-war-comic": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
-        {
-          "field": "date de sortie",
-          "ours": "2006-07",
-          "ok": false
-        },
         {
           "field": "article Wikipédia FR",
           "ours": "Civil War (comics)",
@@ -3858,20 +3801,14 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Civil_War_(comics)"
     },
     "secret-wars-1984": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
-          "field": "date de sortie",
-          "ours": "1984-05",
-          "reference": "May 1984 – Apr. 1985",
-          "ok": false
-        },
-        {
           "field": "article Wikipédia FR",
-          "ours": "Secret Wars",
+          "ours": "Les Guerres secrètes",
           "reference": "Les Guerres secrètes",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Secret_Wars"
