@@ -285,7 +285,7 @@ export const EXTENDED_PRODUCTIONS: Production[] = [
   x({
     id: "spectacular-spider-man", title: "Spectacular Spider-Man", originalTitle: "The Spectacular Spider-Man", kind: "serie-animee",
     continuity: "animation", releaseDate: "2008-03-08", endDate: "2009-11-18", seasons: 2,
-    ...wiki("The_Spectacular_Spider-Man_(TV_series)", "The_Spectacular_Spider-Man"),
+    ...wiki("The_Spectacular_Spider-Man_(TV_series)", "Spectacular_Spider-Man_(série_télévisée_d'animation)"),
   }),
   x({
     id: "avengers-emh", title: "Avengers : L'Équipe des super-héros", originalTitle: "The Avengers: Earth's Mightiest Heroes", kind: "serie-animee",

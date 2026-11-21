@@ -18,7 +18,7 @@ import path from "node:path";
 import { PRODUCTIONS } from "../src/lib/catalog";
 import { normalize as baseNormalize } from "../src/lib/text";
 
-const normalize = (s: string) => baseNormalize(s).replace(/[^a-z0-9 ]+/g, "").replace(/\s+/g, " ").trim();
+const normalize = (s: string) => baseNormalize(s).replace(/[^a-z0-9]+/g, "");
 import { USER_AGENT } from "../src/data/sources";
 
 const OUT = path.resolve("src/data/verification.json");

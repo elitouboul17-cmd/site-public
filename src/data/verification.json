@@ -1761,8 +1761,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Agatha_All_Along"
     },
     "your-friendly-neighborhood-spider-man": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1784,9 +1784,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Your Friendly Neighborhood Spider-Man",
+          "ours": "Votre fidèle serviteur Spider-Man",
           "reference": "Votre fidèle serviteur Spider-Man",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Your_Friendly_Neighborhood_Spider-Man"
@@ -1922,13 +1922,14 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Ironheart_(miniseries)"
     },
     "eyes-of-wakanda": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
+          "ours": "2025-08-01",
           "reference": "2025-08-01",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -1940,26 +1941,27 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Eyes_of_Wakanda"
     },
     "marvel-zombies": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
+          "ours": "2025-09-24",
           "reference": "2025-09-24",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Marvel Zombies (série télévisée)",
+          "ours": "Marvel Zombies (série télévisée d'animation)",
           "reference": "Marvel Zombies (série télévisée d'animation)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Zombies_(TV_series)"
     },
     "fantastic-four-first-steps": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -1981,21 +1983,22 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Les 4 Fantastiques : Premiers Pas",
+          "ours": "Les Quatre Fantastiques : Premiers pas",
           "reference": "Les Quatre Fantastiques : Premiers pas",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Fantastic_Four:_First_Steps"
     },
     "wonder-man": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
+          "ours": "2026-01-27",
           "reference": "2026-01-27",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -2057,7 +2060,7 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Avengers:_Doomsday"
     },
     "avengers-secret-wars": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
       "status": "ecart",
       "checks": [
         {
@@ -2076,13 +2079,14 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe:_Phase_Six"
     },
     "visionquest": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
+          "ours": "2026-10-13",
           "reference": "2026-10-13",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -2094,8 +2098,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/VisionQuest"
     },
     "agents-of-shield": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2111,16 +2115,16 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Marvel : Les Agents du S.H.I.E.L.D.",
+          "ours": "Marvel : Les Agents du SHIELD",
           "reference": "Marvel : Les Agents du SHIELD",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Agents_of_S.H.I.E.L.D."
     },
     "agent-carter": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2136,9 +2140,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Agent Carter (série télévisée)",
+          "ours": "Agent Carter",
           "reference": "Agent Carter",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Agent_Carter_(TV_series)"
@@ -2244,8 +2248,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)"
     },
     "the-defenders": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2267,9 +2271,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "The Defenders (série télévisée)",
+          "ours": "The Defenders (mini-série, 2017)",
           "reference": "The Defenders (mini-série, 2017)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Defenders_(miniseries)"
@@ -2474,8 +2478,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_The_Last_Stand"
     },
     "x-men-origins-wolverine": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2497,9 +2501,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "X-Men Origins : Wolverine",
+          "ours": "X-Men Origins: Wolverine",
           "reference": "X-Men Origins: Wolverine",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/X-Men_Origins:_Wolverine"
@@ -2598,8 +2602,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_Days_of_Future_Past"
     },
     "deadpool": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2615,9 +2619,9 @@
         },
         {
           "field": "musique",
-          "ours": "Junkie XL",
+          "ours": "Tom Holkenborg",
           "reference": "Tom Holkenborg",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
@@ -2778,8 +2782,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/The_New_Mutants_(film)"
     },
     "fantastic-four-2005": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2795,15 +2799,15 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Les 4 Fantastiques (film, 2005)",
+          "ours": "Les Quatre Fantastiques (film, 2005)",
           "reference": "Les Quatre Fantastiques (film, 2005)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four_(2005_film)"
     },
     "fantastic-four-silver-surfer": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
       "status": "ecart",
       "checks": [
         {
@@ -2820,9 +2824,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Les 4 Fantastiques et le Surfer d'argent",
+          "ours": "Les Quatre Fantastiques et le Surfer d'argent",
           "reference": "Les Quatre Fantastiques et le Surfer d'argent",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four:_Rise_of_the_Silver_Surfer"
@@ -2971,8 +2975,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man_3"
     },
     "amazing-spider-man": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -2994,9 +2998,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "The Amazing Spider-Man",
+          "ours": "The Amazing Spider-Man (film)",
           "reference": "The Amazing Spider-Man (film)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_(film)"
@@ -3164,7 +3168,7 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Venom:_The_Last_Dance"
     },
     "kraven-the-hunter": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
       "status": "ecart",
       "checks": [
         {
@@ -3189,8 +3193,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Kraven_the_Hunter_(film)"
     },
     "into-the-spider-verse": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3212,16 +3216,16 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Spider-Man : New Generation",
+          "ours": "Spider-Man: New Generation",
           "reference": "Spider-Man: New Generation",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse"
     },
     "across-the-spider-verse": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3243,27 +3247,28 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Spider-Man : Across the Spider-Verse",
+          "ours": "Spider-Man: Across the Spider-Verse",
           "reference": "Spider-Man: Across the Spider-Verse",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse"
     },
     "beyond-the-spider-verse": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
+          "ours": "2027-06-18",
           "reference": "2027-06-18",
-          "ok": false
+          "ok": true
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Spider-Man : Beyond the Spider-Verse",
+          "ours": "Spider-Man: Beyond the Spider-Verse",
           "reference": "Spider-Man: Beyond the Spider-Verse",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Beyond_the_Spider-Verse"
@@ -3294,8 +3299,8 @@
       "referenceUrl": "https://en.wikipedia.org/wiki/Howard_the_Duck_(film)"
     },
     "blade-1998": {
-      "checkedAt": "2026-11-21T21:58:58.870Z",
-      "status": "ecart",
+      "checkedAt": "2026-11-21T22:19:41.320Z",
+      "status": "ok",
       "checks": [
         {
           "field": "date de sortie",
@@ -3311,9 +3316,9 @@
         },
         {
           "field": "article Wikipédia FR",
-          "ours": "Blade (film)",
+          "ours": "Blade (film, 1998)",
           "reference": "Blade (film, 1998)",
-          "ok": false
+          "ok": true
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Blade_(1998_film)"
