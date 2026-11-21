@@ -79,6 +79,11 @@ function buildPeople(): Map<string, PersonEntry> {
       if (role) for (const pid of b.productionIds) add(n, pid, role);
       else get(n);
     }
+  // Interprètes cités uniquement dans les fiches de personnages (ex. autres continuités).
+  for (const c of CHARACTERS) for (const p of c.portrayals ?? []) {
+    const e = get(p.person);
+    if (!e.roles.includes("acteur")) e.roles.push("acteur");
+  }
   for (const e of map.values()) e.credits.sort((a, b) => dateOf(a.productionId).localeCompare(dateOf(b.productionId)));
   return map;
 }

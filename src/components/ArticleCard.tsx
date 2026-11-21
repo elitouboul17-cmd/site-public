@@ -6,6 +6,7 @@ import { NEWS_CATEGORY_LABELS } from "@/lib/labels";
 import { relativeTime, truncate } from "@/lib/text";
 import { ReliabilityBadge } from "./ui";
 import { SaveArticleButton } from "./LibraryControls";
+import { RemoteImage } from "./RemoteImage";
 
 export function SummaryNote({ a }: { a: Pick<Article, "summaryKind" | "summaryLang"> }) {
   if (a.summaryKind === "resume-ia")
@@ -22,8 +23,7 @@ export function ArticleCard({ a, compact = false, clusterSize = 1 }: { a: Articl
       {!compact && a.imageUrl && (
         <div className="relative hidden h-24 w-36 shrink-0 overflow-hidden rounded-lg bg-ink-700 sm:block">
           {/* Image fournie par le flux de la source, affichée depuis son serveur */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={a.imageUrl} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" className="h-full w-full object-cover" />
+          <RemoteImage src={a.imageUrl} className="h-full w-full object-cover" />
           {a.isTrailer && <span className="absolute inset-0 flex items-center justify-center bg-black/30"><Play className="h-7 w-7 fill-white text-white" /></span>}
         </div>
       )}

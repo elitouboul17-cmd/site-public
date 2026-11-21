@@ -11,6 +11,7 @@ import { ReliabilityBadge } from "@/components/ui";
 import { SummaryNote } from "@/components/ArticleCard";
 import { SaveArticleButton, SpoilerGuard, TrackView } from "@/components/LibraryControls";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
+import { RemoteImage } from "@/components/RemoteImage";
 
 export const dynamic = "force-dynamic";
 type Params = Promise<{ id: string }>;
@@ -53,8 +54,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
         {a.youtubeId && a.sourceTier === "officielle" ? (
           <div className="mt-5"><YouTubeEmbed id={a.youtubeId} title={a.title} /></div>
         ) : a.imageUrl ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={a.imageUrl} alt="" referrerPolicy="no-referrer" className="mt-5 max-h-96 w-full rounded-lg object-cover" loading="lazy" />
+          <RemoteImage src={a.imageUrl} className="mt-5 max-h-96 w-full rounded-lg object-cover" />
         ) : null}
 
         <SpoilerGuard productionIds={a.productionIds} label="Résumé masqué (mode sans spoilers)">

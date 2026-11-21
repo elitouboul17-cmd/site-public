@@ -2329,6 +2329,1547 @@
         }
       ],
       "referenceUrl": "https://en.wikipedia.org/wiki/Inhumans_(TV_series)"
+    },
+    "runaways": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-11-21",
+          "reference": "2017-11-21",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "3",
+          "reference": "3",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Runaways (série télévisée)",
+          "reference": "Runaways (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Runaways_(TV_series)"
+    },
+    "cloak-and-dagger": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-06-07",
+          "reference": "2018-06-07",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Cloak and Dagger (série télévisée)",
+          "reference": "Cloak and Dagger (série télévisée)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Cloak_&_Dagger_(TV_series)"
+    },
+    "x-men-2000": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2000-07-14",
+          "reference": "2000-07-12, 2000-07-14",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Bryan Singer",
+          "reference": "Bryan Singer",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Michael Kamen",
+          "reference": "Michael Kamen",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men (film)",
+          "reference": "X-Men (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men_(film)"
+    },
+    "x2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2003-05-02",
+          "reference": "2003-04-24, 2003-05-02",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Bryan Singer",
+          "reference": "Bryan Singer",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Ottman",
+          "reference": "John Ottman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men 2",
+          "reference": "X-Men 2",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X2_(film)"
+    },
+    "x-men-last-stand": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2006-05-26",
+          "reference": "2006-05-24, 2006-05-26",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Brett Ratner",
+          "reference": "Brett Ratner",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Powell",
+          "reference": "John Powell",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men : L'Affrontement final",
+          "reference": "X-Men : L'Affrontement final",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_The_Last_Stand"
+    },
+    "x-men-origins-wolverine": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2009-05-01",
+          "reference": "2009-04-08, 2009-05-01",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Gavin Hood",
+          "reference": "Gavin Hood",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Harry Gregson-Williams",
+          "reference": "Harry Gregson-Williams",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men Origins : Wolverine",
+          "reference": "X-Men Origins: Wolverine",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men_Origins:_Wolverine"
+    },
+    "x-men-first-class": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2011-06-03",
+          "reference": "2011-05-25, 2011-06-01, 2011-06-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Matthew Vaughn",
+          "reference": "Matthew Vaughn",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Henry Jackman",
+          "reference": "Henry Jackman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men : Le Commencement",
+          "reference": "X-Men : Le Commencement",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_First_Class"
+    },
+    "the-wolverine": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2013-07-26",
+          "reference": "2013-07-26",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "James Mangold",
+          "reference": "James Mangold",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Marco Beltrami",
+          "reference": "Marco Beltrami",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Wolverine : Le Combat de l'immortel",
+          "reference": "Wolverine : Le Combat de l'immortel",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Wolverine_(film)"
+    },
+    "x-men-days-of-future-past": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2014-05-23",
+          "reference": "2014-05-10, 2014-05-23",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Bryan Singer",
+          "reference": "Bryan Singer",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Ottman",
+          "reference": "John Ottman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men: Days of Future Past",
+          "reference": "X-Men: Days of Future Past",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_Days_of_Future_Past"
+    },
+    "deadpool": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2016-02-12",
+          "reference": "2016-02-08, 2016-02-12",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Tim Miller",
+          "reference": "Tim Miller",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Junkie XL",
+          "reference": "Tom Holkenborg",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Deadpool (film)",
+          "reference": "Deadpool (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Deadpool_(film)"
+    },
+    "x-men-apocalypse": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2016-05-27",
+          "reference": "2016-05-09, 2016-05-27",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Bryan Singer",
+          "reference": "Bryan Singer",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "John Ottman",
+          "reference": "John Ottman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men: Apocalypse",
+          "reference": "X-Men: Apocalypse",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_Apocalypse"
+    },
+    "logan": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2017-03-03",
+          "reference": "2017-02-17, 2017-03-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "James Mangold",
+          "reference": "James Mangold",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Marco Beltrami",
+          "reference": "Marco Beltrami",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Logan (film)",
+          "reference": "Logan (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Logan_(film)"
+    },
+    "deadpool-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-05-18",
+          "reference": "2018-05-10, 2018-05-18",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "David Leitch",
+          "reference": "David Leitch",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Tyler Bates",
+          "reference": "Tyler Bates",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Deadpool 2",
+          "reference": "Deadpool 2",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Deadpool_2"
+    },
+    "dark-phoenix": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2019-06-07",
+          "reference": "2019-06-04, 2019-06-07",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Simon Kinberg",
+          "reference": "Simon Kinberg",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Hans Zimmer",
+          "reference": "Hans Zimmer",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men: Dark Phoenix",
+          "reference": "X-Men: Dark Phoenix",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Dark_Phoenix_(film)"
+    },
+    "the-new-mutants": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2020-08-28",
+          "reference": "2020-08-28",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Josh Boone",
+          "reference": "Josh Boone",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Nouveaux Mutants (film)",
+          "reference": "Les Nouveaux Mutants (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_New_Mutants_(film)"
+    },
+    "fantastic-four-2005": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2005-07-08",
+          "reference": "2005-07-08",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Tim Story",
+          "reference": "Tim Story",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les 4 Fantastiques (film, 2005)",
+          "reference": "Les Quatre Fantastiques (film, 2005)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four_(2005_film)"
+    },
+    "fantastic-four-silver-surfer": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2007-06-15",
+          "reference": "2007-06-13",
+          "ok": false
+        },
+        {
+          "field": "réalisation",
+          "ours": "Tim Story",
+          "reference": "Tim Story",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les 4 Fantastiques et le Surfer d'argent",
+          "reference": "Les Quatre Fantastiques et le Surfer d'argent",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four:_Rise_of_the_Silver_Surfer"
+    },
+    "fant4stic": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2015-08-07",
+          "reference": "2015-08-04, 2015-08-07",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Josh Trank",
+          "reference": "Josh Trank",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les 4 Fantastiques (film, 2015)",
+          "reference": "Les 4 Fantastiques (film, 2015)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four_(2015_film)"
+    },
+    "daredevil-2003": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2003-02-14",
+          "reference": "2003-02-14",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Mark Steven Johnson",
+          "reference": "Mark Steven Johnson",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Daredevil (film)",
+          "reference": "Daredevil (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Daredevil_(film)"
+    },
+    "spider-man-2002": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2002-05-03",
+          "reference": "2002-04-29, 2002-05-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Sam Raimi",
+          "reference": "Sam Raimi",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Danny Elfman",
+          "reference": "Danny Elfman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man (film)",
+          "reference": "Spider-Man (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man_(2002_film)"
+    },
+    "spider-man-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2004-06-30",
+          "reference": "2004-06-25, 2004-06-30",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Sam Raimi",
+          "reference": "Sam Raimi",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Danny Elfman",
+          "reference": "Danny Elfman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man 2",
+          "reference": "Spider-Man 2",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man_2"
+    },
+    "spider-man-3": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2007-05-04",
+          "reference": "2007-04-16, 2007-05-04",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Sam Raimi",
+          "reference": "Sam Raimi",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Christopher Young",
+          "reference": "Christopher Young, Danny Elfman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man 3",
+          "reference": "Spider-Man 3",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man_3"
+    },
+    "amazing-spider-man": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2012-07-03",
+          "reference": "2012-06-13, 2012-07-03",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Marc Webb",
+          "reference": "Marc Webb",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "James Horner",
+          "reference": "James Horner",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "The Amazing Spider-Man",
+          "reference": "The Amazing Spider-Man (film)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_(film)"
+    },
+    "amazing-spider-man-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2014-05-02",
+          "reference": "2014-03-31, 2014-05-02",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Marc Webb",
+          "reference": "Marc Webb",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Hans Zimmer",
+          "reference": "Hans Zimmer, Pharrell Williams, Johnny Marr, Mike Einziger, Junkie XL",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "The Amazing Spider-Man : Le Destin d'un héros",
+          "reference": "The Amazing Spider-Man : Le Destin d'un héros",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_2"
+    },
+    "venom": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-10-05",
+          "reference": "2018-10-01, 2018-10-05",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Ruben Fleischer",
+          "reference": "Ruben Fleischer",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Ludwig Göransson",
+          "reference": "Ludwig Göransson",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Venom (film, 2018)",
+          "reference": "Venom (film, 2018)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Venom_(2018_film)"
+    },
+    "venom-let-there-be-carnage": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-10-01",
+          "reference": "2021-09-14, 2021-10-01",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Andy Serkis",
+          "reference": "Andy Serkis",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Venom: Let There Be Carnage",
+          "reference": "Venom: Let There Be Carnage",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Venom:_Let_There_Be_Carnage"
+    },
+    "morbius": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-04-01",
+          "reference": "2022-03-10, 2022-04-01",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Daniel Espinosa",
+          "reference": "Daniel Espinosa",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Morbius (film)",
+          "reference": "Morbius (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Morbius_(film)"
+    },
+    "madame-web": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-02-14",
+          "reference": "2024-02-12, 2024-02-14",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "S. J. Clarkson",
+          "reference": "S. J. Clarkson",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Madame Web (film)",
+          "reference": "Madame Web (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Madame_Web_(film)"
+    },
+    "venom-the-last-dance": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-10-25",
+          "reference": "2024-10-21, 2024-10-25",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Kelly Marcel",
+          "reference": "Kelly Marcel",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Venom: The Last Dance",
+          "reference": "Venom: The Last Dance",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Venom:_The_Last_Dance"
+    },
+    "kraven-the-hunter": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-12-13",
+          "reference": "2024-12-13",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "J. C. Chandor",
+          "reference": "J.C. Chandor",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Kraven the Hunter (film)",
+          "reference": "Kraven the Hunter (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Kraven_the_Hunter_(film)"
+    },
+    "into-the-spider-verse": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-12-14",
+          "reference": "2018-12-01, 2018-12-14",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+          "reference": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Daniel Pemberton",
+          "reference": "Daniel Pemberton",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man : New Generation",
+          "reference": "Spider-Man: New Generation",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse"
+    },
+    "across-the-spider-verse": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2023-06-02",
+          "reference": "2023-05-30, 2023-06-02",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+          "reference": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Daniel Pemberton",
+          "reference": "Daniel Pemberton",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man : Across the Spider-Verse",
+          "reference": "Spider-Man: Across the Spider-Verse",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse"
+    },
+    "beyond-the-spider-verse": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "reference": "2027-06-18",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man : Beyond the Spider-Verse",
+          "reference": "Spider-Man: Beyond the Spider-Verse",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_Beyond_the_Spider-Verse"
+    },
+    "howard-the-duck": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1986-08-01",
+          "reference": "1986-08-01",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Willard Huyck",
+          "reference": "Willard Huyck",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Howard... une nouvelle race de héros",
+          "reference": "Howard... une nouvelle race de héros",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Howard_the_Duck_(film)"
+    },
+    "blade-1998": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1998-08-21",
+          "reference": "1998-08-21",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Stephen Norrington",
+          "reference": "Stephen Norrington",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Blade (film)",
+          "reference": "Blade (film, 1998)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Blade_(1998_film)"
+    },
+    "blade-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2002-03-22",
+          "reference": "2002-03-22",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Guillermo del Toro",
+          "reference": "Guillermo del Toro",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Blade 2",
+          "reference": "Blade 2",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Blade_II"
+    },
+    "blade-trinity": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2004-12-08",
+          "reference": "2004-12-08",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "David S. Goyer",
+          "reference": "David S. Goyer",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Blade: Trinity",
+          "reference": "Blade: Trinity",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Blade:_Trinity"
+    },
+    "hulk-2003": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2003-06-20",
+          "reference": "2003-06-20",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Ang Lee",
+          "reference": "Ang Lee",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "Danny Elfman",
+          "reference": "Danny Elfman",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Hulk (film)",
+          "reference": "Hulk (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Hulk_(film)"
+    },
+    "ghost-rider": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2007-02-16",
+          "reference": "2007-01-15, 2007-02-16",
+          "ok": true
+        },
+        {
+          "field": "réalisation",
+          "ours": "Mark Steven Johnson",
+          "reference": "Mark Steven Johnson",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Ghost Rider (film)",
+          "reference": "Ghost Rider (film)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Ghost_Rider_(2007_film)"
+    },
+    "x-men-animated-series": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1992-10-31",
+          "reference": "1992-10-31",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "5",
+          "reference": "5",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men (série télévisée d'animation)",
+          "reference": "X-Men (série télévisée d'animation)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men:_The_Animated_Series"
+    },
+    "spider-man-animated-1994": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1994-11-19",
+          "reference": "1994-11-19",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "5",
+          "reference": "5",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spider-Man, l'homme-araignée (série télévisée d'animation, 1994)",
+          "reference": "Spider-Man, l'homme-araignée",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Spider-Man:_The_Animated_Series"
+    },
+    "spectacular-spider-man": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2008-03-08",
+          "reference": "{{collapsible list|'''magazine:'''<br> July 1968 – November 1968 <br>'''(vol. 1)",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Spectacular Spider-Man",
+          "reference": "The Spectacular Spider-Man",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Spectacular_Spider-Man"
+    },
+    "avengers-emh": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2010-09-22",
+          "reference": "2010-09-22",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "2",
+          "reference": "2",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers : L'Équipe des super-héros",
+          "reference": "Avengers : L'Équipe des super-héros",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Avengers:_Earth's_Mightiest_Heroes"
+    },
+    "x-men-97": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-03-20",
+          "reference": "2024-03-20",
+          "ok": true
+        },
+        {
+          "field": "musique",
+          "ours": "The Newton Brothers",
+          "reference": "The Newton Brothers",
+          "ok": true
+        },
+        {
+          "field": "saisons",
+          "ours": "1",
+          "reference": "2",
+          "ok": false
+        },
+        {
+          "field": "épisodes",
+          "ours": "10",
+          "reference": "19",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men '97",
+          "reference": "X-Men ’97",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men_'97"
+    },
+    "marvels-spider-man-2018": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2018-09-07",
+          "reference": "2018-09-07, 2020-11-12, 2022-08-12",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Spider-Man",
+          "reference": "Marvel's Spider-Man",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Spider-Man_(video_game)"
+    },
+    "marvels-spider-man-miles-morales": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2020-11-12",
+          "reference": "2020-11-12, 2020-11-19, 2022-11-18",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Spider-Man: Miles Morales",
+          "reference": "Marvel's Spider-Man: Miles Morales",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Spider-Man:_Miles_Morales"
+    },
+    "marvels-spider-man-2": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2023-10-20",
+          "reference": "2023-10-20, 2025-01-30",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Spider-Man 2",
+          "reference": "Marvel's Spider-Man 2",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Spider-Man_2"
+    },
+    "marvels-avengers-game": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2020-09-04",
+          "reference": "{{ubl|'''PS4''', '''Stadia''', '''Windows''', '''Xbox One'''|4 September 2020|''",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Avengers",
+          "reference": "Marvel's Avengers (jeu vidéo)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Avengers_(video_game)"
+    },
+    "marvels-guardians-game": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2021-10-26",
+          "reference": "2021-10-26, 2026-11-05",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Guardians of the Galaxy",
+          "reference": "Les Gardiens de la Galaxie (jeu vidéo)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Guardians_of_the_Galaxy"
+    },
+    "marvels-midnight-suns": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2022-12-02",
+          "reference": "2022-12-02, 2023-05-11",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Midnight Suns",
+          "reference": "Marvel's Midnight Suns",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Midnight_Suns"
+    },
+    "marvel-rivals": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2024-12-06",
+          "reference": "2024-12-06, 2025-09-12",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel Rivals",
+          "reference": "Marvel Rivals",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Rivals"
+    },
+    "marvel-ultimate-alliance-3": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ok",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2019-07-19",
+          "reference": "2019-07-19",
+          "ok": true
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel Ultimate Alliance 3: The Black Order",
+          "reference": "Marvel Ultimate Alliance 3: The Black Order",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel_Ultimate_Alliance_3:_The_Black_Order"
+    },
+    "marvels-wolverine": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "reference": "2026-09-15",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Marvel's Wolverine",
+          "reference": "Marvel's Wolverine",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Marvel's_Wolverine"
+    },
+    "captain-america-comics-1": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1941-03",
+          "reference": "[[List of Captain America titles|Full list]]",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Captain America Comics",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Captain_America_Comics"
+    },
+    "fantastic-four-1": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1961-11",
+          "reference": "{{Collapsible list|'''(vol. 1)'''<br/>November 1961 – September 1996<br/>'''(vol",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Les Quatre Fantastiques",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Fantastic_Four_(comic_book)"
+    },
+    "amazing-fantasy-15": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1962-08",
+          "reference": "'''''[[Amazing Adventures]]''''' #1–6 (June 1961 – Nov. 1961)<BR>'''''Amazing Ad",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Amazing Fantasy",
+          "reference": "Amazing Fantasy",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Amazing_Fantasy"
+    },
+    "avengers-1-1963": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1963-09",
+          "reference": "'''(vol. 1)'''<br>September 1963 – September 1996<br>'''(vol. 2)'''<br>November ",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Avengers (comics)",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Avengers_(comic_book)"
+    },
+    "x-men-1-1963": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1963-09",
+          "reference": "'''(vol. 3)'''<br/>September 2010 – February 2013<br/>'''(vol. 4)'''<br/>May 201",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "X-Men",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/X-Men_(comic_book)"
+    },
+    "infinity-gauntlet": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1991-07",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "The Infinity Gauntlet",
+          "reference": "Le Gant de l'Infini",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/The_Infinity_Gauntlet"
+    },
+    "civil-war-comic": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "2006-07",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Civil War (comics)",
+          "reference": "Civil War (comics)",
+          "ok": true
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Civil_War_(comics)"
+    },
+    "secret-wars-1984": {
+      "checkedAt": "2026-11-21T21:58:58.870Z",
+      "status": "ecart",
+      "checks": [
+        {
+          "field": "date de sortie",
+          "ours": "1984-05",
+          "reference": "May 1984 – Apr. 1985",
+          "ok": false
+        },
+        {
+          "field": "article Wikipédia FR",
+          "ours": "Secret Wars",
+          "reference": "Les Guerres secrètes",
+          "ok": false
+        }
+      ],
+      "referenceUrl": "https://en.wikipedia.org/wiki/Secret_Wars"
     }
   }
 }

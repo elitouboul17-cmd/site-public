@@ -16,7 +16,8 @@
     "check-links": "tsx scripts/check-links.ts",
     "verify-data": "tsx scripts/verify-data.ts",
     "sync:tmdb": "tsx scripts/sync-tmdb.ts",
-    "db:backup": "tsx scripts/backup.ts"
+    "db:backup": "tsx scripts/backup.ts",
+    "test:e2e": "node tests/e2e.cjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",

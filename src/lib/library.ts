@@ -131,6 +131,11 @@ export function useLibrary() {
 
 export const toggleIn = (list: string[], id: string) => (list.includes(id) ? list.filter((x) => x !== id) : [id, ...list]);
 
+/** Lecture directe (hors rendu), utile dans les effets avant la fin de l'hydratation. */
+export function readLibrary(): LibraryState {
+  return read();
+}
+
 export function exportLibrary(): string {
   return JSON.stringify(read(), null, 2);
 }
