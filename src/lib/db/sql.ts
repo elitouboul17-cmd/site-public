@@ -79,6 +79,16 @@ async function createPostgres(url: string): Promise<Sql> {
   };
 }
 
+/** Pour les tests : injecte un adaptateur (ex. PostgreSQL embarqué). */
+export function setSqlForTesting(sql: Sql | null) {
+  instance = sql
+    ? import("./schema").then(async ({ migrate }) => {
+        await migrate(sql);
+        return sql;
+      })
+    : null;
+}
+
 export function getSql(): Promise<Sql> {
   if (!instance) {
     const url = process.env.DATABASE_URL;

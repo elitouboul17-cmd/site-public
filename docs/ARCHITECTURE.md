@@ -61,12 +61,15 @@ Ajouter une migration : ajouter `{ id: 2, sql: "…" }` au tableau `MIGRATIONS` 
 - En-têtes : `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`, `Referrer-Policy`, `Permissions-Policy` ; `x-powered-by` retiré.
 - Contenu externe affiché en texte brut ; images de flux chargées avec `referrerPolicy=no-referrer` ; vidéos YouTube via `youtube-nocookie.com`, chargées seulement au clic, iframe en bac à sable.
 - Site non indexé (`robots: noindex`) jusqu'à décision de publication.
+- Limite connue : pas de Content-Security-Policy stricte (Next.js nécessite des nonces pour ses scripts en ligne) ; à ajouter via un `proxy.ts` si le site devient public.
+- Le jeton d'administration saisi sur `/sources` est conservé en `sessionStorage` (effacé à la fermeture de l'onglet).
 
 ## Tests
 
 - `tests/data-integrity.test.ts` : unicité des identifiants, références croisées valides, formats de dates, aucune date « officielle » sans date, sources présentes partout.
 - `tests/classify.test.ts` : fiabilité, association, doublons, analyse des flux, `robots.txt`.
 - `tests/ingest.test.ts` : ingestion complète sur flux simulés (base SQLite temporaire) : création, filtrage, statut, regroupement, source en panne, source interdite par `robots.txt`, doublons, correction de la source, intervalle minimal.
+- `tests/postgres.test.ts` : schéma, toutes les requêtes et l'ingestion exécutés sur un vrai moteur PostgreSQL embarqué (PGlite).
 - `tests/e2e.cjs` (Playwright) : crawl de toutes les pages internes, erreurs JS, débordement mobile, favoris, mode sans spoilers, recherche, quiz, filtres persistants, sécurité de la route cron.
 
 ## Étendre l'application

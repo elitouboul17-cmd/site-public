@@ -16,7 +16,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { PRODUCTIONS } from "../src/lib/catalog";
-import { normalize } from "../src/lib/text";
+import { normalize as baseNormalize } from "../src/lib/text";
+
+const normalize = (s: string) => baseNormalize(s).replace(/[^a-z0-9 ]+/g, "").replace(/\s+/g, " ").trim();
 import { USER_AGENT } from "../src/data/sources";
 
 const OUT = path.resolve("src/data/verification.json");
@@ -82,6 +84,10 @@ function datesIn(v?: string): string[] {
   }
   // Dates en clair : « May 2, 2008 » / « 2 May 2008 »
   const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+  for (const m of v.matchAll(/\b(\d{1,2}) ([A-Z][a-z]+) (\d{4})\b/g)) {
+    const mi = MONTHS.indexOf(m[2].toLowerCase());
+    if (mi >= 0) out.push(`${m[3]}-${String(mi + 1).padStart(2, "0")}-${m[1].padStart(2, "0")}`);
+  }
   for (const m of v.matchAll(/\b([A-Z][a-z]+) (\d{1,2}), (\d{4})\b/g)) {
     const mi = MONTHS.indexOf(m[1].toLowerCase());
     if (mi >= 0) out.push(`${m[3]}-${String(mi + 1).padStart(2, "0")}-${m[2].padStart(2, "0")}`);
@@ -131,7 +137,8 @@ async function main() {
 
     const released = infoboxParam(wt, ["released", "release_date", "first_aired", "released_date", "date", "publisher_date", "pub_date"]);
     const dates = datesIn(released);
-    if (p.releaseDate || dates.length) {
+    // Les infobox de séries de comics donnent des périodes de publication : non comparable à un numéro.
+    if (p.kind !== "comic" && (p.releaseDate || dates.length)) {
       const okDate = !!p.releaseDate && dates.some((d) => d === p.releaseDate || (p.releaseDate!.length < 10 && d.startsWith(p.releaseDate!)));
       checks.push({ field: "date de sortie", ours: p.releaseDate, reference: dates.join(", ") || released?.slice(0, 80), ok: okDate });
     }
