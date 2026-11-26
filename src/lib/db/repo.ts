@@ -252,10 +252,12 @@ export interface ProductionMedia {
 }
 
 export async function listProductionMedia(): Promise<Record<string, ProductionMedia>> {
+  // Instantané versionné (npm run sync:tmdb), complété par la base si elle contient plus récent.
+  const base = (await import("@/data/tmdb-media.json")).default as Record<string, ProductionMedia>;
   try {
     const sql = await getSql();
     const rows = await sql.all<Record<string, unknown>>("SELECT * FROM production_media");
-    return Object.fromEntries(
+    return { ...base, ...Object.fromEntries(
       rows.map((r) => [
         String(r.production_id),
         {
@@ -269,9 +271,9 @@ export async function listProductionMedia(): Promise<Record<string, ProductionMe
           fetchedAt: String(r.fetched_at),
         },
       ]),
-    );
+    ) };
   } catch {
-    return {};
+    return base;
   }
 }
 

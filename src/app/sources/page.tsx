@@ -102,6 +102,15 @@ export default async function SourcesPage() {
       </section>
 
       <section>
+        <SectionTitle title="Images" />
+        <div className="panel space-y-2 p-4 text-sm text-steel-300">
+          <p><strong className="text-white">Affiches et images de fond</strong> : The Movie Database (TMDB), clé gratuite pour un usage personnel et non commercial. Ce produit utilise l'API TMDB sans être approuvé ni certifié par TMDB.</p>
+          <p><strong className="text-white">Photos des personnes</strong> : Wikimedia Commons, uniquement sous licence libre (CC BY, CC BY-SA, CC0, domaine public). L'auteur et la licence de chaque photo sont indiqués sur la fiche de la personne.</p>
+          <p><strong className="text-white">Images d'actualités</strong> : fournies par les flux des médias, affichées avec un lien vers l'article original.</p>
+        </div>
+      </section>
+
+      <section>
         <SectionTitle title="Vérification du corpus encyclopédique" />
         <div className="panel p-4 text-sm text-steel-300">
           <p>Les fiches de productions (dates, réalisation, musique, durées, saisons) sont confrontées automatiquement aux infobox de Wikipédia par <code>npm run verify-data</code>. Les écarts sont signalés sur chaque fiche, jamais corrigés automatiquement.</p>

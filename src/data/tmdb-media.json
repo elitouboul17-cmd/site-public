@@ -1,0 +1,1018 @@
+{
+  "across-the-spider-verse": {
+    "productionId": "across-the-spider-verse",
+    "provider": "tmdb",
+    "providerId": "569094",
+    "posterPath": "/hvfwCeSTgsExmz9l31dKkfR83DH.jpg",
+    "backdropPath": "/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "providerReleaseDate": "2023-05-31",
+    "fetchedAt": "2026-11-26T16:41:07.677Z"
+  },
+  "agatha-all-along": {
+    "productionId": "agatha-all-along",
+    "provider": "tmdb",
+    "providerId": "138501",
+    "posterPath": "/UaR3XTBFw0xEewWF2HaRtEVrRf.jpg",
+    "backdropPath": "/tYLXJW1sZQU09VWY1BhSVPKGIwc.jpg",
+    "providerReleaseDate": "2024-09-18",
+    "fetchedAt": "2026-11-26T16:40:54.966Z"
+  },
+  "agent-carter": {
+    "productionId": "agent-carter",
+    "provider": "tmdb",
+    "providerId": "61550",
+    "posterPath": "/7kqIsjjDMZA5GRMH5VCdQYZJqc6.jpg",
+    "backdropPath": "/MaQ7hbNsiJ30p14UgRdEnXDGMH.jpg",
+    "providerReleaseDate": "2015-01-06",
+    "fetchedAt": "2026-11-26T16:40:58.553Z"
+  },
+  "agents-of-shield": {
+    "productionId": "agents-of-shield",
+    "provider": "tmdb",
+    "providerId": "1403",
+    "posterPath": "/j6pen1MBLKbBoXrzrHSxfsd0lrC.jpg",
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "providerReleaseDate": "2013-09-24",
+    "fetchedAt": "2026-11-26T16:40:58.329Z"
+  },
+  "amazing-spider-man": {
+    "productionId": "amazing-spider-man",
+    "provider": "tmdb",
+    "providerId": "1930",
+    "posterPath": "/gsIkMf1VErbF0xtrgXEZXqLgsBG.jpg",
+    "backdropPath": "/sxskOU71CO8LaNX2LOtjYFUtKv7.jpg",
+    "providerReleaseDate": "2012-06-23",
+    "fetchedAt": "2026-11-26T16:41:05.617Z"
+  },
+  "amazing-spider-man-2": {
+    "productionId": "amazing-spider-man-2",
+    "provider": "tmdb",
+    "providerId": "102382",
+    "posterPath": "/rZ47R21ZGNTGr5ORxdMmxQWdcFn.jpg",
+    "backdropPath": "/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
+    "providerReleaseDate": "2014-04-16",
+    "fetchedAt": "2026-11-26T16:41:05.845Z"
+  },
+  "ant-man": {
+    "productionId": "ant-man",
+    "provider": "tmdb",
+    "providerId": "102899",
+    "posterPath": "/hAH2Rt2WvfMBK2tZDLMNuUTUwxG.jpg",
+    "backdropPath": "/1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
+    "providerReleaseDate": "2015-07-14",
+    "fetchedAt": "2026-11-26T16:40:46.606Z"
+  },
+  "ant-man-and-the-wasp": {
+    "productionId": "ant-man-and-the-wasp",
+    "provider": "tmdb",
+    "providerId": "363088",
+    "posterPath": "/r3Vapr4sdXOhHBThTNtfuijKe5V.jpg",
+    "backdropPath": "/iYdgEUE2W2aJkgqfSjf1x3gFfuV.jpg",
+    "providerReleaseDate": "2018-07-04",
+    "fetchedAt": "2026-11-26T16:40:48.590Z"
+  },
+  "ant-man-quantumania": {
+    "productionId": "ant-man-quantumania",
+    "provider": "tmdb",
+    "providerId": "640146",
+    "posterPath": "/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg",
+    "backdropPath": "/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg",
+    "providerReleaseDate": "2023-02-15",
+    "fetchedAt": "2026-11-26T16:40:53.533Z"
+  },
+  "avengers": {
+    "productionId": "avengers",
+    "provider": "tmdb",
+    "providerId": "24428",
+    "posterPath": "/ylsAO88v2tF0iXRFojPa0UaAJf1.jpg",
+    "backdropPath": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+    "providerReleaseDate": "2012-04-25",
+    "fetchedAt": "2026-11-26T16:40:45.158Z"
+  },
+  "avengers-age-of-ultron": {
+    "productionId": "avengers-age-of-ultron",
+    "provider": "tmdb",
+    "providerId": "99861",
+    "posterPath": "/A0tw88n1byyR2vodhJMlFPQGQgF.jpg",
+    "backdropPath": "/kIBK5SKwgqIIuRKhhWrJn3XkbPq.jpg",
+    "providerReleaseDate": "2015-04-22",
+    "fetchedAt": "2026-11-26T16:40:46.377Z"
+  },
+  "avengers-doomsday": {
+    "productionId": "avengers-doomsday",
+    "provider": "tmdb",
+    "providerId": "1003596",
+    "posterPath": "/cCUxE6EJ9zi1YfdsxU8rWLgqQnN.jpg",
+    "backdropPath": "/rObL4of4eFA8yWaN9pRFo9aOVNi.jpg",
+    "providerReleaseDate": "2026-12-16",
+    "fetchedAt": "2026-11-26T16:40:57.597Z"
+  },
+  "avengers-emh": {
+    "productionId": "avengers-emh",
+    "provider": "tmdb",
+    "providerId": "33623",
+    "posterPath": "/r1JDhMrqCOZKh7lc0vQlRYQ46cE.jpg",
+    "backdropPath": "/vgPDKfOerEyF260CvozVEWj9T8n.jpg",
+    "providerReleaseDate": "2010-10-20",
+    "fetchedAt": "2026-11-26T16:41:10.352Z"
+  },
+  "avengers-endgame": {
+    "productionId": "avengers-endgame",
+    "provider": "tmdb",
+    "providerId": "299534",
+    "posterPath": "/qXekTarZKRrVfnBwhS6xevt6BGU.jpg",
+    "backdropPath": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "providerReleaseDate": "2019-04-24",
+    "fetchedAt": "2026-11-26T16:40:49.040Z"
+  },
+  "avengers-infinity-war": {
+    "productionId": "avengers-infinity-war",
+    "provider": "tmdb",
+    "providerId": "299536",
+    "posterPath": "/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg",
+    "backdropPath": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+    "providerReleaseDate": "2018-04-25",
+    "fetchedAt": "2026-11-26T16:40:48.364Z"
+  },
+  "avengers-secret-wars": {
+    "productionId": "avengers-secret-wars",
+    "provider": "tmdb",
+    "providerId": "1003598",
+    "posterPath": "/f0YBuh4hyiAheXhh4JnJWoKi9g5.jpg",
+    "backdropPath": "/rytc6Lf4447C0CDncwFa4gxe0vY.jpg",
+    "providerReleaseDate": "2027-12-15",
+    "fetchedAt": "2026-11-26T16:40:57.861Z"
+  },
+  "beyond-the-spider-verse": {
+    "productionId": "beyond-the-spider-verse",
+    "provider": "tmdb",
+    "providerId": "911916",
+    "posterPath": "/9KAe39xqyZnv9J4W3DRGdQqX82h.jpg",
+    "backdropPath": "/fUcT8bcJD3SZsy84Z9QRP6kOS7v.jpg",
+    "providerReleaseDate": "2027-06-16",
+    "fetchedAt": "2026-11-26T16:41:07.911Z"
+  },
+  "black-panther": {
+    "productionId": "black-panther",
+    "provider": "tmdb",
+    "providerId": "284054",
+    "posterPath": "/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg",
+    "backdropPath": "/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
+    "providerReleaseDate": "2018-02-13",
+    "fetchedAt": "2026-11-26T16:40:48.133Z"
+  },
+  "black-panther-wakanda-forever": {
+    "productionId": "black-panther-wakanda-forever",
+    "provider": "tmdb",
+    "providerId": "505642",
+    "posterPath": "/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg",
+    "backdropPath": "/83H0C66AcvkwpG2738VCTHMY9uv.jpg",
+    "providerReleaseDate": "2022-11-09",
+    "fetchedAt": "2026-11-26T16:40:53.023Z"
+  },
+  "black-widow": {
+    "productionId": "black-widow",
+    "provider": "tmdb",
+    "providerId": "497698",
+    "posterPath": "/tIdq9lGrbSsq3RkgB9r0g0vYTbl.jpg",
+    "backdropPath": "/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
+    "providerReleaseDate": "2021-07-07",
+    "fetchedAt": "2026-11-26T16:40:50.220Z"
+  },
+  "blade-1998": {
+    "productionId": "blade-1998",
+    "provider": "tmdb",
+    "providerId": "36647",
+    "posterPath": "/1E1y8stLqgLEdvT3bEQscL1kiFf.jpg",
+    "backdropPath": "/7NKfxJrQn053UJeLftlx4m4NTzo.jpg",
+    "providerReleaseDate": "1998-08-21",
+    "fetchedAt": "2026-11-26T16:41:08.375Z"
+  },
+  "blade-2": {
+    "productionId": "blade-2",
+    "provider": "tmdb",
+    "providerId": "36586",
+    "posterPath": "/wAn6VYamKbnOtfyTZ6arVtkMzDv.jpg",
+    "backdropPath": "/86b0NGY1i0bt3ckhkcHxiCSMxk1.jpg",
+    "providerReleaseDate": "2002-03-22",
+    "fetchedAt": "2026-11-26T16:41:08.619Z"
+  },
+  "blade-trinity": {
+    "productionId": "blade-trinity",
+    "provider": "tmdb",
+    "providerId": "36648",
+    "posterPath": "/bA9HTKZljF80Q0tmtYcjbQ0viwg.jpg",
+    "backdropPath": "/63eAFgJtN6ZTyFFzlAOoZLhlYqc.jpg",
+    "providerReleaseDate": "2004-12-08",
+    "fetchedAt": "2026-11-26T16:41:08.846Z"
+  },
+  "captain-america-brave-new-world": {
+    "productionId": "captain-america-brave-new-world",
+    "provider": "tmdb",
+    "providerId": "822119",
+    "posterPath": "/wDRXmiAEJdhNIcuetM4016fOCx8.jpg",
+    "backdropPath": "/ce3prrjh9ZehEl5JinNqr4jIeaB.jpg",
+    "providerReleaseDate": "2025-02-12",
+    "fetchedAt": "2026-11-26T16:40:55.449Z"
+  },
+  "captain-america-civil-war": {
+    "productionId": "captain-america-civil-war",
+    "provider": "tmdb",
+    "providerId": "271110",
+    "posterPath": "/i2nc9IAP1xRWoa3MgeR7ldsshkV.jpg",
+    "backdropPath": "/7FWlcZq3r6525LWOcvO9kNWurN1.jpg",
+    "providerReleaseDate": "2016-04-27",
+    "fetchedAt": "2026-11-26T16:40:46.867Z"
+  },
+  "captain-america-first-avenger": {
+    "productionId": "captain-america-first-avenger",
+    "provider": "tmdb",
+    "providerId": "1771",
+    "posterPath": "/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg",
+    "backdropPath": "/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg",
+    "providerReleaseDate": "2011-07-22",
+    "fetchedAt": "2026-11-26T16:40:44.932Z"
+  },
+  "captain-america-winter-soldier": {
+    "productionId": "captain-america-winter-soldier",
+    "provider": "tmdb",
+    "providerId": "100402",
+    "posterPath": "/n3Xa8g1sWrUVUal6zk0OoC9ARo1.jpg",
+    "backdropPath": "/5YAssBZnyFJ8uAUf6iWNH1o0MjO.jpg",
+    "providerReleaseDate": "2014-03-20",
+    "fetchedAt": "2026-11-26T16:40:45.909Z"
+  },
+  "captain-marvel": {
+    "productionId": "captain-marvel",
+    "provider": "tmdb",
+    "providerId": "299537",
+    "posterPath": "/aRJAoQ6mqPHAKXjP3CqNyLC8FAh.jpg",
+    "backdropPath": "/qAzYK4YPSWDc7aa4R43LcwRIAyb.jpg",
+    "providerReleaseDate": "2019-03-06",
+    "fetchedAt": "2026-11-26T16:40:48.821Z"
+  },
+  "cloak-and-dagger": {
+    "productionId": "cloak-and-dagger",
+    "provider": "tmdb",
+    "providerId": "66190",
+    "posterPath": "/ceyAU7dwMYUk16gLOEO7DowITPe.jpg",
+    "backdropPath": "/4amkATUf2mh5QL9OQ3WmHQqx9wk.jpg",
+    "providerReleaseDate": "2018-06-07",
+    "fetchedAt": "2026-11-26T16:41:00.740Z"
+  },
+  "daredevil-2003": {
+    "productionId": "daredevil-2003",
+    "provider": "tmdb",
+    "providerId": "9480",
+    "posterPath": "/kupZzKFhFApvNjtBVB7JlQ6MjeI.jpg",
+    "backdropPath": "/e7jIX02GiSwsgkU5lMpeKjwq2Zc.jpg",
+    "providerReleaseDate": "2003-02-14",
+    "fetchedAt": "2026-11-26T16:41:04.716Z"
+  },
+  "daredevil-born-again": {
+    "productionId": "daredevil-born-again",
+    "provider": "tmdb",
+    "providerId": "202555",
+    "posterPath": "/7UMmvMvhSw1jBgdz0NzLo9pa93g.jpg",
+    "backdropPath": "/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg",
+    "providerReleaseDate": "2025-03-04",
+    "fetchedAt": "2026-11-26T16:40:55.674Z"
+  },
+  "daredevil-netflix": {
+    "productionId": "daredevil-netflix",
+    "provider": "tmdb",
+    "providerId": "61889",
+    "posterPath": "/jwhi2cBENpdMYJUkmVTJ6Fcrokf.jpg",
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "providerReleaseDate": "2015-04-10",
+    "fetchedAt": "2026-11-26T16:40:58.792Z"
+  },
+  "dark-phoenix": {
+    "productionId": "dark-phoenix",
+    "provider": "tmdb",
+    "providerId": "320288",
+    "posterPath": "/iIsMHA3gX9E7ceNgvjfu99vTF7v.jpg",
+    "backdropPath": "/j9ZV0UOagjQ4seR8Hd5N6JfwdTP.jpg",
+    "providerReleaseDate": "2019-06-05",
+    "fetchedAt": "2026-11-26T16:41:03.554Z"
+  },
+  "deadpool": {
+    "productionId": "deadpool",
+    "provider": "tmdb",
+    "providerId": "293660",
+    "posterPath": "/z5VjcCEioj2c2dvxmoqBW0Rj8Xj.jpg",
+    "backdropPath": "/rFj9IKlL75B2pXhZA60jkNWvxeW.jpg",
+    "providerReleaseDate": "2016-02-09",
+    "fetchedAt": "2026-11-26T16:41:02.603Z"
+  },
+  "deadpool-2": {
+    "productionId": "deadpool-2",
+    "provider": "tmdb",
+    "providerId": "383498",
+    "posterPath": "/ybjooZMNlRBaFNfs52XqONc4Xyw.jpg",
+    "backdropPath": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
+    "providerReleaseDate": "2018-05-15",
+    "fetchedAt": "2026-11-26T16:41:03.318Z"
+  },
+  "deadpool-and-wolverine": {
+    "productionId": "deadpool-and-wolverine",
+    "provider": "tmdb",
+    "providerId": "533535",
+    "posterPath": "/7CtRdKd5hQPB2b1apKCqxxQUKSf.jpg",
+    "backdropPath": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+    "providerReleaseDate": "2024-07-24",
+    "fetchedAt": "2026-11-26T16:40:54.739Z"
+  },
+  "doctor-strange": {
+    "productionId": "doctor-strange",
+    "provider": "tmdb",
+    "providerId": "284052",
+    "posterPath": "/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg",
+    "backdropPath": "/kkoiH8ZWxJ9WSAjOadGtuHUQxbm.jpg",
+    "providerReleaseDate": "2016-10-25",
+    "fetchedAt": "2026-11-26T16:40:47.097Z"
+  },
+  "doctor-strange-multiverse-of-madness": {
+    "productionId": "doctor-strange-multiverse-of-madness",
+    "provider": "tmdb",
+    "providerId": "453395",
+    "posterPath": "/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
+    "backdropPath": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+    "providerReleaseDate": "2022-05-04",
+    "fetchedAt": "2026-11-26T16:40:51.853Z"
+  },
+  "echo": {
+    "productionId": "echo",
+    "provider": "tmdb",
+    "providerId": "122226",
+    "posterPath": "/g7Y8pX0yndEpGAa0v4ZGpGuMrF0.jpg",
+    "backdropPath": "/u3ySnWqSjM3jedYgJZTR7RWRDDm.jpg",
+    "providerReleaseDate": "2024-01-09",
+    "fetchedAt": "2026-11-26T16:40:54.459Z"
+  },
+  "eternals": {
+    "productionId": "eternals",
+    "provider": "tmdb",
+    "providerId": "524434",
+    "posterPath": "/vV7TrS7PNRZJHCxNmiYN1SU7s1w.jpg",
+    "backdropPath": "/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+    "providerReleaseDate": "2021-11-03",
+    "fetchedAt": "2026-11-26T16:40:50.920Z"
+  },
+  "eyes-of-wakanda": {
+    "productionId": "eyes-of-wakanda",
+    "provider": "tmdb",
+    "providerId": "241388",
+    "posterPath": "/prOf6CDhKfHVfk70kPVKWVIpJJ8.jpg",
+    "backdropPath": "/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+    "providerReleaseDate": "2025-08-01",
+    "fetchedAt": "2026-11-26T16:40:56.387Z"
+  },
+  "falcon-and-the-winter-soldier": {
+    "productionId": "falcon-and-the-winter-soldier",
+    "provider": "tmdb",
+    "providerId": "88396",
+    "posterPath": "/6NrUwEWDxZI2XffOnw3nuibukmX.jpg",
+    "backdropPath": "/aTjbqMONy77fHJrIYu14g1F0d5h.jpg",
+    "providerReleaseDate": "2021-03-19",
+    "fetchedAt": "2026-11-26T16:40:49.770Z"
+  },
+  "fant4stic": {
+    "productionId": "fant4stic",
+    "provider": "tmdb",
+    "providerId": "166424",
+    "posterPath": "/aVGL67lLyUJmmpgmrsgRDkDY8Nm.jpg",
+    "backdropPath": "/or5kDR8Ve3TtuPSdEf1X5NdQHyz.jpg",
+    "providerReleaseDate": "2015-08-05",
+    "fetchedAt": "2026-11-26T16:41:04.486Z"
+  },
+  "fantastic-four-2005": {
+    "productionId": "fantastic-four-2005",
+    "provider": "tmdb",
+    "providerId": "9738",
+    "posterPath": "/msISNqhfehAE3xBlIdwK5tBjiev.jpg",
+    "backdropPath": "/qq9ELjoyllBUMkGisZvcj0fCd43.jpg",
+    "providerReleaseDate": "2005-06-29",
+    "fetchedAt": "2026-11-26T16:41:04.025Z"
+  },
+  "fantastic-four-first-steps": {
+    "productionId": "fantastic-four-first-steps",
+    "provider": "tmdb",
+    "providerId": "617126",
+    "posterPath": "/rNc4KARs6fVa4axzvuv3NfUiNy1.jpg",
+    "backdropPath": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+    "providerReleaseDate": "2025-07-23",
+    "fetchedAt": "2026-11-26T16:40:56.901Z"
+  },
+  "fantastic-four-silver-surfer": {
+    "productionId": "fantastic-four-silver-surfer",
+    "provider": "tmdb",
+    "providerId": "1979",
+    "posterPath": "/9Ejo1jwcq4T3CtB2fbUd2qLZOS6.jpg",
+    "backdropPath": "/o2wYH40zW0JIYiYUTu6L4gsNy7E.jpg",
+    "providerReleaseDate": "2007-06-13",
+    "fetchedAt": "2026-11-26T16:41:04.261Z"
+  },
+  "ghost-rider": {
+    "productionId": "ghost-rider",
+    "provider": "tmdb",
+    "providerId": "1250",
+    "posterPath": "/7kSRmdf80BART95tsOhuZkcmde6.jpg",
+    "backdropPath": "/zbV32WKHFuEYLXLTpr0rmVjQn11.jpg",
+    "providerReleaseDate": "2007-01-15",
+    "fetchedAt": "2026-11-26T16:41:09.296Z"
+  },
+  "guardians-holiday-special": {
+    "productionId": "guardians-holiday-special",
+    "provider": "tmdb",
+    "providerId": "774752",
+    "posterPath": "/cF3E6CrCm3NUy5PDRBbGyXRChYb.jpg",
+    "backdropPath": "/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "providerReleaseDate": "2022-11-24",
+    "fetchedAt": "2026-11-26T16:40:53.284Z"
+  },
+  "guardians-of-the-galaxy": {
+    "productionId": "guardians-of-the-galaxy",
+    "provider": "tmdb",
+    "providerId": "118340",
+    "posterPath": "/9a6fGeSV5kffyNPPMWCPhLOhLdJ.jpg",
+    "backdropPath": "/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg",
+    "providerReleaseDate": "2014-07-30",
+    "fetchedAt": "2026-11-26T16:40:46.138Z"
+  },
+  "guardians-of-the-galaxy-vol-2": {
+    "productionId": "guardians-of-the-galaxy-vol-2",
+    "provider": "tmdb",
+    "providerId": "283995",
+    "posterPath": "/eJz44lc3IaM68BkJtIkm4ia9xpZ.jpg",
+    "backdropPath": "/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+    "providerReleaseDate": "2017-04-25",
+    "fetchedAt": "2026-11-26T16:40:47.369Z"
+  },
+  "guardians-of-the-galaxy-vol-3": {
+    "productionId": "guardians-of-the-galaxy-vol-3",
+    "provider": "tmdb",
+    "providerId": "447365",
+    "posterPath": "/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
+    "backdropPath": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+    "providerReleaseDate": "2023-05-03",
+    "fetchedAt": "2026-11-26T16:40:53.768Z"
+  },
+  "hawkeye": {
+    "productionId": "hawkeye",
+    "provider": "tmdb",
+    "providerId": "88329",
+    "posterPath": "/cybZ7FoeBoBJPieKvSp4wh2yCMR.jpg",
+    "backdropPath": "/uHESULlKh7VSc0MRcqfyIf9Alk4.jpg",
+    "providerReleaseDate": "2021-11-24",
+    "fetchedAt": "2026-11-26T16:40:51.151Z"
+  },
+  "howard-the-duck": {
+    "productionId": "howard-the-duck",
+    "provider": "tmdb",
+    "providerId": "10658",
+    "posterPath": "/nsvOlGOU7jil3v2PgVeAuW41EMU.jpg",
+    "backdropPath": "/3KQe8Vzma7ZAYE25mJjgIG4Gj5e.jpg",
+    "providerReleaseDate": "1986-08-01",
+    "fetchedAt": "2026-11-26T16:41:08.152Z"
+  },
+  "hulk-2003": {
+    "productionId": "hulk-2003",
+    "provider": "tmdb",
+    "providerId": "1927",
+    "posterPath": "/9Vdwl3KGZgnhiTCg2YnSKMyG3Vn.jpg",
+    "backdropPath": "/8vQBXqDbb30qNpBcNYwTesSg75.jpg",
+    "providerReleaseDate": "2003-06-19",
+    "fetchedAt": "2026-11-26T16:41:09.065Z"
+  },
+  "incredible-hulk": {
+    "productionId": "incredible-hulk",
+    "provider": "tmdb",
+    "providerId": "1724",
+    "posterPath": "/cImKVGUiEnwLsNUyoMA0a0na2y5.jpg",
+    "backdropPath": "/xfBnQ4mgf1jYZsscJGJjr6ce0Ar.jpg",
+    "providerReleaseDate": "2008-06-12",
+    "fetchedAt": "2026-11-26T16:40:44.221Z"
+  },
+  "inhumans": {
+    "productionId": "inhumans",
+    "provider": "tmdb",
+    "providerId": "68716",
+    "posterPath": "/iDZR1adHa2w9fyYHLGbyaasIaw7.jpg",
+    "backdropPath": "/5W9YCPMDF5TCudct2guf6b8iRFz.jpg",
+    "providerReleaseDate": "2017-09-29",
+    "fetchedAt": "2026-11-26T16:41:00.265Z"
+  },
+  "into-the-spider-verse": {
+    "productionId": "into-the-spider-verse",
+    "provider": "tmdb",
+    "providerId": "324857",
+    "posterPath": "/3bSWpsB2PqoTrJhW9cM6tJMDxIm.jpg",
+    "backdropPath": "/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
+    "providerReleaseDate": "2018-12-06",
+    "fetchedAt": "2026-11-26T16:41:07.434Z"
+  },
+  "iron-fist": {
+    "productionId": "iron-fist",
+    "provider": "tmdb",
+    "providerId": "62127",
+    "posterPath": "/v6qcpqlpyRqZzmIehW3eOssTW5K.jpg",
+    "backdropPath": "/cuckn6IFp9OKu9H8AgD0iEANxhc.jpg",
+    "providerReleaseDate": "2017-03-17",
+    "fetchedAt": "2026-11-26T16:40:59.494Z"
+  },
+  "iron-man": {
+    "productionId": "iron-man",
+    "provider": "tmdb",
+    "providerId": "1726",
+    "posterPath": "/uZrsDJkn0PPnGc51fQhtCqwPPVM.jpg",
+    "backdropPath": "/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+    "providerReleaseDate": "2008-04-30",
+    "fetchedAt": "2026-11-26T16:40:43.967Z"
+  },
+  "iron-man-2": {
+    "productionId": "iron-man-2",
+    "provider": "tmdb",
+    "providerId": "10138",
+    "posterPath": "/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
+    "backdropPath": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
+    "providerReleaseDate": "2010-04-28",
+    "fetchedAt": "2026-11-26T16:40:44.472Z"
+  },
+  "iron-man-3": {
+    "productionId": "iron-man-3",
+    "provider": "tmdb",
+    "providerId": "68721",
+    "posterPath": "/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
+    "backdropPath": "/iVped1djsF0tvGkvnHbzsE3ZPTF.jpg",
+    "providerReleaseDate": "2013-04-18",
+    "fetchedAt": "2026-11-26T16:40:45.388Z"
+  },
+  "ironheart": {
+    "productionId": "ironheart",
+    "provider": "tmdb",
+    "providerId": "114471",
+    "posterPath": "/dtpiECNwAeLnGJSU3HTWhcQGHk1.jpg",
+    "backdropPath": "/vno2LrEQr3lTOk3U1G1ihZsy64b.jpg",
+    "providerReleaseDate": "2025-06-24",
+    "fetchedAt": "2026-11-26T16:40:56.153Z"
+  },
+  "jessica-jones": {
+    "productionId": "jessica-jones",
+    "provider": "tmdb",
+    "providerId": "38472",
+    "posterPath": "/d8OS8nKmv45BjGXsWTOxRdiFm1X.jpg",
+    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg",
+    "providerReleaseDate": "2015-11-20",
+    "fetchedAt": "2026-11-26T16:40:59.023Z"
+  },
+  "kraven-the-hunter": {
+    "productionId": "kraven-the-hunter",
+    "provider": "tmdb",
+    "providerId": "539972",
+    "posterPath": "/bwhKUzPtwtJ00CGv67IEXmS2WaM.jpg",
+    "backdropPath": "/bGGjyPqtNc8hhGkPo8W8D8t90bW.jpg",
+    "providerReleaseDate": "2024-12-11",
+    "fetchedAt": "2026-11-26T16:41:07.211Z"
+  },
+  "logan": {
+    "productionId": "logan",
+    "provider": "tmdb",
+    "providerId": "263115",
+    "posterPath": "/sUYRG0ZGck9SYvMkTNcNibdE8M6.jpg",
+    "backdropPath": "/4DZxWNSAyksN6N3JkvpJ53Yq6zU.jpg",
+    "providerReleaseDate": "2017-02-28",
+    "fetchedAt": "2026-11-26T16:41:03.094Z"
+  },
+  "loki": {
+    "productionId": "loki",
+    "provider": "tmdb",
+    "providerId": "84958",
+    "posterPath": "/zNwEwSXojMrQapZHQx5fO8iph4R.jpg",
+    "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg",
+    "providerReleaseDate": "2021-06-09",
+    "fetchedAt": "2026-11-26T16:40:49.992Z"
+  },
+  "luke-cage": {
+    "productionId": "luke-cage",
+    "provider": "tmdb",
+    "providerId": "62126",
+    "posterPath": "/whnbD6LEjHenvda3A2cV2Vky531.jpg",
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "providerReleaseDate": "2016-09-30",
+    "fetchedAt": "2026-11-26T16:40:59.257Z"
+  },
+  "madame-web": {
+    "productionId": "madame-web",
+    "provider": "tmdb",
+    "providerId": "634492",
+    "posterPath": "/AgavrwM5k9CWfw88CAf1jfbPDbv.jpg",
+    "backdropPath": "/pwGmXVKUgKN13psUjlhC9zBcq1o.jpg",
+    "providerReleaseDate": "2024-02-14",
+    "fetchedAt": "2026-11-26T16:41:06.751Z"
+  },
+  "marvel-zombies": {
+    "productionId": "marvel-zombies",
+    "provider": "tmdb",
+    "providerId": "138505",
+    "posterPath": "/9CbKyXIbDKBSKKs7BOFnMiJxWal.jpg",
+    "backdropPath": "/lxQMxqao3vs2ehxESrkQU6acU86.jpg",
+    "providerReleaseDate": "2025-09-24",
+    "fetchedAt": "2026-11-26T16:40:56.627Z"
+  },
+  "moon-knight": {
+    "productionId": "moon-knight",
+    "provider": "tmdb",
+    "providerId": "92749",
+    "posterPath": "/xrkDlkL6u26DLeBw2Cao8pYtrYH.jpg",
+    "backdropPath": "/1uegR4uAxRxiMyX4nQnpzbXhrTw.jpg",
+    "providerReleaseDate": "2022-03-30",
+    "fetchedAt": "2026-11-26T16:40:51.623Z"
+  },
+  "morbius": {
+    "productionId": "morbius",
+    "provider": "tmdb",
+    "providerId": "526896",
+    "posterPath": "/xBoIe0eX9UuSSPe5Qt6KXIQOd3I.jpg",
+    "backdropPath": "/jzWT0zd8U77fqWg5WgUfYaMzSFz.jpg",
+    "providerReleaseDate": "2022-03-30",
+    "fetchedAt": "2026-11-26T16:41:06.528Z"
+  },
+  "ms-marvel": {
+    "productionId": "ms-marvel",
+    "provider": "tmdb",
+    "providerId": "92782",
+    "posterPath": "/3x1eRyuz2NOOSXODDcDl9EjGRQ.jpg",
+    "backdropPath": "/mfcLUWASJghU8MTNK38eYktfE83.jpg",
+    "providerReleaseDate": "2022-06-08",
+    "fetchedAt": "2026-11-26T16:40:52.080Z"
+  },
+  "runaways": {
+    "productionId": "runaways",
+    "provider": "tmdb",
+    "providerId": "67466",
+    "posterPath": "/di2HQ7FsWv2xCiMPFh3VUOFXF8P.jpg",
+    "backdropPath": "/pHURd96EW167jUd2Jf8XpgTiLJV.jpg",
+    "providerReleaseDate": "2017-11-21",
+    "fetchedAt": "2026-11-26T16:41:00.502Z"
+  },
+  "secret-invasion": {
+    "productionId": "secret-invasion",
+    "provider": "tmdb",
+    "providerId": "114472",
+    "posterPath": "/AbqvJTbFEOmL8vHk54lVolqQg8Y.jpg",
+    "backdropPath": "/6mOK9j99OFlxGc3ird2jWUeUha9.jpg",
+    "providerReleaseDate": "2023-06-21",
+    "fetchedAt": "2026-11-26T16:40:53.995Z"
+  },
+  "shang-chi": {
+    "productionId": "shang-chi",
+    "provider": "tmdb",
+    "providerId": "566525",
+    "posterPath": "/g54eUtuCTAOQaNlVpr7Kpr7sVoH.jpg",
+    "backdropPath": "/r7K6Xt0RX4Mw0cAbZVw5cyb1Tux.jpg",
+    "providerReleaseDate": "2021-09-01",
+    "fetchedAt": "2026-11-26T16:40:50.685Z"
+  },
+  "she-hulk": {
+    "productionId": "she-hulk",
+    "provider": "tmdb",
+    "providerId": "92783",
+    "posterPath": "/poWy1hDzaIFv6UaYtFDNcNfiM2C.jpg",
+    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg",
+    "providerReleaseDate": "2022-08-18",
+    "fetchedAt": "2026-11-26T16:40:52.547Z"
+  },
+  "spectacular-spider-man": {
+    "productionId": "spectacular-spider-man",
+    "provider": "tmdb",
+    "providerId": "3854",
+    "posterPath": "/dCNxOhXT7c4lqYuRpdM3m8s9XDp.jpg",
+    "backdropPath": "/fypGcrQCyb9vQ7L8AM6PHCjQSBC.jpg",
+    "providerReleaseDate": "2008-03-08",
+    "fetchedAt": "2026-11-26T16:41:10.122Z"
+  },
+  "spider-man-2": {
+    "productionId": "spider-man-2",
+    "provider": "tmdb",
+    "providerId": "558",
+    "posterPath": "/m8X5HdADsW5YdmVNjwTOArMOUoL.jpg",
+    "backdropPath": "/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+    "providerReleaseDate": "2004-06-25",
+    "fetchedAt": "2026-11-26T16:41:05.166Z"
+  },
+  "spider-man-2002": {
+    "productionId": "spider-man-2002",
+    "provider": "tmdb",
+    "providerId": "557",
+    "posterPath": "/pNz1NREgddPdlzytlR8mW4B26fW.jpg",
+    "backdropPath": "/jHxCeXnSchAuwHnmVatTgqMYdX8.jpg",
+    "providerReleaseDate": "2002-05-01",
+    "fetchedAt": "2026-11-26T16:41:04.942Z"
+  },
+  "spider-man-3": {
+    "productionId": "spider-man-3",
+    "provider": "tmdb",
+    "providerId": "559",
+    "posterPath": "/4SBTOPWMM3My5nDIlpNHt6dg78d.jpg",
+    "backdropPath": "/FfAU0PUs8AJkMU2VbkVNFtRXR4.jpg",
+    "providerReleaseDate": "2007-05-01",
+    "fetchedAt": "2026-11-26T16:41:05.391Z"
+  },
+  "spider-man-animated-1994": {
+    "productionId": "spider-man-animated-1994",
+    "provider": "tmdb",
+    "providerId": "888",
+    "posterPath": "/nh3nyDdLJf1WQN2RG6VK9TTKjhp.jpg",
+    "backdropPath": "/tszlsbfyTOPSZe2z6K4mwHtcnmI.jpg",
+    "providerReleaseDate": "1994-11-19",
+    "fetchedAt": "2026-11-26T16:41:09.806Z"
+  },
+  "spider-man-brand-new-day": {
+    "productionId": "spider-man-brand-new-day",
+    "provider": "tmdb",
+    "providerId": "969681",
+    "posterPath": "/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
+    "backdropPath": "/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
+    "providerReleaseDate": "2026-07-29",
+    "fetchedAt": "2026-11-26T16:40:57.363Z"
+  },
+  "spider-man-far-from-home": {
+    "productionId": "spider-man-far-from-home",
+    "provider": "tmdb",
+    "providerId": "429617",
+    "posterPath": "/xVYGzjMaHVwNQ9STT5ZXcz7knsB.jpg",
+    "backdropPath": "/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
+    "providerReleaseDate": "2019-06-28",
+    "fetchedAt": "2026-11-26T16:40:49.267Z"
+  },
+  "spider-man-homecoming": {
+    "productionId": "spider-man-homecoming",
+    "provider": "tmdb",
+    "providerId": "315635",
+    "posterPath": "/wFNNv1ZHglNdXJLYiEgpLY5sa9S.jpg",
+    "backdropPath": "/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+    "providerReleaseDate": "2017-07-05",
+    "fetchedAt": "2026-11-26T16:40:47.682Z"
+  },
+  "spider-man-no-way-home": {
+    "productionId": "spider-man-no-way-home",
+    "provider": "tmdb",
+    "providerId": "634649",
+    "posterPath": "/jwfDFqzxBkXC5bERBZrCEfK9iii.jpg",
+    "backdropPath": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+    "providerReleaseDate": "2021-12-15",
+    "fetchedAt": "2026-11-26T16:40:51.389Z"
+  },
+  "the-defenders": {
+    "productionId": "the-defenders",
+    "provider": "tmdb",
+    "providerId": "62285",
+    "posterPath": "/k8UOUmPzCHrflLHxvNhogsJGo8D.jpg",
+    "backdropPath": "/ycAWXhAhyaE7g3JBAaierK4LgNg.jpg",
+    "providerReleaseDate": "2017-08-18",
+    "fetchedAt": "2026-11-26T16:40:59.730Z"
+  },
+  "the-marvels": {
+    "productionId": "the-marvels",
+    "provider": "tmdb",
+    "providerId": "609681",
+    "posterPath": "/mqAQO6j5gkq6iwCXNbXpzf0RXBU.jpg",
+    "backdropPath": "/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg",
+    "providerReleaseDate": "2023-11-08",
+    "fetchedAt": "2026-11-26T16:40:54.227Z"
+  },
+  "the-new-mutants": {
+    "productionId": "the-new-mutants",
+    "provider": "tmdb",
+    "providerId": "340102",
+    "posterPath": "/aYHaR3FhKjipcy499YjCPRv4vcz.jpg",
+    "backdropPath": "/1MoeNacOltBWojkStjhT3svBTOK.jpg",
+    "providerReleaseDate": "2020-08-26",
+    "fetchedAt": "2026-11-26T16:41:03.790Z"
+  },
+  "the-punisher-netflix": {
+    "productionId": "the-punisher-netflix",
+    "provider": "tmdb",
+    "providerId": "67178",
+    "posterPath": "/ioWV96X8lFnjO8PPAl6ayfZGjkM.jpg",
+    "backdropPath": "/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg",
+    "providerReleaseDate": "2017-11-17",
+    "fetchedAt": "2026-11-26T16:41:00.010Z"
+  },
+  "the-wolverine": {
+    "productionId": "the-wolverine",
+    "provider": "tmdb",
+    "providerId": "76170",
+    "posterPath": "/7OHkz1Y50UsZovKJ3r0q7nTvOxF.jpg",
+    "backdropPath": "/bEAQfLTykGg232kJogBlxRYaRqU.jpg",
+    "providerReleaseDate": "2013-07-24",
+    "fetchedAt": "2026-11-26T16:41:02.139Z"
+  },
+  "thor": {
+    "productionId": "thor",
+    "provider": "tmdb",
+    "providerId": "10195",
+    "posterPath": "/q8pF6s9b9veTQvxTqMDIQf9nJKi.jpg",
+    "backdropPath": "/1wOu8rdvPxU1ObHi20VcRhfNpbo.jpg",
+    "providerReleaseDate": "2011-04-27",
+    "fetchedAt": "2026-11-26T16:40:44.700Z"
+  },
+  "thor-love-and-thunder": {
+    "productionId": "thor-love-and-thunder",
+    "provider": "tmdb",
+    "providerId": "616037",
+    "posterPath": "/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg",
+    "backdropPath": "/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg",
+    "providerReleaseDate": "2022-07-06",
+    "fetchedAt": "2026-11-26T16:40:52.310Z"
+  },
+  "thor-ragnarok": {
+    "productionId": "thor-ragnarok",
+    "provider": "tmdb",
+    "providerId": "284053",
+    "posterPath": "/mAA8RXkgF87jSWWMSf6hgLl73mk.jpg",
+    "backdropPath": "/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg",
+    "providerReleaseDate": "2017-10-24",
+    "fetchedAt": "2026-11-26T16:40:47.906Z"
+  },
+  "thor-the-dark-world": {
+    "productionId": "thor-the-dark-world",
+    "provider": "tmdb",
+    "providerId": "76338",
+    "posterPath": "/eAIGX0nlwlb5sMb4uDRGNFqMyG9.jpg",
+    "backdropPath": "/5o88bbqcV5STn56jqOeovaaWbAE.jpg",
+    "providerReleaseDate": "2013-10-30",
+    "fetchedAt": "2026-11-26T16:40:45.618Z"
+  },
+  "thunderbolts": {
+    "productionId": "thunderbolts",
+    "provider": "tmdb",
+    "providerId": "986056",
+    "posterPath": "/zctISSBEZRgVQPG178HqRJMnc4x.jpg",
+    "backdropPath": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+    "providerReleaseDate": "2025-04-30",
+    "fetchedAt": "2026-11-26T16:40:55.931Z"
+  },
+  "venom": {
+    "productionId": "venom",
+    "provider": "tmdb",
+    "providerId": "335983",
+    "posterPath": "/vVusHIRlyyFVS42XnqZso2wGKr.jpg",
+    "backdropPath": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+    "providerReleaseDate": "2018-09-28",
+    "fetchedAt": "2026-11-26T16:41:06.071Z"
+  },
+  "venom-let-there-be-carnage": {
+    "productionId": "venom-let-there-be-carnage",
+    "provider": "tmdb",
+    "providerId": "580489",
+    "posterPath": "/9j21DXo7Gwtfxj81iC20AbOqumt.jpg",
+    "backdropPath": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+    "providerReleaseDate": "2021-09-30",
+    "fetchedAt": "2026-11-26T16:41:06.294Z"
+  },
+  "venom-the-last-dance": {
+    "productionId": "venom-the-last-dance",
+    "provider": "tmdb",
+    "providerId": "912649",
+    "posterPath": "/2MF4OlbMg22Wd8yKJ0HL5HHdjgS.jpg",
+    "backdropPath": "/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+    "providerReleaseDate": "2024-10-22",
+    "fetchedAt": "2026-11-26T16:41:06.972Z"
+  },
+  "visionquest": {
+    "productionId": "visionquest",
+    "provider": "tmdb",
+    "providerId": "213375",
+    "posterPath": "/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+    "backdropPath": "/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+    "providerReleaseDate": "2026-10-13",
+    "fetchedAt": "2026-11-26T16:40:58.086Z"
+  },
+  "wandavision": {
+    "productionId": "wandavision",
+    "provider": "tmdb",
+    "providerId": "85271",
+    "posterPath": "/AXnCR7WE8BKlzsabQtUITySChn.jpg",
+    "backdropPath": "/cq62fLH3vwOmiaLKMqkDI86tPtH.jpg",
+    "providerReleaseDate": "2021-01-15",
+    "fetchedAt": "2026-11-26T16:40:49.501Z"
+  },
+  "werewolf-by-night": {
+    "productionId": "werewolf-by-night",
+    "provider": "tmdb",
+    "providerId": "894205",
+    "posterPath": "/5p6Q5dsqgT7dknImjtoRvNx50k9.jpg",
+    "backdropPath": "/l1ORpdYr8uFZ9MNYKoq1p6fIc4M.jpg",
+    "providerReleaseDate": "2022-09-25",
+    "fetchedAt": "2026-11-26T16:40:52.781Z"
+  },
+  "what-if": {
+    "productionId": "what-if",
+    "provider": "tmdb",
+    "providerId": "91363",
+    "posterPath": "/mj98hl3XsRcxYdw99arNavsSBDP.jpg",
+    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg",
+    "providerReleaseDate": "2021-08-11",
+    "fetchedAt": "2026-11-26T16:40:50.457Z"
+  },
+  "wonder-man": {
+    "productionId": "wonder-man",
+    "provider": "tmdb",
+    "providerId": "198178",
+    "posterPath": "/5uHI0TCde9YDGY7Fm54L3mBNILK.jpg",
+    "backdropPath": "/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
+    "providerReleaseDate": "2026-01-27",
+    "fetchedAt": "2026-11-26T16:40:57.134Z"
+  },
+  "x-men-2000": {
+    "productionId": "x-men-2000",
+    "provider": "tmdb",
+    "providerId": "447399",
+    "posterPath": "/vF02RqXLgtmpJM5CRLSuvN3fVHi.jpg",
+    "providerReleaseDate": "2000-07-02",
+    "fetchedAt": "2026-11-26T16:41:00.961Z"
+  },
+  "x-men-97": {
+    "productionId": "x-men-97",
+    "provider": "tmdb",
+    "providerId": "138502",
+    "posterPath": "/es8WtRpaw6Ep2yzsVad27ukX1Ve.jpg",
+    "backdropPath": "/jIyEmnBrZtl6SEWyBoMO2hZnzMa.jpg",
+    "providerReleaseDate": "2024-03-20",
+    "fetchedAt": "2026-11-26T16:41:10.593Z"
+  },
+  "x-men-animated-series": {
+    "productionId": "x-men-animated-series",
+    "provider": "tmdb",
+    "providerId": "4574",
+    "posterPath": "/2OFwsFhAobczgJWnVdwd9oZAF2N.jpg",
+    "backdropPath": "/8GlKBQJTFZp9mpLXJrmNCtdTyxx.jpg",
+    "providerReleaseDate": "1992-10-31",
+    "fetchedAt": "2026-11-26T16:41:09.540Z"
+  },
+  "x-men-apocalypse": {
+    "productionId": "x-men-apocalypse",
+    "provider": "tmdb",
+    "providerId": "246655",
+    "posterPath": "/dt9K3vjV6nIttECni7EfXLysDa2.jpg",
+    "backdropPath": "/sTQNRqLbfCXolrb5CizAW1dj528.jpg",
+    "providerReleaseDate": "2016-05-18",
+    "fetchedAt": "2026-11-26T16:41:02.829Z"
+  },
+  "x-men-days-of-future-past": {
+    "productionId": "x-men-days-of-future-past",
+    "provider": "tmdb",
+    "providerId": "127585",
+    "posterPath": "/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
+    "backdropPath": "/3czpqXzFy5UcNuD1AubecRLWkwD.jpg",
+    "providerReleaseDate": "2014-05-15",
+    "fetchedAt": "2026-11-26T16:41:02.368Z"
+  },
+  "x-men-first-class": {
+    "productionId": "x-men-first-class",
+    "provider": "tmdb",
+    "providerId": "49538",
+    "posterPath": "/q9TpnJOMnLYEs702d0ET6YTYw8V.jpg",
+    "backdropPath": "/yhp5Pt4GugkCs5mz63qWz5khHXe.jpg",
+    "providerReleaseDate": "2011-06-01",
+    "fetchedAt": "2026-11-26T16:41:01.911Z"
+  },
+  "x-men-last-stand": {
+    "productionId": "x-men-last-stand",
+    "provider": "tmdb",
+    "providerId": "36668",
+    "posterPath": "/fY03tUMgys4vI7HGWxFtQbu0hA7.jpg",
+    "backdropPath": "/nLMXULCGLnzRxz11txPzPqbOHSz.jpg",
+    "providerReleaseDate": "2006-05-24",
+    "fetchedAt": "2026-11-26T16:41:01.421Z"
+  },
+  "x-men-origins-wolverine": {
+    "productionId": "x-men-origins-wolverine",
+    "provider": "tmdb",
+    "providerId": "2080",
+    "posterPath": "/ucJroLJ6RCqXY6hjYeLCW6jbWwE.jpg",
+    "backdropPath": "/p4GzAzjlL7lXIVGvayg7zvzGTSi.jpg",
+    "providerReleaseDate": "2009-04-28",
+    "fetchedAt": "2026-11-26T16:41:01.687Z"
+  },
+  "x2": {
+    "productionId": "x2",
+    "provider": "tmdb",
+    "providerId": "36658",
+    "posterPath": "/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
+    "backdropPath": "/s8ftvFvafWWEhApISamHx32bx6h.jpg",
+    "providerReleaseDate": "2003-04-27",
+    "fetchedAt": "2026-11-26T16:41:01.192Z"
+  },
+  "your-friendly-neighborhood-spider-man": {
+    "productionId": "your-friendly-neighborhood-spider-man",
+    "provider": "tmdb",
+    "providerId": "138503",
+    "posterPath": "/kOG8tnJBCyKGsP5QLx0KC1WHDFz.jpg",
+    "backdropPath": "/kkT2B2gmynoh9kZMo1gromLNeqy.jpg",
+    "providerReleaseDate": "2025-01-29",
+    "fetchedAt": "2026-11-26T16:40:55.201Z"
+  }
+}
