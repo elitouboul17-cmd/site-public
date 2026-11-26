@@ -18,7 +18,8 @@
     "sync:tmdb": "tsx scripts/sync-tmdb.ts",
     "db:backup": "tsx scripts/backup.ts",
     "test:e2e": "node tests/e2e.cjs",
-    "sync:photos": "tsx scripts/sync-photos.ts"
+    "sync:photos": "tsx scripts/sync-photos.ts",
+    "sync:deezer": "tsx scripts/sync-deezer.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",

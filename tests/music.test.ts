@@ -23,3 +23,19 @@ describe("musique", () => {
     expect(searchCatalog("hooked on a feeling").some((h) => h.kind === "musique" && h.href.startsWith("/productions/guardians-of-the-galaxy#"))).toBe(true);
   });
 });
+
+describe("lecteur Deezer", () => {
+  it("albums et titres associés à des productions et chansons existantes, sans album de suite", async () => {
+    const d = (await import("@/data/deezer.json")).default as { albums: Record<string, { id: number; title: string }>; tracks: Record<string, { id: number }> };
+    for (const [pid, a] of Object.entries(d.albums)) {
+      expect(productionById.has(pid), pid).toBe(true);
+      expect(Number.isInteger(a.id)).toBe(true);
+    }
+    expect(d.albums["deadpool"]).toBeUndefined(); // l'album « Deadpool 2 » ne doit pas être associé au premier film
+    expect(d.albums["spider-man-2002"]).toBeUndefined();
+    for (const key of Object.keys(d.tracks)) {
+      const [pid, title] = key.split("::");
+      expect(FEATURED_TRACKS[pid]?.some((t) => t.title === title), key).toBe(true);
+    }
+  });
+});
