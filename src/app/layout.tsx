@@ -1,13 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Shell } from "@/components/Shell";
+import { RegisterSW } from "@/components/RegisterSW";
 
 export const metadata: Metadata = {
   title: { default: "Le QG des Héros — portail de fan de l'univers Marvel", template: "%s · Le QG des Héros" },
   description: "Portail de fan indépendant : actualités sourcées, encyclopédie du MCU et de l'univers Marvel, chronologies, coulisses, calendrier et bibliothèque personnelle.",
   applicationName: "Le QG des Héros",
   robots: { index: false, follow: false }, // portail personnel : non indexé tant que la publication n'est pas décidée
-  icons: { icon: "/icon.svg" },
+  icons: { icon: "/icon.svg", apple: "/icons/apple-touch-icon.png" },
+  appleWebApp: { capable: true, title: "QG des Héros", statusBarStyle: "black-translucent" },
 };
 
 export const viewport: Viewport = {
@@ -23,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <a href="#contenu" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-hq-red focus:px-3 focus:py-2">Aller au contenu</a>
         <Shell>{children}</Shell>
+        <RegisterSW />
       </body>
     </html>
   );

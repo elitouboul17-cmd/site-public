@@ -35,6 +35,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
     document.documentElement.dataset.spoilerFree = spoilerFree ? "1" : "0";
   }, [spoilerFree]);
 
+  // Page de connexion : pas de menu tant que l'accès n'est pas ouvert.
+  if (path === "/acces") return <main id="contenu" className="px-4 py-10">{children}</main>;
+
   const toggleSpoilers = () => update((s) => ({ ...s, prefs: { ...s.prefs, spoilerFree: !s.prefs.spoilerFree } }));
 
   const navList = (

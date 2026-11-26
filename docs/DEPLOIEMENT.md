@@ -14,6 +14,7 @@
 2. Variables d'environnement :
    - `DATABASE_URL` = URL Supabase
    - `CRON_SECRET` et `ADMIN_TOKEN` = deux valeurs différentes générées par `openssl rand -hex 32`
+   - `SITE_PASSWORD` = le mot de passe à donner à vos amis (le site entier est alors privé ; changer ce mot de passe déconnecte tout le monde)
    - optionnelles : `YOUTUBE_API_KEY`, `TMDB_READ_TOKEN`, `ANTHROPIC_API_KEY` (payant), `SUMMARY_MODEL`
 3. Déployer. Node 22 est requis (paramètre du projet ou `engines` du `package.json`).
 4. Première ingestion : depuis `/sources`, saisir `ADMIN_TOKEN` puis « Récupérer maintenant ».
@@ -35,6 +36,11 @@ npm start                                   # port 3000
 npm run ingest -- --watch                   # dans un second processus (systemd, pm2…)
 ```
 Cron système alternatif : `17 * * * * curl -fsS -H "Authorization: Bearer $CRON_SECRET" http://localhost:3000/api/cron/ingest`.
+
+## Installer l'appli sur un téléphone
+- **iPhone (Safari)** : ouvrir le lien → bouton Partager → « Sur l'écran d'accueil ».
+- **Android (Chrome)** : ouvrir le lien → menu ⋮ → « Installer l'application » (ou « Ajouter à l'écran d'accueil »).
+L'appli s'ouvre alors en plein écran avec son icône. Une page « hors connexion » s'affiche si le réseau manque.
 
 ## Sauvegardes
 - Supabase Free : sauvegardes quotidiennes gérées par Supabase (rétention limitée) + `npm run db:backup` (export JSON) à planifier.

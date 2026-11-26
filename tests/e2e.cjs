@@ -91,7 +91,8 @@ const browser = await chromium.launch();
   await page.getByRole("button", { name: /Sans spoilers/ }).click();
 
   // Recherche instantanée
-  await page.goto(BASE + "/", { waitUntil: "domcontentloaded" });
+  // Attendre que l'appli soit interactive (hydratée) avant le raccourci clavier.
+  await page.goto(BASE + "/", { waitUntil: "load" });
   await page.keyboard.press("Control+k");
   await page.getByRole("combobox").fill("wakanda");
   await page.waitForSelector("[role=option]");
