@@ -1,9 +1,9 @@
 import {
-  LayoutDashboard, Newspaper, Film, Globe2, Users, Clock, Orbit, Clapperboard, UserSquare2, CalendarDays, Library, BrainCircuit,
+  LayoutDashboard, Newspaper, Film, Globe2, Users, Clock, Orbit, Clapperboard, UserSquare2, CalendarDays, Library, BrainCircuit, Music2,
   type LucideProps,
 } from "lucide-react";
 
-const ICONS = { LayoutDashboard, Newspaper, Film, Globe2, Users, Clock, Orbit, Clapperboard, UserSquare2, CalendarDays, Library, BrainCircuit };
+const ICONS = { LayoutDashboard, Newspaper, Film, Globe2, Users, Clock, Orbit, Clapperboard, UserSquare2, CalendarDays, Library, BrainCircuit, Music2 };
 
 export function NavIcon({ name, ...props }: { name: keyof typeof ICONS } & LucideProps) {
   const C = ICONS[name];

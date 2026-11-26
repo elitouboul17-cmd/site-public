@@ -6,7 +6,7 @@ import type { SearchHit } from "@/lib/search";
 
 const LABELS: Record<string, string> = {
   film: "Films", serie: "Séries", personnage: "Personnages", acteur: "Acteurs", realisateur: "Réalisateurs",
-  compositeur: "Compositeurs", personne: "Équipes", article: "Articles", evenement: "Événements", comic: "Comics", jeu: "Jeux vidéo", coulisses: "Coulisses",
+  compositeur: "Compositeurs", musique: "Musique", personne: "Équipes", article: "Articles", evenement: "Événements", comic: "Comics", jeu: "Jeux vidéo", coulisses: "Coulisses",
 };
 
 export function SearchPalette({ open, onClose }: { open: boolean; onClose: () => void }) {

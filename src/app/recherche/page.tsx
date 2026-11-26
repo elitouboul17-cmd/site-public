@@ -8,7 +8,7 @@ import { PageHeader, EmptyState } from "@/components/ui";
 export const metadata: Metadata = { title: "Recherche" };
 export const dynamic = "force-dynamic";
 
-const ORDER: SearchKind[] = ["film", "serie", "personnage", "acteur", "realisateur", "compositeur", "personne", "article", "evenement", "comic", "jeu", "coulisses"];
+const ORDER: SearchKind[] = ["film", "serie", "personnage", "acteur", "realisateur", "compositeur", "musique", "personne", "article", "evenement", "comic", "jeu", "coulisses"];
 
 export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; type?: string }> }) {
   const { q = "", type } = await searchParams;

@@ -46,7 +46,7 @@ const browser = await chromium.launch();
 {
   const ctx = await browser.newContext({ ...devices["iPhone 13"] });
   const page = await ctx.newPage();
-  const pages = ["/", "/actualites", "/mcu", "/univers", "/personnages", "/personnages/spider-man", "/chronologie", "/chronologie/sorties", "/multivers", "/coulisses", "/equipes", "/calendrier", "/calendrier?vue=mois", "/bibliotheque", "/quiz", "/sources", "/productions/avengers-endgame", "/recherche?q=stark"];
+  const pages = ["/", "/actualites", "/mcu", "/univers", "/personnages", "/personnages/spider-man", "/chronologie", "/chronologie/sorties", "/multivers", "/coulisses", "/equipes", "/calendrier", "/calendrier?vue=mois", "/bibliotheque", "/quiz", "/sources", "/productions/avengers-endgame", "/recherche?q=stark", "/musique", "/musique?vue=films"];
   const overflowing = [];
   for (const p of pages) {
     await page.goto(BASE + p, { waitUntil: "domcontentloaded" });
@@ -55,6 +55,17 @@ const browser = await chromium.launch();
   }
   ok(overflowing.length === 0, `mobile sans débordement horizontal (${overflowing.join(", ")})`);
   await ctx.close();
+  // Même contrôle sur ordinateur (le halo coloré des fiches ne doit pas élargir la page).
+  const desk = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const dp = await desk.newPage();
+  const wide = [];
+  for (const p of [...pages, "/productions/loki", "/musique", "/musique?vue=chansons"]) {
+    await dp.goto(BASE + p, { waitUntil: "domcontentloaded" });
+    await dp.waitForTimeout(150);
+    if (await dp.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1)) wide.push(p);
+  }
+  ok(wide.length === 0, `ordinateur sans débordement horizontal (${wide.join(", ")})`);
+  await desk.close();
 }
 
 // 3. Interactions.

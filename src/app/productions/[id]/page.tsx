@@ -17,6 +17,8 @@ import { CertaintyBadge, SectionTitle, SourceList, VerificationBadge } from "@/c
 import { ProductionLibraryControls, SpoilerGuard, TrackView } from "@/components/LibraryControls";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import { themeFor, themeVars } from "@/lib/theme";
+import { MusicSection } from "@/components/MusicLinks";
+import { FEATURED_TRACKS } from "@/data/music";
 
 type Params = Promise<{ id: string }>;
 
@@ -64,7 +66,7 @@ export default async function ProductionPage({ params }: { params: Params }) {
   return (
     <div className="themed relative isolate mx-auto max-w-6xl" style={themeVars(p)}>
       {/* Halo aux couleurs de l'œuvre */}
-      <div aria-hidden className="pointer-events-none absolute -top-24 left-1/2 -z-10 h-[520px] w-[120%] -translate-x-1/2 opacity-70 blur-3xl"
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 -top-24 -z-10 h-[520px] opacity-70 blur-3xl"
         style={{ background: `radial-gradient(40% 50% at 25% 40%, color-mix(in srgb, ${theme.colors[0]} 45%, transparent), transparent 70%), radial-gradient(35% 45% at 75% 30%, color-mix(in srgb, ${theme.colors[1]} 30%, transparent), transparent 70%)` }} />
       <TrackView kind="production" id={p.id} title={p.title} href={`/productions/${p.id}`} />
       <nav className="mb-4 text-xs text-steel-400" aria-label="Fil d'Ariane">
@@ -116,6 +118,13 @@ export default async function ProductionPage({ params }: { params: Params }) {
               <YouTubeEmbed id={trailerIds[0]} title={`Bande-annonce : ${p.title}`} />
             </section>
           )}
+
+          {(p.composers?.length || FEATURED_TRACKS[p.id]) && p.kind !== "comic" ? (
+            <section id="musique" className="scroll-mt-24">
+              <SectionTitle title="Musique" href="/musique" linkLabel="Toutes les BO" />
+              <MusicSection p={p} />
+            </section>
+          ) : null}
 
           {p.cast?.length ? (
             <section>

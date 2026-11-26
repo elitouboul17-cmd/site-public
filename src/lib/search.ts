@@ -1,8 +1,10 @@
 import { PRODUCTIONS, CHARACTERS, PEOPLE, BEHIND_THE_SCENES, calendarEntries } from "./catalog";
 import { CONTINUITY_LABELS, KIND_LABELS, ROLE_LABELS } from "./labels";
 import { normalize } from "./text";
+import { FEATURED_TRACKS } from "@/data/music";
+import { productionById } from "./catalog";
 
-export type SearchKind = "film" | "serie" | "personnage" | "acteur" | "realisateur" | "compositeur" | "personne" | "article" | "evenement" | "comic" | "jeu" | "coulisses";
+export type SearchKind = "film" | "serie" | "personnage" | "acteur" | "realisateur" | "compositeur" | "personne" | "article" | "evenement" | "comic" | "jeu" | "coulisses" | "musique";
 
 export interface SearchHit {
   kind: SearchKind;
@@ -15,7 +17,7 @@ export interface SearchHit {
 
 export const SEARCH_KIND_LABELS: Record<SearchKind, string> = {
   film: "Films", serie: "Séries", personnage: "Personnages", acteur: "Acteurs", realisateur: "Réalisateurs",
-  compositeur: "Compositeurs", personne: "Équipes", article: "Articles", evenement: "Événements", comic: "Comics", jeu: "Jeux vidéo", coulisses: "Coulisses",
+  compositeur: "Compositeurs", musique: "Musique", personne: "Équipes", article: "Articles", evenement: "Événements", comic: "Comics", jeu: "Jeux vidéo", coulisses: "Coulisses",
 };
 
 interface IndexEntry extends Omit<SearchHit, "score"> {
@@ -51,6 +53,9 @@ function buildIndex(): IndexEntry[] {
       primary: [normalize(p.name)], secondary: "",
     });
   }
+  for (const [pid, tracks] of Object.entries(FEATURED_TRACKS))
+    for (const t of tracks)
+      out.push({ kind: "musique", id: `${pid}-${t.title}`, title: t.title, href: `/productions/${pid}#musique`, subtitle: `${t.artist} · ${productionById.get(pid)?.title ?? ""}`, primary: [normalize(t.title), normalize(t.artist)], secondary: "" });
   for (const b of BEHIND_THE_SCENES)
     out.push({ kind: "coulisses", id: b.id, title: b.title, href: `/coulisses#${b.id}`, subtitle: "Coulisses", primary: [normalize(b.title)], secondary: normalize(b.summary) });
   for (const e of calendarEntries().filter((e) => e.kind === "convention" || e.kind === "evenement"))
