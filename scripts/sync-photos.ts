@@ -18,6 +18,11 @@ import { PEOPLE } from "../src/lib/catalog";
 import { USER_AGENT } from "../src/data/sources";
 
 const OUT = path.resolve("src/data/person-photos.json");
+
+/** Homonymes identifiés lors de la relecture : la page Wikipédia trouvée n'est pas la bonne personne. */
+const EXCLUDE = new Set([
+  "jeff-kaplan", // page = concepteur de jeux vidéo, pas le scénariste de The Fantastic Four: First Steps
+]);
 const API = "https://en.wikipedia.org/w/api.php";
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const JOBS = /\b(actor|actress|director|filmmaker|screenwriter|writer|producer|composer|musician|singer|rapper|songwriter|editor|cinematographer|designer|comedian|television|film|voice|stunt|animator|artist|personality|entertainer|model|wrestler|athlete|dancer)\b/i;
@@ -73,7 +78,7 @@ function acceptable(page: any) {
 async function main() {
   const only = process.argv.find((a) => a.startsWith("--only="))?.slice(7).split(",");
   const prev: Record<string, PersonPhoto> = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : {};
-  const people = [...PEOPLE.values()].filter((p) => !only || only.includes(p.id));
+  const people = [...PEOPLE.values()].filter((p) => (!only || only.includes(p.id)) && !EXCLUDE.has(p.id));
   const found = new Map<string, { page: any; title: string }>();
 
   // 1. Titre = nom ; puis variantes désambiguïsées pour ceux qui ne correspondent pas.
@@ -103,6 +108,7 @@ async function main() {
   }
 
   const out: Record<string, PersonPhoto> = { ...prev };
+  for (const id of EXCLUDE) delete out[id];
   let kept = 0, rejected = 0;
   const now = new Date().toISOString();
   for (const p of people) {

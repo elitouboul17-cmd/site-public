@@ -49,3 +49,19 @@ describe("intégrité du corpus éditorial", () => {
     expect(QUIZ.filter((q) => q.answer < 0 || q.answer >= q.choices.length).map((q) => q.id)).toEqual([]);
   });
 });
+
+describe("photos des personnes", () => {
+  it("licences libres, crédits et personnes existantes", async () => {
+    const photos = (await import("@/data/person-photos.json")).default as Record<string, { src: string; author: string; license: string; filePage: string }>;
+    const { PEOPLE } = await import("@/lib/catalog");
+    for (const [id, p] of Object.entries(photos)) {
+      expect(PEOPLE.has(id), id).toBe(true);
+      expect(p.src).toMatch(/^https:\/\/(upload|thumb)\.wikimedia\.org\//);
+      expect(p.filePage).toMatch(/^https:\/\//);
+      expect(p.author.length).toBeGreaterThan(0);
+      expect(p.license).toMatch(/^(cc[ -]?by|cc0|public domain|pd)/i);
+      expect(p.license).not.toMatch(/\b(nc|nd)\b/i);
+    }
+    expect(photos["jeff-kaplan"]).toBeUndefined();
+  });
+});
