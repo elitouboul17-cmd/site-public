@@ -19,7 +19,8 @@
     "db:backup": "tsx scripts/backup.ts",
     "test:e2e": "node tests/e2e.cjs",
     "sync:photos": "tsx scripts/sync-photos.ts",
-    "sync:deezer": "tsx scripts/sync-deezer.ts"
+    "sync:deezer": "tsx scripts/sync-deezer.ts",
+    "sync:apple": "tsx scripts/sync-apple.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",

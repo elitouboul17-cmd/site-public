@@ -4,8 +4,8 @@ import type { Production } from "@/lib/types";
 import { FEATURED_TRACKS } from "@/data/music";
 import { PLATFORMS, searchUrl, soundtrackQuery } from "@/lib/music";
 import { personSlug } from "@/lib/catalog";
-import { deezerAlbum, deezerTrack } from "@/lib/deezer";
-import { DeezerPlayer } from "./DeezerPlayer";
+import { albumSources, albumTitle, trackSources } from "@/lib/players";
+import { MusicPlayer } from "./MusicPlayer";
 
 /** Boutons « Écouter sur … » (liens de recherche, ouverts dans un nouvel onglet). */
 export function ListenButtons({ query, compact = false, label }: { query: string; compact?: boolean; label: string }) {
@@ -46,8 +46,8 @@ export function MusicSection({ p }: { p: Production }) {
                   <span key={c}>{i ? (i === p.composers!.length - 1 ? " et " : ", ") : ""}<Link href={`/equipes/${personSlug(c)}`} className="text-steel-200 hover:underline">{c}</Link></span>
                 ))}
               </p>
-              {deezerAlbum(p.id) && (
-                <div className="mt-3"><DeezerPlayer kind="album" id={deezerAlbum(p.id)!.id} label={deezerAlbum(p.id)!.title} sub={deezerAlbum(p.id)!.artist} /></div>
+              {albumSources(p.id).length > 0 && (
+                <div className="mt-3"><MusicPlayer sources={albumSources(p.id)} label={albumTitle(p.id) ?? `la bande originale de ${p.title}`} sub={albumTitle(p.id)} /></div>
               )}
               <div className="mt-3"><ListenButtons query={soundtrackQuery(p)} label={`la bande originale de ${p.title}`} /></div>
             </div>
@@ -65,13 +65,13 @@ export function MusicSection({ p }: { p: Production }) {
                 </div>
                 <ListenButtons compact query={`${t.title} ${t.artist}`} label={`${t.title} de ${t.artist}`} />
               </div>
-              {deezerTrack(p.id, t.title) && <DeezerPlayer kind="track" id={deezerTrack(p.id, t.title)!.id} label={t.title} sub={t.artist} />}
+              {trackSources(p.id, t.title).length > 0 && <MusicPlayer sources={trackSources(p.id, t.title)} label={`${t.title} de ${t.artist}`} />}
             </li>
           ))}
         </ul>
       )}
       <p className="flex items-center gap-1 text-[11px] text-steel-500">
-        <ExternalLink className="h-3 w-3" /> Lecteur officiel Deezer (chargé seulement au clic) et liens vers les plateformes : la musique reste diffusée par elles, chez ses ayants droit.
+        <ExternalLink className="h-3 w-3" /> Lecteurs officiels Deezer et Apple Music (chargés seulement au clic) et liens vers les plateformes : la musique reste diffusée par elles, chez ses ayants droit.
       </p>
     </div>
   );

@@ -39,3 +39,25 @@ describe("lecteur Deezer", () => {
     }
   });
 });
+
+describe("lecteur Apple Music", () => {
+  it("albums et titres associés à des productions et chansons existantes, sans album de suite ni réenregistrement", async () => {
+    const d = (await import("@/data/apple-music.json")).default as { albums: Record<string, { id: number; title: string; artist: string }>; tracks: Record<string, { id: number; albumId: number; title: string }> };
+    for (const [pid, a] of Object.entries(d.albums)) {
+      expect(productionById.has(pid), pid).toBe(true);
+      expect(Number.isInteger(a.id)).toBe(true);
+      expect(a.artist).not.toMatch(/allstar orchestra/i);
+    }
+    expect(d.albums["deadpool"]?.title ?? "").not.toMatch(/Deadpool 2/);
+    for (const [key, t] of Object.entries(d.tracks)) {
+      const [pid, title] = key.split("::");
+      expect(FEATURED_TRACKS[pid]?.some((x) => x.title === title), key).toBe(true);
+      expect(Number.isInteger(t.albumId)).toBe(true);
+      expect(t.title).not.toMatch(/\b(demo|live|acoustic)\b/i);
+    }
+  });
+  it("le lecteur propose chaque plateforme disponible", async () => {
+    const { albumSources } = await import("@/lib/players");
+    expect(albumSources("avengers-endgame").map((s) => s.platform).sort()).toEqual(["apple", "deezer"]);
+  });
+});

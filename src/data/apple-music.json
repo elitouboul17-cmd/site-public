@@ -1,0 +1,443 @@
+{
+  "fetchedAt": "2026-11-26T18:10:33.879Z",
+  "albums": {
+    "iron-man-2": {
+      "id": 381490362,
+      "title": "Iron Man 2 (Original Motion Picture Score)",
+      "artist": "John Debney"
+    },
+    "thor": {
+      "id": 1440619739,
+      "title": "Thor (Soundtrack from the Motion Picture)",
+      "artist": "Patrick Doyle"
+    },
+    "avengers": {
+      "id": 1440663549,
+      "title": "The Avengers (Original Motion Picture Soundtrack)",
+      "artist": "Alan Silvestri"
+    },
+    "iron-man-3": {
+      "id": 1446737070,
+      "title": "Iron Man 3 (Original Motion Picture Soundtrack)",
+      "artist": "Brian Tyler"
+    },
+    "thor-the-dark-world": {
+      "id": 1440637789,
+      "title": "Thor: The Dark World (Original Motion Picture Soundtrack)",
+      "artist": "Brian Tyler"
+    },
+    "captain-america-winter-soldier": {
+      "id": 1440627444,
+      "title": "Captain America: The Winter Soldier (Original Motion Picture Soundtrack)",
+      "artist": "Henry Jackman"
+    },
+    "guardians-of-the-galaxy": {
+      "id": 1440641341,
+      "title": "Guardians of the Galaxy (Original Score)",
+      "artist": "Tyler Bates"
+    },
+    "avengers-age-of-ultron": {
+      "id": 985585041,
+      "title": "Avengers: Age of Ultron (Original Motion Picture Soundtrack)",
+      "artist": "Brian Tyler & Danny Elfman"
+    },
+    "captain-america-civil-war": {
+      "id": 1440637910,
+      "title": "Captain America: Civil War (Original Motion Picture Soundtrack)",
+      "artist": "Henry Jackman"
+    },
+    "doctor-strange": {
+      "id": 1440809389,
+      "title": "Doctor Strange (Original Motion Picture Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "guardians-of-the-galaxy-vol-2": {
+      "id": 1440668897,
+      "title": "Guardians of the Galaxy, Vol. 2 (Original Score)",
+      "artist": "Tyler Bates"
+    },
+    "spider-man-homecoming": {
+      "id": 1246417067,
+      "title": "Spider-Man: Homecoming (Original Motion Picture Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "thor-ragnarok": {
+      "id": 1440800925,
+      "title": "Thor: Ragnarok (Original Motion Picture Soundtrack)",
+      "artist": "Mark Mothersbaugh"
+    },
+    "black-panther": {
+      "id": 1440628690,
+      "title": "Black Panther (Original Score)",
+      "artist": "Ludwig Göransson"
+    },
+    "avengers-infinity-war": {
+      "id": 1375728446,
+      "title": "Avengers: Infinity War (Original Motion Picture Soundtrack) [Deluxe Edition]",
+      "artist": "Alan Silvestri"
+    },
+    "ant-man-and-the-wasp": {
+      "id": 1403505915,
+      "title": "Ant-Man and the Wasp (Original Motion Picture Soundtrack)",
+      "artist": "Christophe Beck"
+    },
+    "captain-marvel": {
+      "id": 1454295699,
+      "title": "Captain Marvel (Original Motion Picture Soundtrack)",
+      "artist": "Pinar Toprak"
+    },
+    "avengers-endgame": {
+      "id": 1460618908,
+      "title": "Avengers: Endgame (Original Motion Picture Soundtrack)",
+      "artist": "Alan Silvestri"
+    },
+    "spider-man-far-from-home": {
+      "id": 1469100793,
+      "title": "Spider-Man: Far from Home (Original Motion Picture Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "wandavision": {
+      "id": 1557384072,
+      "title": "WandaVision: Episode 9 (Original Soundtrack)",
+      "artist": "Christophe Beck"
+    },
+    "falcon-and-the-winter-soldier": {
+      "id": 1561639743,
+      "title": "The Falcon and the Winter Soldier: Vol. 1 (Episodes 1-3) [Original Soundtrack]",
+      "artist": "Henry Jackman"
+    },
+    "loki": {
+      "id": 1716588908,
+      "title": "Loki: Season 2 - Vol. 2 (Episodes 4-6) [Original Soundtrack]",
+      "artist": "Natalie Holt"
+    },
+    "black-widow": {
+      "id": 1574253787,
+      "title": "Black Widow (Original Motion Picture Soundtrack)",
+      "artist": "Lorne Balfe"
+    },
+    "what-if": {
+      "id": 1583867473,
+      "title": "What If...? (Episode 4) [Original Soundtrack]",
+      "artist": "Laura Karpman"
+    },
+    "shang-chi": {
+      "id": 1582855851,
+      "title": "Shang-Chi and the Legend of the Ten Rings (Original Score)",
+      "artist": "Joel P West"
+    },
+    "eternals": {
+      "id": 1590946281,
+      "title": "Eternals (Original Motion Picture Soundtrack)",
+      "artist": "Ramin Djawadi"
+    },
+    "hawkeye": {
+      "id": 1599009253,
+      "title": "Hawkeye: Vol. 1 (Episodes 1-3) [Original Soundtrack]",
+      "artist": "Christophe Beck & Michael Paraskevas"
+    },
+    "spider-man-no-way-home": {
+      "id": 1598577144,
+      "title": "Spider-Man: No Way Home (Original Motion Picture Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "moon-knight": {
+      "id": 1620595964,
+      "title": "Moon Knight (Original Soundtrack)",
+      "artist": "Hesham Nazih"
+    },
+    "doctor-strange-multiverse-of-madness": {
+      "id": 1624853117,
+      "title": "Doctor Strange in the Multiverse of Madness (Original Motion Picture Soundtrack)",
+      "artist": "Danny Elfman"
+    },
+    "thor-love-and-thunder": {
+      "id": 1632659837,
+      "title": "Thor: Love and Thunder (Original Motion Picture Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "she-hulk": {
+      "id": 1649811173,
+      "title": "She-Hulk: Attorney at Law - Vol. 2 (Episodes 5-9) [Original Soundtrack]",
+      "artist": "Amie Doherty"
+    },
+    "werewolf-by-night": {
+      "id": 1648163952,
+      "title": "Marvel Studios' Werewolf By Night (Original Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "black-panther-wakanda-forever": {
+      "id": 1653660187,
+      "title": "Black Panther: Wakanda Forever (Original Score)",
+      "artist": "Ludwig Göransson"
+    },
+    "guardians-holiday-special": {
+      "id": 1655061877,
+      "title": "The Guardians of the Galaxy Holiday Special (Original Soundtrack)",
+      "artist": "John Murphy"
+    },
+    "ant-man-quantumania": {
+      "id": 1671624068,
+      "title": "Ant-Man and The Wasp: Quantumania (Original Motion Picture Soundtrack)",
+      "artist": "Christophe Beck"
+    },
+    "guardians-of-the-galaxy-vol-3": {
+      "id": 1685071315,
+      "title": "Guardians of the Galaxy, Vol. 3 (Original Score)",
+      "artist": "John Murphy"
+    },
+    "secret-invasion": {
+      "id": 1696186999,
+      "title": "Secret Invasion: Vol. 1 (Episodes 1-3) [Original Soundtrack]",
+      "artist": "Kris Bowers"
+    },
+    "the-marvels": {
+      "id": 1717471595,
+      "title": "The Marvels (Original Motion Picture Soundtrack)",
+      "artist": "Laura Karpman"
+    },
+    "echo": {
+      "id": 1724820643,
+      "title": "Echo (Original Soundtrack)",
+      "artist": "Dave Porter"
+    },
+    "deadpool-and-wolverine": {
+      "id": 1758847756,
+      "title": "Deadpool & Wolverine (Original Score)",
+      "artist": "Rob Simonsen"
+    },
+    "agatha-all-along": {
+      "id": 1776669931,
+      "title": "Agatha All Along: Vol. 2 (Episodes 6-9) [Original Soundtrack]",
+      "artist": "Kristen Anderson-Lopez, Robert Lopez, Christophe Beck & Michael Paraskevas"
+    },
+    "captain-america-brave-new-world": {
+      "id": 1795821594,
+      "title": "Captain America: Brave New World (Original Motion Picture Soundtrack)",
+      "artist": "Laura Karpman"
+    },
+    "daredevil-born-again": {
+      "id": 1890589623,
+      "title": "Marvel's Daredevil: Born Again - Season 2: Vol. 1 (Episodes 1-4) [Original Soundtrack]",
+      "artist": "The Newton Brothers"
+    },
+    "thunderbolts": {
+      "id": 1810533249,
+      "title": "Thunderbolts* (Original Motion Picture Soundtrack)",
+      "artist": "Son Lux"
+    },
+    "fantastic-four-first-steps": {
+      "id": 1826653923,
+      "title": "The Fantastic Four: First Steps (Original Motion Picture Soundtrack)",
+      "artist": "Michael Giacchino"
+    },
+    "x-men-last-stand": {
+      "id": 1443415918,
+      "title": "X-Men: The Last Stand (Original Motion Picture Soundtrack)",
+      "artist": "John Powell"
+    },
+    "x-men-origins-wolverine": {
+      "id": 1444217044,
+      "title": "X-Men Origins: Wolverine (Original Motion Picture Soundtrack)",
+      "artist": "Harry Gregson-Williams"
+    },
+    "x-men-first-class": {
+      "id": 440684969,
+      "title": "X-Men - First Class (Original Motion Picture Soundtrack)",
+      "artist": "Henry Jackman"
+    },
+    "the-wolverine": {
+      "id": 668131404,
+      "title": "The Wolverine (Original Motion Picture Soundtrack)",
+      "artist": "Marco Beltrami"
+    },
+    "x-men-days-of-future-past": {
+      "id": 1005000098,
+      "title": "X-Men: Days of Future Past - Rogue Cut (Original Motion Picture Soundtrack) [Extended Version]",
+      "artist": "John Ottman"
+    },
+    "x-men-apocalypse": {
+      "id": 1113754980,
+      "title": "X-Men: Apocalypse (Original Motion Picture Soundtrack)",
+      "artist": "John Ottman"
+    },
+    "logan": {
+      "id": 1224791890,
+      "title": "Logan Deluxe (Original Motion Picture Soundtrack)",
+      "artist": "Marco Beltrami"
+    },
+    "dark-phoenix": {
+      "id": 1512827039,
+      "title": "Xperiments from Dark Phoenix (Original Score)",
+      "artist": "Hans Zimmer"
+    },
+    "spider-man-2002": {
+      "id": 264542087,
+      "title": "Spider-Man (Original Motion Picture Score)",
+      "artist": "Danny Elfman"
+    },
+    "spider-man-2": {
+      "id": 186379175,
+      "title": "Spider-Man 2 (Original Motion Picture Score)",
+      "artist": "Danny Elfman"
+    },
+    "amazing-spider-man": {
+      "id": 534265228,
+      "title": "The Amazing Spider-Man (Music from the Motion Picture)",
+      "artist": "James Horner"
+    },
+    "venom": {
+      "id": 1437179259,
+      "title": "Venom (Original Motion Picture Soundtrack)",
+      "artist": "Ludwig Göransson"
+    },
+    "into-the-spider-verse": {
+      "id": 1446445650,
+      "title": "Spider-Man: Into the Spider-Verse (Original Score)",
+      "artist": "Daniel Pemberton"
+    },
+    "across-the-spider-verse": {
+      "id": 1700549348,
+      "title": "Spider-Man: Across the Spider-Verse (Original Score) [Extended Edition]",
+      "artist": "Daniel Pemberton"
+    },
+    "hulk-2003": {
+      "id": 1443292745,
+      "title": "Hulk (Original Motion Picture Soundtrack)",
+      "artist": "Danny Elfman"
+    },
+    "x-men-97": {
+      "id": 1747395205,
+      "title": "X-Men '97 (Original Soundtrack)",
+      "artist": "The Newton Brothers"
+    }
+  },
+  "tracks": {
+    "iron-man::Back in Black": {
+      "id": 574050602,
+      "albumId": 574050396,
+      "title": "Back In Black",
+      "artist": "AC/DC",
+      "album": "Back In Black"
+    },
+    "avengers::The Avengers": {
+      "id": 1440663698,
+      "albumId": 1440663549,
+      "title": "The Avengers",
+      "artist": "Alan Silvestri",
+      "album": "The Avengers (Original Motion Picture Soundtrack)"
+    },
+    "guardians-of-the-galaxy::Hooked on a Feeling": {
+      "id": 690456025,
+      "albumId": 690456020,
+      "title": "Hooked On a Feeling",
+      "artist": "Blue Swede & Björn Skifs",
+      "album": "Hooked On a Feeling - Single"
+    },
+    "guardians-of-the-galaxy::Come and Get Your Love": {
+      "id": 1053653552,
+      "albumId": 1053653546,
+      "title": "Come and Get Your Love",
+      "artist": "Redbone",
+      "album": "Wovoka"
+    },
+    "guardians-of-the-galaxy::Ain't No Mountain High Enough": {
+      "id": 1469575663,
+      "albumId": 1469575128,
+      "title": "Ain't No Mountain High Enough",
+      "artist": "Marvin Gaye & Tammi Terrell",
+      "album": "United"
+    },
+    "guardians-of-the-galaxy-vol-2::Mr. Blue Sky": {
+      "id": 1054525017,
+      "albumId": 1054525002,
+      "title": "Mr. Blue Sky",
+      "artist": "Electric Light Orchestra",
+      "album": "Out of the Blue"
+    },
+    "guardians-of-the-galaxy-vol-2::The Chain": {
+      "id": 651880159,
+      "albumId": 651879763,
+      "title": "The Chain",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours (Super Deluxe Edition)"
+    },
+    "guardians-of-the-galaxy-vol-2::Brandy (You're a Fine Girl)": {
+      "id": 388158216,
+      "albumId": 388158145,
+      "title": "Brandy (You're A Fine Girl)",
+      "artist": "Looking Glass",
+      "album": "Looking Glass"
+    },
+    "guardians-of-the-galaxy-vol-3::Do You Realize??": {
+      "id": 1189403828,
+      "albumId": 1189403816,
+      "title": "Do You Realize??",
+      "artist": "The Flaming Lips",
+      "album": "Yoshimi Battles the Pink Robots"
+    },
+    "guardians-of-the-galaxy-vol-3::Dog Days Are Over": {
+      "id": 1440495909,
+      "albumId": 1440495906,
+      "title": "Dog Days Are Over",
+      "artist": "Florence + the Machine",
+      "album": "Between Two Lungs (Deluxe)"
+    },
+    "thor-ragnarok::Immigrant Song": {
+      "id": 580708280,
+      "albumId": 580708279,
+      "title": "Immigrant Song",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin III (Remastered)"
+    },
+    "black-panther::All the Stars": {
+      "id": 1440903307,
+      "albumId": 1440903005,
+      "title": "All The Stars",
+      "artist": "Kendrick Lamar, SZA",
+      "album": "Black Panther: The Album"
+    },
+    "black-panther::Wakanda": {
+      "id": 1440629089,
+      "albumId": 1440628690,
+      "title": "Wakanda",
+      "artist": "Ludwig Göransson",
+      "album": "Black Panther (Original Score)"
+    },
+    "captain-marvel::Just a Girl": {
+      "id": 1456921981,
+      "albumId": 1456921977,
+      "title": "Just a Girl",
+      "artist": "No Doubt",
+      "album": "Teen Spirit (Original Motion Picture Soundtrack)"
+    },
+    "avengers-endgame::Portals": {
+      "id": 1460619030,
+      "albumId": 1460618908,
+      "title": "Portals",
+      "artist": "Alan Silvestri",
+      "album": "Avengers: Endgame (Original Motion Picture Soundtrack)"
+    },
+    "wandavision::Agatha All Along": {
+      "id": 1554957228,
+      "albumId": 1554956945,
+      "title": "Agatha All Along (feat. Kathryn Hahn, Eric Bradley, Greg Whipple, Jasper Randall & Gerald White)",
+      "artist": "Kristen Anderson-Lopez & Robert Lopez",
+      "album": "WandaVision: Episode 7 (Original Soundtrack)"
+    },
+    "deadpool-and-wolverine::Bye Bye Bye": {
+      "id": 255985600,
+      "albumId": 255985596,
+      "title": "Bye Bye Bye",
+      "artist": "*NSYNC",
+      "album": "No Strings Attached"
+    },
+    "into-the-spider-verse::Sunflower": {
+      "id": 1477880764,
+      "albumId": 1477880265,
+      "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
+      "artist": "Post Malone & Swae Lee",
+      "album": "Hollywood's Bleeding"
+    }
+  }
+}
