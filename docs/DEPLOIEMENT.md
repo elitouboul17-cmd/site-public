@@ -20,7 +20,7 @@
 
 ### 3. Planification
 - `vercel.json` déclare un cron **quotidien** (limite de l'offre Hobby). Vercel envoie automatiquement `Authorization: Bearer $CRON_SECRET`.
-- Pour une fréquence **horaire** gratuite : dans GitHub → *Settings → Secrets and variables → Actions*, créer `MARVELHQ_URL` (ex. `https://votre-app.vercel.app`) et `CRON_SECRET`. Le workflow `.github/workflows/ingest.yml` s'exécute alors chaque heure (il ne fait rien tant que ces secrets sont absents).
+- Pour une fréquence **horaire** gratuite : dans GitHub → *Settings → Secrets and variables → Actions*, créer `QGDESHEROS_URL` (ex. `https://votre-app.vercel.app`) et `CRON_SECRET`. Le workflow `.github/workflows/ingest.yml` s'exécute alors chaque heure (il ne fait rien tant que ces secrets sont absents).
 - La durée d'une ingestion (8 sources) est d'environ 10 à 30 s ; la route autorise 60 s.
 
 ### 4. Affiches (optionnel)

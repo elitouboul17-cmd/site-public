@@ -1,8 +1,8 @@
 {
-  "name": "marvel-hq",
+  "name": "qg-des-heros",
   "version": "0.1.0",
   "private": true,
-  "description": "MARVEL HQ — portail de fan indépendant consacré à l'univers Marvel",
+  "description": "Le QG des Héros — portail de fan indépendant consacré à l'univers Marvel",
   "engines": {
     "node": ">=22.13"
   },

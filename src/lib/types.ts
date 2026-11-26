@@ -1,5 +1,5 @@
 /**
- * Modèle de domaine de MARVEL HQ.
+ * Modèle de domaine du QG des Héros.
  *
  * Principe éditorial : toute donnée factuelle doit pouvoir être reliée à une source
  * et à une date de vérification. Les champs inconnus restent `undefined` — on

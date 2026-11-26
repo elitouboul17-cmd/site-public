@@ -1,4 +1,4 @@
-/** Emblème original MARVEL HQ (aucun logo officiel Marvel n'est utilisé ni modifié). */
+/** Emblème original du QG des Héros (aucun logo officiel Marvel n'est utilisé ni modifié). */
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <span className="flex items-center gap-2.5 select-none">
@@ -11,7 +11,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       </svg>
       {!compact && (
         <span className="leading-none">
-          <span className="display block text-[1.05rem] text-white">Marvel <span className="text-hq-red">HQ</span></span>
+          <span className="display block text-[1.05rem] text-white">Le QG <span className="text-hq-red">des Héros</span></span>
           <span className="block text-[0.6rem] tracking-[0.25em] text-steel-400 uppercase mt-0.5">Portail de fan</span>
         </span>
       )}

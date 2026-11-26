@@ -21,7 +21,7 @@ export default async function SourcesPage() {
 
   return (
     <div className="mx-auto max-w-5xl space-y-10">
-      <PageHeader eyebrow="Transparence" title="Sources et fiabilité" intro="Comment MARVEL HQ récupère, classe et vérifie l'information. Aucune information n'est inventée : chaque contenu renvoie à sa source." />
+      <PageHeader eyebrow="Transparence" title="Sources et fiabilité" intro="Comment le QG des Héros récupère, classe et vérifie l'information. Aucune information n'est inventée : chaque contenu renvoie à sa source." />
 
       <section>
         <SectionTitle title="Classification des actualités" />

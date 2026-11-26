@@ -48,7 +48,7 @@ export function LibraryView({ productions, characters }: { productions: P[]; cha
     const blob = new Blob([exportLibrary()], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `marvelhq-bibliotheque-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `qg-des-heros-bibliotheque-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(a.href);
   };

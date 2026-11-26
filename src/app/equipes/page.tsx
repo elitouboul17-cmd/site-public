@@ -24,7 +24,7 @@ export default async function PeoplePage({ searchParams }: { searchParams: Promi
 
   return (
     <div className="mx-auto max-w-6xl">
-      <PageHeader eyebrow="Professionnels" title="Casting et équipes" intro="Acteurs, réalisateurs, scénaristes, compositeurs, monteurs, chefs opérateurs… Chaque fiche liste les crédits enregistrés dans MARVEL HQ (non exhaustifs : uniquement des crédits vérifiables, sur les productions référencées)." />
+      <PageHeader eyebrow="Professionnels" title="Casting et équipes" intro="Acteurs, réalisateurs, scénaristes, compositeurs, monteurs, chefs opérateurs… Chaque fiche liste les crédits enregistrés dans le QG des Héros (non exhaustifs : uniquement des crédits vérifiables, sur les productions référencées)." />
       <div className="no-scrollbar panel mb-6 flex gap-1.5 overflow-x-auto p-3">
         <FilterLink href="/equipes" active={!role}>Tous ({all.length})</FilterLink>
         {ROLES.filter((r) => counts.get(r)).map((r) => <FilterLink key={r} href={`/equipes?role=${r}`} active={role === r}>{ROLE_LABELS[r]} ({counts.get(r)})</FilterLink>)}

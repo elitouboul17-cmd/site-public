@@ -15,7 +15,7 @@ export function ProductionCard({ p, posterUrl, showOrder }: { p: Production; pos
           <span className="absolute top-2 left-2 rounded-md bg-black/70 px-1.5 py-0.5 text-[11px] font-bold text-white">#{showOrder}</span>
         )}
         {p.status !== "sorti" && (
-          <span className="absolute right-2 bottom-2 rounded-md bg-hq-red px-1.5 py-0.5 text-[10px] font-bold tracking-wide text-white uppercase">{STATUS_LABELS[p.status]}</span>
+          <span className="absolute top-8 left-2 rounded-md bg-hq-red px-1.5 py-0.5 text-[10px] font-bold tracking-wide text-white uppercase shadow">{STATUS_LABELS[p.status]}</span>
         )}
         <WatchedDot id={p.id} />
       </div>

@@ -75,7 +75,7 @@ export default async function PersonPage({ params }: { params: Params }) {
           </section>
         )}
       </div>
-      <p className="mt-8 text-xs text-steel-500">Crédits issus des fiches de productions de MARVEL HQ (chacune liée à ses sources). Liste non exhaustive.</p>
+      <p className="mt-8 text-xs text-steel-500">Crédits issus des fiches de productions du QG des Héros (chacune liée à ses sources). Liste non exhaustive.</p>
     </div>
   );
 }

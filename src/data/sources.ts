@@ -124,4 +124,4 @@ export const NEWS_SOURCES: NewsSource[] = [
 ];
 
 export const USER_AGENT =
-  "MarvelHQ/0.1 (portail de fan personnel, non commercial; lecture de flux RSS publics)";
+  "QGdesHeros/0.1 (portail de fan personnel, non commercial; lecture de flux RSS publics)";

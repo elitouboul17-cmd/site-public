@@ -1,5 +1,5 @@
 # Déclenche l'ingestion des actualités toutes les heures en appelant l'application déployée.
-# Gratuit (GitHub Actions). Ne fait rien tant que les secrets MARVELHQ_URL et CRON_SECRET
+# Gratuit (GitHub Actions). Ne fait rien tant que les secrets QGDESHEROS_URL et CRON_SECRET
 # ne sont pas définis dans Settings → Secrets and variables → Actions.
 name: Ingestion des actualités
 on:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Appeler /api/cron/ingest
         env:
-          URL: ${{ secrets.MARVELHQ_URL }}
+          URL: ${{ secrets.QGDESHEROS_URL }}
           TOKEN: ${{ secrets.CRON_SECRET }}
         run: |
           if [ -z "$URL" ] || [ -z "$TOKEN" ]; then

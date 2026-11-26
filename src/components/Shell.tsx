@@ -64,7 +64,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
       {/* Barre latérale (desktop) */}
       <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col border-r border-white/5 bg-ink-900/80 backdrop-blur lg:flex">
         <div className="px-5 pt-5 pb-4">
-          <Link href="/" aria-label="MARVEL HQ — accueil">
+          <Link href="/" aria-label="Le QG des Héros — accueil">
             <Logo />
           </Link>
         </div>
@@ -88,7 +88,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
             <button
               onClick={() => setSearch(true)}
               className="flex h-10 min-w-0 flex-1 items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3 text-left text-sm text-steel-400 transition hover:border-white/20 md:max-w-md"
-              aria-label="Rechercher dans MARVEL HQ"
+              aria-label="Rechercher dans le QG des Héros"
             >
               <Search className="h-4 w-4" />
               <span className="truncate"><span className="sm:hidden">Rechercher…</span><span className="hidden sm:inline">Rechercher un film, un personnage, un article…</span></span>

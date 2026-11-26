@@ -56,7 +56,7 @@ export function robotsDisallows(robotsTxt: string): string[] {
     const value = rest.join(":").trim();
     if (key === "user-agent") {
       if (sawRule) { applies = false; sawRule = false; }
-      if (value === "*" || /marvelhq/i.test(value)) applies = true;
+      if (value === "*" || /qgdesheros/i.test(value)) applies = true;
     } else if (key === "disallow" || key === "allow") {
       sawRule = true;
       if (applies && key === "disallow" && value) out.push(value);

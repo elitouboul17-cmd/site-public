@@ -1,4 +1,6 @@
-# MARVEL HQ
+# Le QG des Héros
+
+*(anciennement « MARVEL HQ » : renommé pour ne pas utiliser la marque Marvel dans le nom)*
 
 Portail personnel consacré à l'univers Marvel : actualités récupérées automatiquement et classées par fiabilité, encyclopédie du MCU et de l'univers étendu, chronologies narrative et de sortie, multivers, coulisses de fabrication, casting et équipes, calendrier, bibliothèque personnelle et quiz.
 
