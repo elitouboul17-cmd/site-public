@@ -93,7 +93,10 @@ const browser = await chromium.launch();
   // Recherche instantanée
   // Attendre que l'appli soit interactive (hydratée) avant le raccourci clavier.
   await page.goto(BASE + "/", { waitUntil: "load" });
-  await page.keyboard.press("Control+k");
+  for (let i = 0; i < 20 && !(await page.getByRole("combobox").count()); i++) {
+    await page.keyboard.press("Control+k");
+    await page.waitForTimeout(300);
+  }
   await page.getByRole("combobox").fill("wakanda");
   await page.waitForSelector("[role=option]");
   const options = await page.$$eval("[role=option]", (o) => o.map((x) => x.textContent));
