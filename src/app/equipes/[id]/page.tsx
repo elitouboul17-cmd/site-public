@@ -6,6 +6,8 @@ import { ROLE_LABELS, CONTINUITY_LABELS } from "@/lib/labels";
 import type { PersonRole } from "@/lib/types";
 import { PageHeader, SectionTitle } from "@/components/ui";
 import { TrackView } from "@/components/LibraryControls";
+import { PersonAvatar, PhotoCredit } from "@/components/PersonAvatar";
+import { photoFor } from "@/lib/photos";
 
 type Params = Promise<{ id: string }>;
 export function generateStaticParams() {
@@ -30,9 +32,15 @@ export default async function PersonPage({ params }: { params: Params }) {
     <div className="mx-auto max-w-4xl">
       <TrackView kind="personne" id={p.id} title={p.name} href={`/equipes/${p.id}`} />
       <nav className="mb-4 text-xs text-steel-400"><Link href="/equipes" className="hover:text-white">Casting et équipes</Link></nav>
-      <PageHeader eyebrow={p.roles.map((r) => ROLE_LABELS[r]).join(" · ")} title={p.name}>
-        <a href={wiki} target="_blank" rel="noopener noreferrer" className="text-xs text-steel-400 underline hover:text-white">Rechercher sur Wikipédia</a>
-      </PageHeader>
+      <div className="mb-8 flex flex-col items-start gap-5 sm:flex-row sm:items-end">
+        <div className="space-y-1.5">
+          <PersonAvatar id={p.id} name={p.name} size={128} className="text-2xl" />
+          <div className="max-w-[160px]"><PhotoCredit id={p.id} /></div>
+        </div>
+        <PageHeader eyebrow={p.roles.map((r) => ROLE_LABELS[r]).join(" · ")} title={p.name}>
+          <a href={photoFor(p.id)?.wikipedia ?? wiki} target="_blank" rel="noopener noreferrer" className="text-xs text-steel-400 underline hover:text-white">{photoFor(p.id) ? "Wikipédia" : "Rechercher sur Wikipédia"}</a>
+        </PageHeader>
+      </div>
 
       {portrayals.length > 0 && (
         <section className="mb-8">

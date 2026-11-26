@@ -4,6 +4,7 @@ import { PEOPLE } from "@/lib/catalog";
 import { ROLE_LABELS } from "@/lib/labels";
 import type { PersonRole } from "@/lib/types";
 import { FilterLink, PageHeader } from "@/components/ui";
+import { PersonAvatar } from "@/components/PersonAvatar";
 
 export const metadata: Metadata = { title: "Casting et équipes" };
 export const dynamic = "force-dynamic";
@@ -31,8 +32,9 @@ export default async function PeoplePage({ searchParams }: { searchParams: Promi
       <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((p) => (
           <li key={p.id}>
-            <Link href={`/equipes/${p.id}`} className="panel panel-hover flex items-center justify-between gap-3 p-3">
-              <span className="min-w-0">
+            <Link href={`/equipes/${p.id}`} className="panel panel-hover flex items-center gap-3 p-3">
+              <PersonAvatar id={p.id} name={p.name} size={44} />
+              <span className="min-w-0 flex-1">
                 <span className="block truncate text-sm font-semibold text-white">{p.name}</span>
                 <span className="block truncate text-xs text-steel-400">{p.roles.map((r) => ROLE_LABELS[r]).join(" · ")}</span>
               </span>

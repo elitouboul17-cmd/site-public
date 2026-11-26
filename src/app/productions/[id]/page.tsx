@@ -18,6 +18,8 @@ import { ProductionLibraryControls, SpoilerGuard, TrackView } from "@/components
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import { themeFor, themeVars } from "@/lib/theme";
 import { MusicSection } from "@/components/MusicLinks";
+import { PersonAvatar } from "@/components/PersonAvatar";
+import { RemoteImage } from "@/components/RemoteImage";
 import { FEATURED_TRACKS } from "@/data/music";
 
 type Params = Promise<{ id: string }>;
@@ -68,6 +70,12 @@ export default async function ProductionPage({ params }: { params: Params }) {
       {/* Halo aux couleurs de l'œuvre */}
       <div aria-hidden className="pointer-events-none absolute inset-x-0 -top-24 -z-10 h-[520px] opacity-70 blur-3xl"
         style={{ background: `radial-gradient(40% 50% at 25% 40%, color-mix(in srgb, ${theme.colors[0]} 45%, transparent), transparent 70%), radial-gradient(35% 45% at 75% 30%, color-mix(in srgb, ${theme.colors[1]} 30%, transparent), transparent 70%)` }} />
+      {m?.backdropPath && (
+        // Image de fond TMDB (usage non commercial, attribution affichée sous l'affiche)
+        <div aria-hidden className="pointer-events-none absolute inset-x-0 -top-6 -z-10 h-[420px] overflow-hidden rounded-2xl opacity-35 [mask-image:linear-gradient(to_bottom,black_30%,transparent)]">
+          <RemoteImage src={`https://image.tmdb.org/t/p/w1280${m.backdropPath}`} className="h-full w-full object-cover" />
+        </div>
+      )}
       <TrackView kind="production" id={p.id} title={p.title} href={`/productions/${p.id}`} />
       <nav className="mb-4 text-xs text-steel-400" aria-label="Fil d'Ariane">
         <Link href={p.continuity === "mcu" ? "/mcu" : "/univers"} className="hover:text-white">{p.continuity === "mcu" ? "Univers MCU" : "Univers étendu"}</Link>
@@ -77,7 +85,7 @@ export default async function ProductionPage({ params }: { params: Params }) {
       <div className="grid gap-6 md:grid-cols-[260px_1fr] lg:gap-10">
         <div className="mx-auto w-48 md:w-full">
           <Poster p={p} src={posterUrl(m, "w500")} size="lg" className="shadow-2xl shadow-hq-red/10" />
-          {m?.posterPath && <p className="mt-2 text-[10px] text-steel-500">Affiche : The Movie Database (TMDB). Ce produit utilise l'API TMDB sans être approuvé ni certifié par TMDB.</p>}
+          {m?.posterPath && <p className="mt-2 text-[10px] text-steel-500">Affiche et image de fond : The Movie Database (TMDB). Ce produit utilise l'API TMDB sans être approuvé ni certifié par TMDB.</p>}
         </div>
 
         <div>
@@ -131,7 +139,8 @@ export default async function ProductionPage({ params }: { params: Params }) {
               <SectionTitle title="Distribution" />
               <ul className="grid gap-2 sm:grid-cols-2">
                 {p.cast.map(([person, role, cid]) => (
-                  <li key={person + role} className="panel flex items-center justify-between gap-3 p-3">
+                  <li key={person + role} className="panel flex items-center gap-3 p-3">
+                    <PersonAvatar id={personSlug(person)} name={person} size={44} />
                     <div className="min-w-0">
                       <Link href={`/equipes/${personSlug(person)}`} className="block truncate text-sm font-semibold text-white hover:underline">{person}</Link>
                       <p className="truncate text-xs text-steel-400">{cid ? <Link href={`/personnages/${cid}`} className="hover:text-white hover:underline">{role}</Link> : role}</p>

@@ -10,6 +10,7 @@ import { ProductionCard } from "@/components/ProductionCard";
 import { ArticleCard } from "@/components/ArticleCard";
 import { SectionTitle, SourceList } from "@/components/ui";
 import { FollowCharacterButton, TrackView } from "@/components/LibraryControls";
+import { PersonAvatar } from "@/components/PersonAvatar";
 
 type Params = Promise<{ id: string }>;
 
@@ -72,9 +73,12 @@ export default async function CharacterPage({ params }: { params: Params }) {
               <SectionTitle title="Interprètes" />
               <ul className="grid gap-2 sm:grid-cols-2">
                 {c.portrayals.map((p, i) => (
-                  <li key={i} className="panel p-3">
-                    <Link href={`/equipes/${personSlug(p.person)}`} className="text-sm font-semibold text-white hover:underline">{p.person}</Link>
-                    <p className="text-xs text-steel-400">{CONTINUITY_LABELS[p.continuity].label}{p.note ? ` — ${p.note}` : ""}</p>
+                  <li key={i} className="panel flex items-center gap-3 p-3">
+                    <PersonAvatar id={personSlug(p.person)} name={p.person} size={44} />
+                    <div className="min-w-0">
+                      <Link href={`/equipes/${personSlug(p.person)}`} className="text-sm font-semibold text-white hover:underline">{p.person}</Link>
+                      <p className="text-xs text-steel-400">{CONTINUITY_LABELS[p.continuity].label}{p.note ? ` — ${p.note}` : ""}</p>
+                    </div>
                   </li>
                 ))}
               </ul>
