@@ -80,7 +80,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
 
       <div className="flex min-w-0 flex-1 flex-col">
         {/* Barre supérieure */}
-        <header className="sticky top-0 z-30 border-b border-white/5 bg-ink-950/80 backdrop-blur-md pt-[env(safe-area-inset-top)]">
+        <header className="sticky top-0 z-30 border-b border-white/5 bg-ink-950/95 md:bg-ink-950/80 backdrop-blur-md pt-[env(safe-area-inset-top)]">
           <div className="flex h-14 items-center gap-2 px-3 sm:gap-3 sm:px-4 lg:px-8">
             <button className="btn h-10 w-10 shrink-0 p-0 lg:hidden" aria-label="Ouvrir le menu" onClick={() => setDrawer(true)}>
               <Menu className="h-5 w-5" />

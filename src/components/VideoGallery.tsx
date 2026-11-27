@@ -16,7 +16,7 @@ export function VideoGallery({ videos, title }: { videos: V[]; title: string }) 
   const active = videos[current];
 
   return (
-    <div className="space-y-3">
+    <div className="min-w-0 max-w-full space-y-3">
       <YouTubeEmbed key={active.key} id={active.key} title={`${active.name} — ${title}`} />
       <p className="text-sm font-semibold text-white">{active.name} <span className="ml-1 text-xs font-normal text-steel-400">{LABELS[active.type] ?? active.type} · {active.lang === "fr" ? "Français" : active.lang === "en" ? "Anglais" : active.lang?.toUpperCase()}{active.published ? ` · ${active.published.slice(0, 4)}` : ""}</span></p>
       {types.length > 1 && (

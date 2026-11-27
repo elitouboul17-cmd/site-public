@@ -129,7 +129,7 @@ export default async function ProductionPage({ params }: { params: Params }) {
       </div>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-3">
-        <div className="space-y-10 lg:col-span-2">
+        <div className="min-w-0 space-y-10 lg:col-span-2">
           {videos.length > 0 && (
             <section id="videos" className="scroll-mt-24">
               <SectionTitle title={`Bandes-annonces et vidéos (${videos.length})`} />

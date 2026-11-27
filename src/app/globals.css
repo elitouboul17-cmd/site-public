@@ -38,6 +38,8 @@ html {
   background: var(--color-ink-950);
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+  /* Filet de sécurité : jamais de défilement horizontal (pas besoin de dézoomer sur téléphone). */
+  overflow-x: clip;
 }
 
 body {
@@ -49,7 +51,14 @@ body {
   font-family: var(--font-sans);
   min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+  -webkit-tap-highlight-color: transparent;
 }
+
+/* Téléphone : tap instantané (pas de délai double-tap), pas de rebond qui recharge la page. */
+a, button, [role="button"], label, summary { touch-action: manipulation; }
+html, body { overscroll-behavior-y: none; }
+img { max-width: 100%; }
 
 ::selection { background: rgba(230, 36, 41, 0.45); }
 
@@ -141,6 +150,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 @media (hover: none) {
   .panel-hover:hover { transform: none; }
+  /* Pas d'effet de survol « collant » après un tap. */
+  .panel-hover:hover, .themed-card:hover { border-color: rgba(255, 255, 255, 0.07); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 10px 30px -12px rgba(0, 0, 0, 0.6); }
+}
+
+/* Téléphone : effets coûteux allégés pour un défilement fluide. */
+@media (max-width: 767px) {
+  body { background: radial-gradient(600px 400px at 85% -5%, rgba(230, 36, 41, 0.10), transparent 60%), var(--color-ink-950); }
+  .panel { box-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset; }
+  .backdrop-blur, .backdrop-blur-md, .backdrop-blur-xl, .backdrop-blur-lg { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+  .wiki-article { font-size: 16px; overflow-wrap: anywhere; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -46,7 +46,7 @@ const browser = await chromium.launch();
 {
   const ctx = await browser.newContext({ ...devices["iPhone 13"] });
   const page = await ctx.newPage();
-  const pages = ["/", "/actualites", "/mcu", "/univers", "/personnages", "/personnages/spider-man", "/chronologie", "/chronologie/sorties", "/multivers", "/coulisses", "/equipes", "/calendrier", "/calendrier?vue=mois", "/bibliotheque", "/quiz", "/sources", "/productions/avengers-endgame", "/recherche?q=stark", "/musique", "/musique?vue=films"];
+  const pages = ["/", "/actualites", "/mcu", "/univers", "/personnages", "/personnages/spider-man", "/chronologie", "/chronologie/sorties", "/multivers", "/coulisses", "/equipes", "/calendrier", "/calendrier?vue=mois", "/bibliotheque", "/quiz", "/sources", "/productions/avengers-endgame", "/productions/loki", "/productions/avengers-endgame/wikipedia", "/box-office", "/recherche?q=stark", "/musique", "/musique?vue=films"];
   const overflowing = [];
   for (const p of pages) {
     await page.goto(BASE + p, { waitUntil: "domcontentloaded" });
