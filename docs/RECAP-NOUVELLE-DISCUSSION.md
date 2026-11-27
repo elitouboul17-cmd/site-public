@@ -40,6 +40,7 @@ Les actualités sont récupérées automatiquement (flux RSS et API autorisés) 
    - un **historique consultable par les parents**, protégé par un code PIN parent : pages, vidéos et musiques vues, avec la date ;
    - réglages verrouillés par le PIN : musique oui/non, vidéos oui/non ;
    - livré dans l'APK PWABuilder, avec la liste des domaines à autoriser dans le filtre parental.
+4 ter. **Accès partagé** : l'appli a été montrée à 2 copains et 2 créateurs de contenu, en leur précisant qu'elle est privée. Piste à faire : un code d'accès par personne, révocable un par un, à la place du mot de passe unique.
 5. Optionnel : Spotify et clé YouTube Data API (gratuites, à demander via le formulaire sécurisé, jamais dans le chat), galerie d'images TMDB, articles Wikipédia pour les personnages, mode hors ligne.
 
 ## Règles à respecter absolument
