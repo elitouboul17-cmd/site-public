@@ -34,6 +34,12 @@ Les actualités sont récupérées automatiquement (flux RSS et API autorisés) 
 2. **Base de données** : erreur `password authentication failed for user "postgres"`, donc pas d'actualités sur le site en ligne. Je dois cliquer sur « Diagnostic base » (page Sources et fiabilité, avec l'`ADMIN_TOKEN`) et t'envoyer le résultat. Ensuite : corriger `DATABASE_URL` dans Vercel, faire un Redeploy, puis cliquer « Récupérer maintenant ».
 3. Ajouter les secrets GitHub `QGDESHEROS_URL` et `CRON_SECRET` pour l'ingestion horaire.
 4. **APK pour un copain** (téléphone Android filtré par ses parents, sans navigateur) : je le fais moi-même avec PWABuilder (Package ID `app.qgdesheros`, garder la clé de signature). Il faudra aussi un « mode restreint » (pas de liens externes, et éventuellement sans musique ni vidéos) selon la réponse des parents, plus la liste des domaines à autoriser dans leur filtre.
+4 bis. **« Mode famille »** voulu par les parents, qui veulent voir ce que leur fils regarde et refusent un navigateur ou des réseaux sociaux ouverts :
+   - aucun lien vers l'extérieur : liens externes désactivés ;
+   - vidéos limitées aux vidéos officielles de l'appli, sans suggestions ni logo cliquable vers YouTube : bloquer la navigation sortante de l'iframe ou passer par une page de lecture interne ;
+   - un **historique consultable par les parents**, protégé par un code PIN parent : pages, vidéos et musiques vues, avec la date ;
+   - réglages verrouillés par le PIN : musique oui/non, vidéos oui/non ;
+   - livré dans l'APK PWABuilder, avec la liste des domaines à autoriser dans le filtre parental.
 5. Optionnel : Spotify et clé YouTube Data API (gratuites, à demander via le formulaire sécurisé, jamais dans le chat), galerie d'images TMDB, articles Wikipédia pour les personnages, mode hors ligne.
 
 ## Règles à respecter absolument
