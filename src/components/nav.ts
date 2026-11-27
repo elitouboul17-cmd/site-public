@@ -8,6 +8,7 @@ export const NAV = [
   { href: "/multivers", label: "Multivers", icon: "Orbit" },
   { href: "/coulisses", label: "Coulisses", icon: "Clapperboard" },
   { href: "/musique", label: "Bandes originales", icon: "Music2" },
+  { href: "/box-office", label: "Box-office", icon: "TrendingUp" },
   { href: "/equipes", label: "Casting et équipes", icon: "UserSquare2" },
   { href: "/calendrier", label: "Calendrier", icon: "CalendarDays" },
   { href: "/bibliotheque", label: "Ma bibliothèque", icon: "Library" },

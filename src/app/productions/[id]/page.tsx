@@ -15,7 +15,8 @@ import { Poster } from "@/components/Poster";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CertaintyBadge, SectionTitle, SourceList, VerificationBadge } from "@/components/ui";
 import { ProductionLibraryControls, SpoilerGuard, TrackView } from "@/components/LibraryControls";
-import { YouTubeEmbed } from "@/components/YouTubeEmbed";
+import { VideoGallery } from "@/components/VideoGallery";
+import { detailsFor, formatUsd } from "@/lib/details";
 import { themeFor, themeVars } from "@/lib/theme";
 import { MusicSection } from "@/components/MusicLinks";
 import { PersonAvatar } from "@/components/PersonAvatar";
@@ -61,7 +62,10 @@ export default async function ProductionPage({ params }: { params: Params }) {
   const bts = BEHIND_THE_SCENES.filter((b) => b.productionIds.includes(p.id));
   const events = TIMELINE.filter((t) => t.productionIds.includes(p.id));
   const verification = verificationFor(p.id);
-  const trailerIds = [p.trailerYoutubeId, ...news.items.filter((a) => a.isTrailer && a.youtubeId && a.sourceTier === "officielle").map((a) => a.youtubeId)].filter(Boolean) as string[];
+  const tmdb = detailsFor(p.id);
+  // Vidéos officielles : TMDB (YouTube officiel), complétées par les vidéos de la chaîne officielle récupérées dans l'actualité.
+  const newsVideos = news.items.filter((a) => a.isTrailer && a.youtubeId && a.sourceTier === "officielle").map((a) => ({ key: a.youtubeId!, name: a.title, type: "Trailer", lang: "en", published: a.publishedAt.slice(0, 10) }));
+  const videos = [...(tmdb?.videos ?? []), ...newsVideos.filter((v) => !tmdb?.videos.some((t) => t.key === v.key))];
   const isSeries = p.kind === "serie" || p.kind === "serie-animee";
   const theme = themeFor(p);
 
@@ -114,16 +118,22 @@ export default async function ProductionPage({ params }: { params: Params }) {
           {p.synopsis && <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-steel-200">{p.synopsis}</p>}
           {!p.synopsis && <p className="mt-5 text-sm text-steel-500">Synopsis non renseigné : aucune information vérifiée disponible pour l'instant.</p>}
 
+          <div className="mt-5 flex flex-wrap gap-2">
+            {videos.length > 0 && <a href="#videos" className="btn">▶ Bandes-annonces ({videos.length})</a>}
+            {p.wikipedia?.fr && <Link href={`/productions/${p.id}/wikipedia`} className="btn">📖 Lire l'article complet</Link>}
+            {tmdb?.revenue ? <span className="chip">Box-office : {formatUsd(tmdb.revenue)}</span> : null}
+          </div>
+
           <div className="panel mt-6 p-4"><ProductionLibraryControls id={p.id} episodes={isSeries ? p.episodes : undefined} /></div>
         </div>
       </div>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-3">
         <div className="space-y-10 lg:col-span-2">
-          {trailerIds.length > 0 && (
-            <section>
-              <SectionTitle title="Bande-annonce" />
-              <YouTubeEmbed id={trailerIds[0]} title={`Bande-annonce : ${p.title}`} />
+          {videos.length > 0 && (
+            <section id="videos" className="scroll-mt-24">
+              <SectionTitle title={`Bandes-annonces et vidéos (${videos.length})`} />
+              <VideoGallery videos={videos} title={p.title} />
             </section>
           )}
 
@@ -221,6 +231,48 @@ export default async function ProductionPage({ params }: { params: Params }) {
         </div>
 
         <aside className="space-y-6">
+          {(tmdb?.budget || tmdb?.revenue) && (
+            <div className="panel p-4">
+              <p className="eyebrow mb-3">Box-office</p>
+              <dl className="grid grid-cols-2 gap-3">
+                <div><dt className="text-[11px] text-steel-400">Budget estimé</dt><dd className="display text-xl text-white">{formatUsd(tmdb.budget)}</dd></div>
+                <div><dt className="text-[11px] text-steel-400">Recettes mondiales</dt><dd className="display text-xl text-[var(--accent-text,#fff)]">{formatUsd(tmdb.revenue)}</dd></div>
+              </dl>
+              {tmdb.budget && tmdb.revenue ? (
+                <>
+                  <div className="mt-3 h-2 overflow-hidden rounded-full bg-white/10" aria-hidden>
+                    <div className="h-full rounded-full bg-[var(--accent,#e62429)]" style={{ width: `${Math.min(100, (tmdb.budget / tmdb.revenue) * 100)}%` }} />
+                  </div>
+                  <p className="mt-1.5 text-xs text-steel-300">Les recettes représentent <strong className="text-white">{(tmdb.revenue / tmdb.budget).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} fois</strong> le budget (hors marketing).</p>
+                </>
+              ) : null}
+              <p className="mt-2 text-[10px] text-steel-500">Source : TMDB (base collaborative), en dollars US non corrigés de l'inflation. Les budgets sont des estimations, rarement publiés par les studios. <a className="underline" href="/box-office">Classement complet</a></p>
+            </div>
+          )}
+
+          {tmdb?.watch && (tmdb.watch.flatrate.length + tmdb.watch.rent.length + tmdb.watch.buy.length + tmdb.watch.free.length > 0) && (
+            <div className="panel p-4">
+              <p className="eyebrow mb-3">Où regarder en France</p>
+              {([["Abonnement", tmdb.watch.flatrate], ["Gratuit", tmdb.watch.free], ["Location", tmdb.watch.rent], ["Achat", tmdb.watch.buy]] as const).map(([label, list]) => list.length ? (
+                <div key={label} className="mb-2">
+                  <p className="mb-1 text-[11px] text-steel-400">{label}</p>
+                  <ul className="flex flex-wrap gap-1.5">
+                    {list.slice(0, 8).map((pr) => (
+                      <li key={pr.name} title={pr.name} className="flex items-center gap-1.5 rounded-md border border-white/10 bg-white/[0.03] py-1 pr-2 pl-1 text-[11px] text-steel-200">
+                        {pr.logo && (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img src={`https://image.tmdb.org/t/p/w45${pr.logo}`} alt="" className="h-5 w-5 rounded" loading="lazy" />
+                        )}
+                        {pr.name}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null)}
+              <p className="mt-2 text-[10px] text-steel-500">Disponibilités fournies par JustWatch via TMDB, mises à jour le {new Date(tmdb.fetchedAt).toLocaleDateString("fr-FR")}. Elles changent souvent.</p>
+            </div>
+          )}
+
           <dl className="panel space-y-4 p-4">
             <People label="Réalisation" names={p.directors} />
             <People label={isSeries ? "Création / scénario" : "Scénario"} names={p.writers} />

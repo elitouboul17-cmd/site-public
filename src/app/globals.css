@@ -155,3 +155,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .themed .text-hq-red { color: var(--accent-text); }
 .themed .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .themed :is(a, button, input, select, textarea):focus-visible { outline-color: var(--accent-text); }
+
+/* Article Wikipédia affiché dans l'appli */
+.wiki-article { color: var(--color-steel-200); font-size: 15.5px; line-height: 1.75; }
+.wiki-article p { margin: 0 0 1em; }
+.wiki-article h2 { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .04em; font-weight: 700; color: #fff; font-size: 1.35rem; margin: 2em 0 .6em; padding-left: .6rem; border-left: 4px solid var(--accent, #e62429); }
+.wiki-article h3 { color: #fff; font-weight: 700; font-size: 1.05rem; margin: 1.5em 0 .5em; }
+.wiki-article h4 { color: var(--color-steel-100, #e5e7eb); font-weight: 600; margin: 1.2em 0 .4em; }
+.wiki-article ul, .wiki-article ol { margin: 0 0 1em 1.3em; }
+.wiki-article ul { list-style: disc; } .wiki-article ol { list-style: decimal; }
+.wiki-article li { margin: .2em 0; }
+.wiki-article a { color: var(--accent-text, #ff6b6f); text-decoration: underline; text-underline-offset: 2px; }
+.wiki-article blockquote { border-left: 3px solid rgba(255,255,255,.2); padding-left: 1em; color: var(--color-steel-300); margin: 1em 0; font-style: italic; }
+.wiki-article dt { font-weight: 700; color: #fff; } .wiki-article dd { margin: 0 0 .5em 1em; }

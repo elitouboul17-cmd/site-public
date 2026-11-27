@@ -5,6 +5,8 @@ import { safeArticles } from "@/lib/news";
 import type { BtsCategory } from "@/lib/types";
 import { ArticleCard } from "@/components/ArticleCard";
 import { FilterLink, PageHeader, SourceList, SectionTitle, EmptyState } from "@/components/ui";
+import { VideoGallery } from "@/components/VideoGallery";
+import { allDetails } from "@/lib/details";
 
 export const metadata: Metadata = { title: "Coulisses et fabrication" };
 export const dynamic = "force-dynamic";
@@ -18,6 +20,12 @@ export default async function BehindTheScenesPage({ searchParams }: { searchPara
   const results = await Promise.all(keywords.slice(0, 6).map((k) => safeArticles({ q: k, limit: 6 })));
   const seen = new Set<string>();
   const related = results.flatMap((r) => r.items).filter((a) => (seen.has(a.id) ? false : (seen.add(a.id), true))).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, 8);
+
+  // Vidéos officielles de coulisses (featurettes, making-of) publiées sur YouTube, les plus récentes d'abord.
+  const btsVideos = Object.entries(allDetails())
+    .flatMap(([pid, d]) => d.videos.filter((v) => v.type === "Featurette" || v.type === "Behind the Scenes").map((v) => ({ ...v, name: `${productionById.get(pid)?.title ?? pid} — ${v.name}` })))
+    .sort((a, b) => (b.published ?? "").localeCompare(a.published ?? ""))
+    .slice(0, 40);
 
   const counts = new Map<BtsCategory, number>();
   for (const b of BEHIND_THE_SCENES) counts.set(b.category, (counts.get(b.category) ?? 0) + 1);
@@ -33,6 +41,13 @@ export default async function BehindTheScenesPage({ searchParams }: { searchPara
         <FilterLink href="/coulisses" active={!cat}>Toutes ({BEHIND_THE_SCENES.length})</FilterLink>
         {BTS_CATEGORIES.map((c) => <FilterLink key={c.id} href={`/coulisses?categorie=${c.id}`} active={cat?.id === c.id}>{c.label}{counts.get(c.id) ? ` (${counts.get(c.id)})` : ""}</FilterLink>)}
       </div>
+
+      {!cat && btsVideos.length > 0 && (
+        <section className="mb-10">
+          <SectionTitle title={`Vidéos officielles de coulisses (${btsVideos.length} plus récentes)`} />
+          <VideoGallery videos={btsVideos} title="Coulisses" />
+        </section>
+      )}
 
       <div className="grid gap-8 lg:grid-cols-3">
         <div className="space-y-3 lg:col-span-2">
