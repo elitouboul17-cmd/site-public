@@ -1,4 +1,4 @@
-# Récap complet — « Le QG des Héros » (prompt à coller dans une nouvelle discussion)
+# Récap complet — « Le QG des Héros » (bientôt « Multivers FR ») (prompt à coller dans une nouvelle discussion)
 
 Copie tout le bloc ci-dessous dans une nouvelle discussion Claude Code (même dépôt).
 
@@ -27,6 +27,8 @@ Les actualités sont récupérées automatiquement (flux RSS et API autorisés) 
 - « Où regarder en France » (données JustWatch via TMDB).
 - Article Wikipédia complet dans l'appli (`/productions/[id]/wikipedia`) : texte nettoyé, licence CC BY-SA citée, aucun lien vers l'extérieur.
 - Version privée : mot de passe (`SITE_PASSWORD`) et installation sur téléphone (PWA).
+- **Lecteur YouTube verrouillé** (`src/components/YouTubeEmbed.tsx`) : iframe en bac à sable sans `allow-popups` ni `allow-top-navigation`. Le logo, le titre, la chaîne et les suggestions n'ouvrent plus YouTube (testé). Le lecteur se ferme en fin de vidéo ou si une autre vidéo démarre (API iframe), mais ce point n'a pas pu être testé en lecture réelle.
+- **Nom** : « Le QG des Héros » est déjà pris (compte d'info @QGDRO sur X, signalé par un créateur de contenu). Nouveau nom choisi : **« Multivers FR »**, libre sur le web. J'attends que l'utilisateur confirme qu'il est libre sur Instagram, X et data.inpi.fr, puis renommer partout (titre, logo texte, manifest PWA, page d'accès, docs). L'adresse Vercel peut rester pour l'instant.
 - **Dernière passe mobile** : la galerie vidéo élargissait chaque fiche à 2 216 px (d'où le dézoom). Corrigé avec `min-w-0` et `overflow-x: clip` sur html et body. Effets lourds allégés sur téléphone (flou, ombres), tap instantané, pas d'effet de survol « collant ». Les 25 pages vérifiées à 360 px de large ne débordent plus.
 
 ## Ce qui reste à faire
@@ -39,6 +41,7 @@ Les actualités sont récupérées automatiquement (flux RSS et API autorisés) 
    - vidéos limitées aux vidéos officielles de l'appli, sans suggestions ni logo cliquable vers YouTube : bloquer la navigation sortante de l'iframe ou passer par une page de lecture interne ;
    - un **historique consultable par les parents**, protégé par un code PIN parent : pages, vidéos et musiques vues, avec la date ;
    - réglages verrouillés par le PIN : musique oui/non, vidéos oui/non ;
+   - **bouton « ▶ Regarder sur Disney+ »** sur les fiches disponibles sur Disney+ (données « Où regarder » déjà présentes) : il ouvre l'**appli Disney+** du téléphone, sans navigateur. Ce sera la seule sortie autorisée en mode famille. Probablement vers la recherche Disney+ avec le titre, car les liens directs par film ne sont pas publics : n'en invente jamais, et teste ce qui marche sur Android. Lire les films DANS l'appli est impossible et interdit (protection anticopie, conditions d'utilisation de Disney+). Les parents installent Disney+, l'autorisent dans leur filtre et gardent un profil Junior avec code PIN ;
    - livré dans l'APK PWABuilder, avec la liste des domaines à autoriser dans le filtre parental.
 4 ter. **Accès partagé** : l'appli a été montrée à 2 copains et 2 créateurs de contenu, en leur précisant qu'elle est privée. Piste à faire : un code d'accès par personne, révocable un par un, à la place du mot de passe unique.
 5. Optionnel : Spotify et clé YouTube Data API (gratuites, à demander via le formulaire sécurisé, jamais dans le chat), galerie d'images TMDB, articles Wikipédia pour les personnages, mode hors ligne.
